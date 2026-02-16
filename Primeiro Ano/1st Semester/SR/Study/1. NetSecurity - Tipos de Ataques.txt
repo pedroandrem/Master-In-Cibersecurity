@@ -1,0 +1,32 @@
+## Net Security
+
+## Tipos de ameaças a Network Security
+- Phishing: Táticas enganosas para iludir users a partilhar dados confidenciais, como cartões, passwords ou dados pessoais.
+- DNS Spoofing: Manipulação da resolução do DNS para redirecionar os utilizadores para sites maliciosos ou interceptar informações
+                confidenciais.
+- DDoS Attacks: Ataque distribuído com o objetivo de interromper serviços, sobrecarregando um sistema alvo com tráfego, esgotando
+                recursos e limitando users legítimos.
+- Man-in-the-Middle: Interceptação des comunicações, permitindo atacante ouvir,modificar ou injetar conteúdo malicioso no fluxo de
+                     dados.
+
+
+
+## DDoS attacks
+1. Ataques Volumétricos:
+    Syn Flooding: O atacante lança um grande número de solitações de conexão TCP a partir de clientes para um servidor alvo.
+                  No servidor, o TCP responde com SYN/ACK e cria um estado para a conexão.
+                  Os clientes não enviam ACK, mantendo a conexão semiaberta e esgotando a memória do servidor.
+
+                  Possivel mitigação: Uso de cookies de autenticação e alocar o estado apenas se o cliente for legítimo. 
+    
+    IP,ICMP,UDP Flooding: O atacante envia um grande volume de tráfego (por exemplo ping) para os endereços IP de difusão das redes 
+                          intermediárias, com o endereço IP de origem falsificado(Endereço IP da vítima).
+
+    Slow FLooding: O mesmo principio que ambos em cima, no entanto, é distribuído por um intervalo de tempo maior. É Misturado com 
+                   tráfego legítimo, sendo assim mais dificil de ser detetado.
+
+2. Ataques baseados em protocolos:
+    Refleção/Amplificação: O atacante explora vulnerabilidades dos protocolos de aplicação para lançar consultas com IP falsificado,
+                           fazendo com que elas enviem uma resposta amplificada à vítima.
+
+

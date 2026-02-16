@@ -1,0 +1,114 @@
+## Integridade e Autenticação de Dados
+
+### Funções de Hash
+    - Garante Integridade (Se nao houver um atacante ativo a substituir
+    o hash)
+    - Uniderecionais e têm tamanho fixo
+    - Propriedade: Dificil de reverter; Dificil de encontrar dois inputs
+    com o mesmo Hash
+    - *Salting*: Adicionar dados aleatórios para prevenir ataques.
+
+### Message Authentication Code (MAC)
+    - Garante Integridade + Autenticidade de origem pois usa uma chave
+    secreta
+    - HMAC é uma construção de MAC que usa funções de Hash
+    
+### Criptografia autenticada 
+    - Combina cifra (confidencialidade) com MAC (integridade).
+    Exeplo: AES-GCM
+
+
+Pergunta: 
+Se a Alice enviar uma mensagem ao Bob e anexar o Hash da mensagem, 
+isso garante que a mensagem veio da Alice? Justifique.
+R: Não, outra pessoa pode interceptar a mensagem alterar o hash e enviar
+para o Bob, ou seja, nem garantiu integridade nem a autenticidade, neste
+caso a autenticidade so pode ser garantida usando um MAC ou uma assina-
+tura digital.
+
+Qual a diferneça entre HMAC e uma função Hash? 
+R: O HMAC combina o MAC com o uso de funções hash garantindo assim 
+integridade e autenticidade enquanto que as funções hash so garantem
+integridade.
+
+### Criptografia Assimétrica e Assinaturas  
+    - Par de chaves: Chave Pública(cifra/verifica assinatura) e 
+    Chave Privada(decifra/assina)
+    Exemplo de uso: Bob cifra com a chave Publica da Alice -> Só a Alice
+    decifra com a chave privada dela.
+    Alice cifra (assina) com a chave privada dela -> Todos verificam com
+    a Publica dela
+    - Garantindo assim a Confidencialidade e a Autenticidade
+
+    -> RSA: Baseia-se na fatorização de numeros primos grandes
+            Usado para assinatura digital
+    -> Assinatura Digital (DS): Garante Autenticidade, Integridade, Não-Repudio
+    na prática assina se a hash da mensagem, não a mensagem toda.
+        Tem de verificar o autor, data e horas da assinatura.
+
+    -> Diffie-Helman tem como objetivo a *Troca de Chaves*.
+        O problema é como é que se trocam chaves sendo que na internet
+        essa troca pode ser interceptada. 
+        Solução: O DH permite que ambos troquem números publicos e,
+        usando matematica, cheguem a um segredo comum que não se consegue
+        calcular.
+    
+    -> Criptografia de Curvas Elipticas (ECC)
+        Alternativa moderna e mais eficiente ao RSA.
+        DH só troca chaves e o DS só assina, no entanto a ECC faz ambos.
+        - Cifra/Decifra 
+        - Assinatura Digital
+        - Troca de Chaves 
+        A grande vantagem para com o RSA é que o ECC oferece o mesmo nivel
+        de segurança com chaves mais pequenas.
+
+    Perguntas:
+    "A Alice quer enviar um documento confidencial e assinado ao Bob.
+    Que chaves usa em que ordem?"
+    R: A Alice assina com a sua chave privada, depois cifra com a chave
+    pública do Bob.
+
+
+### Confiança mutua e PKI (Public key infrastructure)
+    Como garantimos que a chave publica do "Bob" é mesmo do Bob?
+
+    -> Certificados Digitais: Um documento que liga uma identidade a uma
+    Chave Pública assinado por uma Autoridade de Certificação (CA)
+        Usado por IPSec; TLS; S/MIME
+
+    -> PKI: O papel da Autoridade de Certificação (emite certificado)
+    e da RA (Valida Identidade) 
+
+    -> Revogação: 
+        - CRL (Certificate Revocation List): Lista publicada pela CA
+         de Certificados anulados. As razões podem ser por as keys
+         estarem comprometidas, o estado do utilizador mudou ou politicas
+         da CA (Lista estática e pode estar desatualizada)
+
+        - OCSP (Online Certificate Status Protocol): Protocolo da internet
+        usado para obter Revogação de um certificado em tempo real. 
+        Melhor que CRL porque melhora a segurança ao permitir uma validação
+        mais rápida.
+
+    -> Cadeia de confiança: Validar o certificado do servidor, depois 
+    o da CA intermédia, até chegar à CA raiz (root) que já está no browser
+
+    -> Gestão de Certificados TLS:
+        - O risco de má gestão: Interrupções de serviço, por Certificados
+        expirados e falhas de segurança.
+        Boas Praticas: inventario centralizado, automação de renovação,
+        monitorização continua.
+
+
+### Autenticação de Utilizador
+    -> Fatores de Autenticação:  Algo que sabes (password), algo que
+     tens (token/smart card), algo que és (biometria)
+
+    Isto apresenta dois desafios para segurança: 
+    - Confidencialidade - Compromise of session keys/ authentication tokens
+    - Timeliness - Threat of message replays; An opponent can copy a 
+    message and resend it later; the copied message can also be sent back;
+    Sensitive when using symmetric keys
+
+    -> Prevenção contra ataques (Por exemplo: Ataques de Replay):
+        Uso de Timestamps: Entida

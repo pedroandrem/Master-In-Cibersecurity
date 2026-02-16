@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pgpool
+  namespace: default
+  labels:
+    app: pgpool
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pgpool
+  template:
+    metadata:
+      labels:
+        app: pgpool
+    spec:
+      containers:
+        - name: pgpool
+          image: "bitnamilegacy/pgpool:4.6.3"
+          env:
+            - name: PGPOOL_POSTGRES_USERNAME
+              value: "{{ db_username }}"
+            - name: PGPOOL_POSTGRES_PASSWORD
+              value: "{{ db_password }}"
+            
+            - name: PGPOOL_USERNAME
+              value: "{{ db_username }}"
+            - name: PGPOOL_PASSWORD
+              value: "{{ db_password }}"
+            
+            - name: PGPOOL_ADMIN_USERNAME
+              value: "admin"
+            - name: PGPOOL_ADMIN_PASSWORD
+              value: "adminpassword"
+          
+            - name: PGPOOL_BACKEND_NODES
+              value: "0:postgres-master:5432,1:postgres-slave:5432"
+            - name: PGPOOL_ENABLE_LOAD_BALANCING
+              value: "yes"
+            - name: PGPOOL_LOAD_BALANCE_MODE
+              value: "on"
+
+            - name: PGPOOL_SR_CHECK_USER
+              value: "{{ db_username }}"
+            - name: PGPOOL_SR_CHECK_PASSWORD
+              value: "{{ db_password }}"
+            - name: PGPOOL_SR_CHECK_DATABASE
+              value: "{{ db_name }}"
+          
+          ports:
+            - containerPort: 5432
+          livenessProbe:
+            tcpSocket:
+              port: 5432
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          readinessProbe:
+            tcpSocket:
+              port: 5432
+            initialDelaySeconds: 10
+            periodSeconds: 10

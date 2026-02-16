@@ -1,0 +1,47 @@
+- name: Delete Postgres Slave HPA
+  kubernetes.core.k8s:
+    state: absent
+    api_version: autoscaling/v2
+    kind: HorizontalPodAutoscaler
+    name: postgres-slave-hpa
+    namespace: default
+
+- name: Delete Postgres StatefulSets (Master and Slave)
+  kubernetes.core.k8s:
+    state: absent
+    api_version: apps/v1
+    kind: StatefulSet
+    name: "{{ item }}"
+    namespace: default
+  loop:
+    - postgres-master
+    - postgres-slave
+
+- name: Delete Postgres Services
+  kubernetes.core.k8s:
+    state: absent
+    api_version: v1
+    kind: Service
+    name: "{{ item }}"
+    namespace: default
+  loop:
+    - pgpool-service
+    - postgres-master
+    - postgres-slave
+
+- name: Delete all Postgres PVCs (Optional data wipe)
+  kubernetes.core.k8s:
+    state: absent
+    kind: PersistentVolumeClaim
+    label_selectors:
+      - app=postgres
+    namespace: default
+  when: delete_data | default(false) | bool
+
+- name: Delete Pgpool Deployment
+  kubernetes.core.k8s:
+    state: absent
+    api_version: apps/v1
+    kind: Deployment
+    name: pgpool
+    namespace: default

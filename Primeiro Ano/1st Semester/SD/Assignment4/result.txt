@@ -1,0 +1,5073 @@
+
+Guess: message, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ffc90515f6
+   Guess Hex:     6d657373616765
+   Keystream Hex: 2ac18cba647293
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: `bo 2fy | 60626f20326679
+
+Guess: message, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc90515f691
+   Guess Hex:     6d657373616765
+   Keystream Hex: c99aba767491f4
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: jy  `{0 | 6a792020607b30
+
+Guess: message, Ciphertext 1, Offset 2
+   Segment Hex:   ffc90515f691d6
+   Guess Hex:     6d657373616765
+   Keystream Hex: 92ac766697f6b3
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: q6 r}2h | 713620727d3268
+
+Guess: message, Ciphertext 1, Offset 3
+   Segment Hex:   c90515f691d600
+   Guess Hex:     6d657373616765
+   Keystream Hex: a4606685f0b165
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: >6ro4j! | 3e36726f346a21
+
+Guess: message, Ciphertext 1, Offset 4
+   Segment Hex:   0515f691d600fe
+   Guess Hex:     6d657373616765
+   Keystream Hex: 687085e2b7679b
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: >do&l#( | 3e646f266c2328
+
+Guess: message, Ciphertext 1, Offset 5
+   Segment Hex:   15f691d600fe5f
+   Guess Hex:     6d657373616765
+   Keystream Hex: 7893e2a561993a
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: ly&~%*n | 6c79267e252a6e
+
+Guess: message, Ciphertext 1, Offset 6
+   Segment Hex:   f691d600fe5f6b
+   Guess Hex:     6d657373616765
+   Keystream Hex: 9bf4a5739f380e
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: q0~7,ly | 71307e372c6c79
+
+Guess: message, Ciphertext 1, Offset 7
+   Segment Hex:   91d600fe5f6b1e
+   Guess Hex:     6d657373616765
+   Keystream Hex: fcb3738d3e0c7b
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: 8h7>j{6 | 3868373e6a7b36
+
+Guess: message, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe5f6b1e24
+   Guess Hex:     6d657373616765
+   Keystream Hex: bb658d2c0a7941
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: `!>x}4o | 60213e787d346f
+
+Guess: message, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f6b1e2493
+   Guess Hex:     6d657373616765
+   Keystream Hex: 6d9b2c187f43f6
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: )(xo2ml | 2928786f326d6c
+
+Guess: message, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b1e24936f
+   Guess Hex:     6d657373616765
+   Keystream Hex: 933a186d45f40a
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2:  no kno | 206e6f206b6e6f
+
+Guess: message, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e24936fdd
+   Guess Hex:     6d657373616765
+   Keystream Hex: 320e6d57f208b8
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: fy yhm2 | 66792079686d32
+
+Guess: message, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24936fdd1b
+   Guess Hex:     6d657373616765
+   Keystream Hex: 067b57e00eba7e
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: q6yzk0< | 7136797a6b303c
+
+Guess: message, Ciphertext 1, Offset 13
+   Segment Hex:   1e24936fdd1b48
+   Guess Hex:     6d657373616765
+   Keystream Hex: 7341e01cbc7c2d
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: >ozy6>~ | 3e6f7a79363e7e
+
+Guess: message, Ciphertext 1, Offset 14
+   Segment Hex:   24936fdd1b48a8
+   Guess Hex:     6d657373616765
+   Keystream Hex: 49f61cae7a2fcd
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: gly$8|x | 676c7924387c78
+
+Guess: message, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd1b48a8b1
+   Guess Hex:     6d657373616765
+   Keystream Hex: fe0aae6829cfd4
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: do$*zz, | 646f242a7a7a2c
+
+Guess: message, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b48a8b189
+   Guess Hex:     6d657373616765
+   Keystream Hex: 02b8683bc9d6ec
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: g2*h|.u | 67322a687c2e75
+
+Guess: message, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48a8b189c3
+   Guess Hex:     6d657373616765
+   Keystream Hex: b07e3bdbd0eea6
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: :<hn(w$ | 3a3c686e287724
+
+Guess: message, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8b189c3fa
+   Guess Hex:     6d657373616765
+   Keystream Hex: 762ddbc2e8a49f
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: 4~n:q&d | 347e6e3a712664
+
+Guess: message, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b189c3faac
+   Guess Hex:     6d657373616765
+   Keystream Hex: 25cdc2faa29dc9
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: vx:c f+ | 76783a6320662b
+
+Guess: message, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189c3faac5e
+   Guess Hex:     6d657373616765
+   Keystream Hex: c5d4fab09bcb3b
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+      C2: p,c2`)s | 702c6332602973
+
+Guess: message, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3faac5e6e
+   Guess Hex:     6d657373616765
+   Keystream Hex: dcecb089cd390b
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 22
+   Segment Hex:   89c3faac5e6eb5
+   Guess Hex:     6d657373616765
+   Keystream Hex: e4a689df3f09d0
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac5e6eb5c7
+   Guess Hex:     6d657373616765
+   Keystream Hex: ae9fdf2d0fd2a2
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e6eb5c791
+   Guess Hex:     6d657373616765
+   Keystream Hex: 97c92d1dd4a0f4
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6eb5c7919f
+   Guess Hex:     6d657373616765
+   Keystream Hex: c13b1dc6a6f6fa
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5c7919f35
+   Guess Hex:     6d657373616765
+   Keystream Hex: 330bc6b4f0f850
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c7919f359b
+   Guess Hex:     6d657373616765
+   Keystream Hex: 03d0b4e2fe52fe
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 28
+   Segment Hex:   b5c7919f359b71
+   Guess Hex:     6d657373616765
+   Keystream Hex: d8a2e2ec54fc14
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f359b7137
+   Guess Hex:     6d657373616765
+   Keystream Hex: aaf4ec46fa1652
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 30
+   Segment Hex:   919f359b71374a
+   Guess Hex:     6d657373616765
+   Keystream Hex: fcfa46e810502f
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b71374aaf
+   Guess Hex:     6d657373616765
+   Keystream Hex: f250e802562dca
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 32
+   Segment Hex:   359b71374aaf42
+   Guess Hex:     6d657373616765
+   Keystream Hex: 58fe02442bc827
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 33
+   Segment Hex:   9b71374aaf42ec
+   Guess Hex:     6d657373616765
+   Keystream Hex: f6144439ce2589
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 1, Offset 34
+   Segment Hex:   71374aaf42ec70
+   Guess Hex:     6d657373616765
+   Keystream Hex: 1c5239dc238b15
+   Decrypted Fragments:
+      C1: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e39a5614ea
+   Guess Hex:     6d657373616765
+   Keystream Hex: 27c690e937738f
+   Decrypted Fragments:
+      C1: `bo 2fy | 60626f20326679
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a5614eac4
+   Guess Hex:     6d657373616765
+   Keystream Hex: ce86e925758da1
+   Decrypted Fragments:
+      C1: jy  `{0 | 6a792020607b30
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 2
+   Segment Hex:   e39a5614eac4db
+   Guess Hex:     6d657373616765
+   Keystream Hex: 8eff25678ba3be
+   Decrypted Fragments:
+      C1: q6 r}2h | 713620727d3268
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614eac4db44
+   Guess Hex:     6d657373616765
+   Keystream Hex: f7336799a5bc21
+   Decrypted Fragments:
+      C1: >6ro4j! | 3e36726f346a21
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 4
+   Segment Hex:   5614eac4db44b3
+   Guess Hex:     6d657373616765
+   Keystream Hex: 3b7199b7ba23d6
+   Decrypted Fragments:
+      C1: >do&l#( | 3e646f266c2328
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4db44b354
+   Guess Hex:     6d657373616765
+   Keystream Hex: 798fb7a825d431
+   Decrypted Fragments:
+      C1: ly&~%*n | 6c79267e252a6e
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db44b35477
+   Guess Hex:     6d657373616765
+   Keystream Hex: 87a1a837d23312
+   Decrypted Fragments:
+      C1: q0~7,ly | 71307e372c6c79
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44b354774d
+   Guess Hex:     6d657373616765
+   Keystream Hex: a9be37c0351028
+   Decrypted Fragments:
+      C1: 8h7>j{6 | 3868373e6a7b36
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 8
+   Segment Hex:   db44b354774d2e
+   Guess Hex:     6d657373616765
+   Keystream Hex: b621c027162a4b
+   Decrypted Fragments:
+      C1: `!>x}4o | 60213e787d346f
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 9
+   Segment Hex:   44b354774d2e9a
+   Guess Hex:     6d657373616765
+   Keystream Hex: 29d627042c49ff
+   Decrypted Fragments:
+      C1: )(xo2ml | 2928786f326d6c
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 10
+   Segment Hex:   b354774d2e9a65
+   Guess Hex:     6d657373616765
+   Keystream Hex: de31043e4ffd00
+   Decrypted Fragments:
+      C1:  no kno | 206e6f206b6e6f
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 11
+   Segment Hex:   54774d2e9a658a
+   Guess Hex:     6d657373616765
+   Keystream Hex: 39123e5dfb02ef
+   Decrypted Fragments:
+      C1: fy yhm2 | 66792079686d32
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e9a658a42
+   Guess Hex:     6d657373616765
+   Keystream Hex: 1a285de904ed27
+   Decrypted Fragments:
+      C1: q6yzk0< | 7136797a6b303c
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a658a4253
+   Guess Hex:     6d657373616765
+   Keystream Hex: 204be916eb2536
+   Decrypted Fragments:
+      C1: >ozy6>~ | 3e6f7a79363e7e
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a658a4253b5
+   Guess Hex:     6d657373616765
+   Keystream Hex: 43ff16f92334d0
+   Decrypted Fragments:
+      C1: gly$8|x | 676c7924387c78
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a4253b5f8
+   Guess Hex:     6d657373616765
+   Keystream Hex: f700f93132d29d
+   Decrypted Fragments:
+      C1: do$*zz, | 646f242a7a7a2c
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 16
+   Segment Hex:   658a4253b5f899
+   Guess Hex:     6d657373616765
+   Keystream Hex: 08ef3120d49ffc
+   Decrypted Fragments:
+      C1: g2*h|.u | 67322a687c2e75
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253b5f89982
+   Guess Hex:     6d657373616765
+   Keystream Hex: e72720c699fee7
+   Decrypted Fragments:
+      C1: :<hn(w$ | 3a3c686e287724
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5f89982fb
+   Guess Hex:     6d657373616765
+   Keystream Hex: 2f36c68bf8e59e
+   Decrypted Fragments:
+      C1: 4~n:q&d | 347e6e3a712664
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f89982fbe2
+   Guess Hex:     6d657373616765
+   Keystream Hex: 3ed08beae39c87
+   Decrypted Fragments:
+      C1: vx:c f+ | 76783a6320662b
+      C2: message | 6d657373616765
+
+Guess: message, Ciphertext 2, Offset 20
+   Segment Hex:   b5f89982fbe248
+   Guess Hex:     6d657373616765
+   Keystream Hex: d89deaf19a852d
+   Decrypted Fragments:
+      C1: p,c2`)s | 702c6332602973
+      C2: message | 6d657373616765
+
+Guess: no, Ciphertext 1, Offset 0
+   Segment Hex:   47a4
+   Guess Hex:     6e6f
+   Keystream Hex: 29cb
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: ch | 6368
+
+Guess: no, Ciphertext 1, Offset 1
+   Segment Hex:   a4ff
+   Guess Hex:     6e6f
+   Keystream Hex: ca90
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: is | 6973
+
+Guess: no, Ciphertext 1, Offset 2
+   Segment Hex:   ffc9
+   Guess Hex:     6e6f
+   Keystream Hex: 91a6
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: r< | 723c
+
+Guess: no, Ciphertext 1, Offset 3
+   Segment Hex:   c905
+   Guess Hex:     6e6f
+   Keystream Hex: a76a
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: =< | 3d3c
+
+Guess: no, Ciphertext 1, Offset 4
+   Segment Hex:   0515
+   Guess Hex:     6e6f
+   Keystream Hex: 6b7a
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: =n | 3d6e
+
+Guess: no, Ciphertext 1, Offset 5
+   Segment Hex:   15f6
+   Guess Hex:     6e6f
+   Keystream Hex: 7b99
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: os | 6f73
+
+Guess: no, Ciphertext 1, Offset 6
+   Segment Hex:   f691
+   Guess Hex:     6e6f
+   Keystream Hex: 98fe
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: r: | 723a
+
+Guess: no, Ciphertext 1, Offset 7
+   Segment Hex:   91d6
+   Guess Hex:     6e6f
+   Keystream Hex: ffb9
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: ;b | 3b62
+
+Guess: no, Ciphertext 1, Offset 8
+   Segment Hex:   d600
+   Guess Hex:     6e6f
+   Keystream Hex: b86f
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: c+ | 632b
+
+Guess: no, Ciphertext 1, Offset 9
+   Segment Hex:   00fe
+   Guess Hex:     6e6f
+   Keystream Hex: 6e91
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: *" | 2a22
+
+Guess: no, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f
+   Guess Hex:     6e6f
+   Keystream Hex: 9030
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: #d | 2364
+
+Guess: no, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b
+   Guess Hex:     6e6f
+   Keystream Hex: 3104
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: es | 6573
+
+Guess: no, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e
+   Guess Hex:     6e6f
+   Keystream Hex: 0571
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: r< | 723c
+
+Guess: no, Ciphertext 1, Offset 13
+   Segment Hex:   1e24
+   Guess Hex:     6e6f
+   Keystream Hex: 704b
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: =e | 3d65
+
+Guess: no, Ciphertext 1, Offset 14
+   Segment Hex:   2493
+   Guess Hex:     6e6f
+   Keystream Hex: 4afc
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: df | 6466
+
+Guess: no, Ciphertext 1, Offset 15
+   Segment Hex:   936f
+   Guess Hex:     6e6f
+   Keystream Hex: fd00
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: ge | 6765
+
+Guess: no, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd
+   Guess Hex:     6e6f
+   Keystream Hex: 01b2
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: d8 | 6438
+
+Guess: no, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b
+   Guess Hex:     6e6f
+   Keystream Hex: b374
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: 96 | 3936
+
+Guess: no, Ciphertext 1, Offset 18
+   Segment Hex:   1b48
+   Guess Hex:     6e6f
+   Keystream Hex: 7527
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: 7t | 3774
+
+Guess: no, Ciphertext 1, Offset 19
+   Segment Hex:   48a8
+   Guess Hex:     6e6f
+   Keystream Hex: 26c7
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: ur | 7572
+
+Guess: no, Ciphertext 1, Offset 20
+   Segment Hex:   a8b1
+   Guess Hex:     6e6f
+   Keystream Hex: c6de
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: s& | 7326
+
+Guess: no, Ciphertext 1, Offset 21
+   Segment Hex:   b189
+   Guess Hex:     6e6f
+   Keystream Hex: dfe6
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: ' | 277f
+
+Guess: no, Ciphertext 1, Offset 22
+   Segment Hex:   89c3
+   Guess Hex:     6e6f
+   Keystream Hex: e7ac
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: ~. | 7e2e
+
+Guess: no, Ciphertext 1, Offset 23
+   Segment Hex:   c3fa
+   Guess Hex:     6e6f
+   Keystream Hex: ad95
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: /n | 2f6e
+
+Guess: no, Ciphertext 1, Offset 24
+   Segment Hex:   faac
+   Guess Hex:     6e6f
+   Keystream Hex: 94c3
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: o! | 6f21
+
+Guess: no, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e
+   Guess Hex:     6e6f
+   Keystream Hex: c231
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2:  y | 2079
+
+Guess: no, Ciphertext 1, Offset 26
+   Segment Hex:   5e6e
+   Guess Hex:     6e6f
+   Keystream Hex: 3001
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5
+   Guess Hex:     6e6f
+   Keystream Hex: 00da
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 28
+   Segment Hex:   b5c7
+   Guess Hex:     6e6f
+   Keystream Hex: dba8
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 29
+   Segment Hex:   c791
+   Guess Hex:     6e6f
+   Keystream Hex: a9fe
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 30
+   Segment Hex:   919f
+   Guess Hex:     6e6f
+   Keystream Hex: fff0
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 31
+   Segment Hex:   9f35
+   Guess Hex:     6e6f
+   Keystream Hex: f15a
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 32
+   Segment Hex:   359b
+   Guess Hex:     6e6f
+   Keystream Hex: 5bf4
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 33
+   Segment Hex:   9b71
+   Guess Hex:     6e6f
+   Keystream Hex: f51e
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 34
+   Segment Hex:   7137
+   Guess Hex:     6e6f
+   Keystream Hex: 1f58
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 35
+   Segment Hex:   374a
+   Guess Hex:     6e6f
+   Keystream Hex: 5925
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf
+   Guess Hex:     6e6f
+   Keystream Hex: 24c0
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 37
+   Segment Hex:   af42
+   Guess Hex:     6e6f
+   Keystream Hex: c12d
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 38
+   Segment Hex:   42ec
+   Guess Hex:     6e6f
+   Keystream Hex: 2c83
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 1, Offset 39
+   Segment Hex:   ec70
+   Guess Hex:     6e6f
+   Keystream Hex: 821f
+   Decrypted Fragments:
+      C1: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3
+   Guess Hex:     6e6f
+   Keystream Hex: 24cc
+   Decrypted Fragments:
+      C1: ch | 6368
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 1
+   Segment Hex:   a3e3
+   Guess Hex:     6e6f
+   Keystream Hex: cd8c
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 2
+   Segment Hex:   e39a
+   Guess Hex:     6e6f
+   Keystream Hex: 8df5
+   Decrypted Fragments:
+      C1: r< | 723c
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 3
+   Segment Hex:   9a56
+   Guess Hex:     6e6f
+   Keystream Hex: f439
+   Decrypted Fragments:
+      C1: =< | 3d3c
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 4
+   Segment Hex:   5614
+   Guess Hex:     6e6f
+   Keystream Hex: 387b
+   Decrypted Fragments:
+      C1: =n | 3d6e
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 5
+   Segment Hex:   14ea
+   Guess Hex:     6e6f
+   Keystream Hex: 7a85
+   Decrypted Fragments:
+      C1: os | 6f73
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 6
+   Segment Hex:   eac4
+   Guess Hex:     6e6f
+   Keystream Hex: 84ab
+   Decrypted Fragments:
+      C1: r: | 723a
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 7
+   Segment Hex:   c4db
+   Guess Hex:     6e6f
+   Keystream Hex: aab4
+   Decrypted Fragments:
+      C1: ;b | 3b62
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 8
+   Segment Hex:   db44
+   Guess Hex:     6e6f
+   Keystream Hex: b52b
+   Decrypted Fragments:
+      C1: c+ | 632b
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 9
+   Segment Hex:   44b3
+   Guess Hex:     6e6f
+   Keystream Hex: 2adc
+   Decrypted Fragments:
+      C1: *" | 2a22
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 10
+   Segment Hex:   b354
+   Guess Hex:     6e6f
+   Keystream Hex: dd3b
+   Decrypted Fragments:
+      C1: #d | 2364
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 11
+   Segment Hex:   5477
+   Guess Hex:     6e6f
+   Keystream Hex: 3a18
+   Decrypted Fragments:
+      C1: es | 6573
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 12
+   Segment Hex:   774d
+   Guess Hex:     6e6f
+   Keystream Hex: 1922
+   Decrypted Fragments:
+      C1: r< | 723c
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e
+   Guess Hex:     6e6f
+   Keystream Hex: 2341
+   Decrypted Fragments:
+      C1: =e | 3d65
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a
+   Guess Hex:     6e6f
+   Keystream Hex: 40f5
+   Decrypted Fragments:
+      C1: df | 6466
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 15
+   Segment Hex:   9a65
+   Guess Hex:     6e6f
+   Keystream Hex: f40a
+   Decrypted Fragments:
+      C1: ge | 6765
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 16
+   Segment Hex:   658a
+   Guess Hex:     6e6f
+   Keystream Hex: 0be5
+   Decrypted Fragments:
+      C1: d8 | 6438
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 17
+   Segment Hex:   8a42
+   Guess Hex:     6e6f
+   Keystream Hex: e42d
+   Decrypted Fragments:
+      C1: 96 | 3936
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 18
+   Segment Hex:   4253
+   Guess Hex:     6e6f
+   Keystream Hex: 2c3c
+   Decrypted Fragments:
+      C1: 7t | 3774
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 19
+   Segment Hex:   53b5
+   Guess Hex:     6e6f
+   Keystream Hex: 3dda
+   Decrypted Fragments:
+      C1: ur | 7572
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 20
+   Segment Hex:   b5f8
+   Guess Hex:     6e6f
+   Keystream Hex: db97
+   Decrypted Fragments:
+      C1: s& | 7326
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 21
+   Segment Hex:   f899
+   Guess Hex:     6e6f
+   Keystream Hex: 96f6
+   Decrypted Fragments:
+      C1: ' | 277f
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 22
+   Segment Hex:   9982
+   Guess Hex:     6e6f
+   Keystream Hex: f7ed
+   Decrypted Fragments:
+      C1: ~. | 7e2e
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 23
+   Segment Hex:   82fb
+   Guess Hex:     6e6f
+   Keystream Hex: ec94
+   Decrypted Fragments:
+      C1: /n | 2f6e
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 24
+   Segment Hex:   fbe2
+   Guess Hex:     6e6f
+   Keystream Hex: 958d
+   Decrypted Fragments:
+      C1: o! | 6f21
+      C2: no | 6e6f
+
+Guess: no, Ciphertext 2, Offset 25
+   Segment Hex:   e248
+   Guess Hex:     6e6f
+   Keystream Hex: 8c27
+   Decrypted Fragments:
+      C1:  y | 2079
+      C2: no | 6e6f
+
+Guess: know, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ffc9
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 2cca90be
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: fis$ | 66697324
+
+Guess: know, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc905
+   Guess Hex:     6b6e6f77
+   Keystream Hex: cf91a672
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: lr<$ | 6c723c24
+
+Guess: know, Ciphertext 1, Offset 2
+   Segment Hex:   ffc90515
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 94a76a62
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: w=<v | 773d3c76
+
+Guess: know, Ciphertext 1, Offset 3
+   Segment Hex:   c90515f6
+   Guess Hex:     6b6e6f77
+   Keystream Hex: a26b7a81
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: 8=nk | 383d6e6b
+
+Guess: know, Ciphertext 1, Offset 4
+   Segment Hex:   0515f691
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 6e7b99e6
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: 8os" | 386f7322
+
+Guess: know, Ciphertext 1, Offset 5
+   Segment Hex:   15f691d6
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 7e98fea1
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: jr:z | 6a723a7a
+
+Guess: know, Ciphertext 1, Offset 6
+   Segment Hex:   f691d600
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 9dffb977
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: w;b3 | 773b6233
+
+Guess: know, Ciphertext 1, Offset 7
+   Segment Hex:   91d600fe
+   Guess Hex:     6b6e6f77
+   Keystream Hex: fab86f89
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: >c+: | 3e632b3a
+
+Guess: know, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe5f
+   Guess Hex:     6b6e6f77
+   Keystream Hex: bd6e9128
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: f*"| | 662a227c
+
+Guess: know, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f6b
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 6b90301c
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: /#dk | 2f23646b
+
+Guess: know, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b1e
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 95310469
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: &es$ | 26657324
+
+Guess: know, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e24
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 34057153
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: `r<} | 60723c7d
+
+Guess: know, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e2493
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 00704be4
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: w=e~ | 773d657e
+
+Guess: know, Ciphertext 1, Offset 13
+   Segment Hex:   1e24936f
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 754afc18
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: 8df} | 3864667d
+
+Guess: know, Ciphertext 1, Offset 14
+   Segment Hex:   24936fdd
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 4ffd00aa
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: age  | 61676520
+
+Guess: know, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd1b
+   Guess Hex:     6b6e6f77
+   Keystream Hex: f801b26c
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: bd8. | 6264382e
+
+Guess: know, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b48
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 04b3743f
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: a96l | 6139366c
+
+Guess: know, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48a8
+   Guess Hex:     6b6e6f77
+   Keystream Hex: b67527df
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: <7tj | 3c37746a
+
+Guess: know, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8b1
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 7026c7c6
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: 2ur> | 3275723e
+
+Guess: know, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b189
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 23c6defe
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: ps&g | 70732667
+
+Guess: know, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189c3
+   Guess Hex:     6b6e6f77
+   Keystream Hex: c3dfe6b4
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: v'6 | 76277f36
+
+Guess: know, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3fa
+   Guess Hex:     6b6e6f77
+   Keystream Hex: dae7ac8d
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: "~.v | 227e2e76
+
+Guess: know, Ciphertext 1, Offset 22
+   Segment Hex:   89c3faac
+   Guess Hex:     6b6e6f77
+   Keystream Hex: e2ad95db
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: {/n9 | 7b2f6e39
+
+Guess: know, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac5e
+   Guess Hex:     6b6e6f77
+   Keystream Hex: a894c329
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+      C2: *o!a | 2a6f2161
+
+Guess: know, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e6e
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 91c23119
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6eb5
+   Guess Hex:     6b6e6f77
+   Keystream Hex: c73001c2
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5c7
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 3500dab0
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c791
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 05dba8e6
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 28
+   Segment Hex:   b5c7919f
+   Guess Hex:     6b6e6f77
+   Keystream Hex: dea9fee8
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f35
+   Guess Hex:     6b6e6f77
+   Keystream Hex: acfff042
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 30
+   Segment Hex:   919f359b
+   Guess Hex:     6b6e6f77
+   Keystream Hex: faf15aec
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b71
+   Guess Hex:     6b6e6f77
+   Keystream Hex: f45bf406
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 32
+   Segment Hex:   359b7137
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 5ef51e40
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 33
+   Segment Hex:   9b71374a
+   Guess Hex:     6b6e6f77
+   Keystream Hex: f01f583d
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 34
+   Segment Hex:   71374aaf
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 1a5925d8
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 35
+   Segment Hex:   374aaf42
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 5c24c035
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf42ec
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 21c12d9b
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 1, Offset 37
+   Segment Hex:   af42ec70
+   Guess Hex:     6b6e6f77
+   Keystream Hex: c42c8307
+   Decrypted Fragments:
+      C1: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e39a
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 21cd8ced
+   Decrypted Fragments:
+      C1: fis$ | 66697324
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a56
+   Guess Hex:     6b6e6f77
+   Keystream Hex: c88df521
+   Decrypted Fragments:
+      C1: lr<$ | 6c723c24
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 2
+   Segment Hex:   e39a5614
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 88f43963
+   Decrypted Fragments:
+      C1: w=<v | 773d3c76
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614ea
+   Guess Hex:     6b6e6f77
+   Keystream Hex: f1387b9d
+   Decrypted Fragments:
+      C1: 8=nk | 383d6e6b
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 4
+   Segment Hex:   5614eac4
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 3d7a85b3
+   Decrypted Fragments:
+      C1: 8os" | 386f7322
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4db
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 7f84abac
+   Decrypted Fragments:
+      C1: jr:z | 6a723a7a
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db44
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 81aab433
+   Decrypted Fragments:
+      C1: w;b3 | 773b6233
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44b3
+   Guess Hex:     6b6e6f77
+   Keystream Hex: afb52bc4
+   Decrypted Fragments:
+      C1: >c+: | 3e632b3a
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 8
+   Segment Hex:   db44b354
+   Guess Hex:     6b6e6f77
+   Keystream Hex: b02adc23
+   Decrypted Fragments:
+      C1: f*"| | 662a227c
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 9
+   Segment Hex:   44b35477
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 2fdd3b00
+   Decrypted Fragments:
+      C1: /#dk | 2f23646b
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 10
+   Segment Hex:   b354774d
+   Guess Hex:     6b6e6f77
+   Keystream Hex: d83a183a
+   Decrypted Fragments:
+      C1: &es$ | 26657324
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 11
+   Segment Hex:   54774d2e
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 3f192259
+   Decrypted Fragments:
+      C1: `r<} | 60723c7d
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e9a
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 1c2341ed
+   Decrypted Fragments:
+      C1: w=e~ | 773d657e
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a65
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 2640f512
+   Decrypted Fragments:
+      C1: 8df} | 3864667d
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a658a
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 45f40afd
+   Decrypted Fragments:
+      C1: age  | 61676520
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a42
+   Guess Hex:     6b6e6f77
+   Keystream Hex: f10be535
+   Decrypted Fragments:
+      C1: bd8. | 6264382e
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 16
+   Segment Hex:   658a4253
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 0ee42d24
+   Decrypted Fragments:
+      C1: a96l | 6139366c
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253b5
+   Guess Hex:     6b6e6f77
+   Keystream Hex: e12c3cc2
+   Decrypted Fragments:
+      C1: <7tj | 3c37746a
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5f8
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 293dda8f
+   Decrypted Fragments:
+      C1: 2ur> | 3275723e
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f899
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 38db97ee
+   Decrypted Fragments:
+      C1: ps&g | 70732667
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 20
+   Segment Hex:   b5f89982
+   Guess Hex:     6b6e6f77
+   Keystream Hex: de96f6f5
+   Decrypted Fragments:
+      C1: v'6 | 76277f36
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 21
+   Segment Hex:   f89982fb
+   Guess Hex:     6b6e6f77
+   Keystream Hex: 93f7ed8c
+   Decrypted Fragments:
+      C1: "~.v | 227e2e76
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 22
+   Segment Hex:   9982fbe2
+   Guess Hex:     6b6e6f77
+   Keystream Hex: f2ec9495
+   Decrypted Fragments:
+      C1: {/n9 | 7b2f6e39
+      C2: know | 6b6e6f77
+
+Guess: know, Ciphertext 2, Offset 23
+   Segment Hex:   82fbe248
+   Guess Hex:     6b6e6f77
+   Keystream Hex: e9958d3f
+   Decrypted Fragments:
+      C1: *o!a | 2a6f2161
+      C2: know | 6b6e6f77
+
+Guess: one, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ff
+   Guess Hex:     6f6e65
+   Keystream Hex: 28ca9a
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: biy | 626979
+
+Guess: one, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc9
+   Guess Hex:     6f6e65
+   Keystream Hex: cb91ac
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: hr6 | 687236
+
+Guess: one, Ciphertext 1, Offset 2
+   Segment Hex:   ffc905
+   Guess Hex:     6f6e65
+   Keystream Hex: 90a760
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: s=6 | 733d36
+
+Guess: one, Ciphertext 1, Offset 3
+   Segment Hex:   c90515
+   Guess Hex:     6f6e65
+   Keystream Hex: a66b70
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: <=d | 3c3d64
+
+Guess: one, Ciphertext 1, Offset 4
+   Segment Hex:   0515f6
+   Guess Hex:     6f6e65
+   Keystream Hex: 6a7b93
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: <oy | 3c6f79
+
+Guess: one, Ciphertext 1, Offset 5
+   Segment Hex:   15f691
+   Guess Hex:     6f6e65
+   Keystream Hex: 7a98f4
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: nr0 | 6e7230
+
+Guess: one, Ciphertext 1, Offset 6
+   Segment Hex:   f691d6
+   Guess Hex:     6f6e65
+   Keystream Hex: 99ffb3
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: s;h | 733b68
+
+Guess: one, Ciphertext 1, Offset 7
+   Segment Hex:   91d600
+   Guess Hex:     6f6e65
+   Keystream Hex: feb865
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: :c! | 3a6321
+
+Guess: one, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe
+   Guess Hex:     6f6e65
+   Keystream Hex: b96e9b
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: b*( | 622a28
+
+Guess: one, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f
+   Guess Hex:     6f6e65
+   Keystream Hex: 6f903a
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: +#n | 2b236e
+
+Guess: one, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b
+   Guess Hex:     6f6e65
+   Keystream Hex: 91310e
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: "ey | 226579
+
+Guess: one, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e
+   Guess Hex:     6f6e65
+   Keystream Hex: 30057b
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: dr6 | 647236
+
+Guess: one, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24
+   Guess Hex:     6f6e65
+   Keystream Hex: 047041
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: s=o | 733d6f
+
+Guess: one, Ciphertext 1, Offset 13
+   Segment Hex:   1e2493
+   Guess Hex:     6f6e65
+   Keystream Hex: 714af6
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: <dl | 3c646c
+
+Guess: one, Ciphertext 1, Offset 14
+   Segment Hex:   24936f
+   Guess Hex:     6f6e65
+   Keystream Hex: 4bfd0a
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: ego | 65676f
+
+Guess: one, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd
+   Guess Hex:     6f6e65
+   Keystream Hex: fc01b8
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: fd2 | 666432
+
+Guess: one, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b
+   Guess Hex:     6f6e65
+   Keystream Hex: 00b37e
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: e9< | 65393c
+
+Guess: one, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48
+   Guess Hex:     6f6e65
+   Keystream Hex: b2752d
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: 87~ | 38377e
+
+Guess: one, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8
+   Guess Hex:     6f6e65
+   Keystream Hex: 7426cd
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: 6ux | 367578
+
+Guess: one, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b1
+   Guess Hex:     6f6e65
+   Keystream Hex: 27c6d4
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: ts, | 74732c
+
+Guess: one, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189
+   Guess Hex:     6f6e65
+   Keystream Hex: c7dfec
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: r'u | 722775
+
+Guess: one, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3
+   Guess Hex:     6f6e65
+   Keystream Hex: dee7a6
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: &~$ | 267e24
+
+Guess: one, Ciphertext 1, Offset 22
+   Segment Hex:   89c3fa
+   Guess Hex:     6f6e65
+   Keystream Hex: e6ad9f
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: /d | 7f2f64
+
+Guess: one, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac
+   Guess Hex:     6f6e65
+   Keystream Hex: ac94c9
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: .o+ | 2e6f2b
+
+Guess: one, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e
+   Guess Hex:     6f6e65
+   Keystream Hex: 95c23b
+   Decrypted Fragments:
+      C1: one | 6f6e65
+      C2: n s | 6e2073
+
+Guess: one, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6e
+   Guess Hex:     6f6e65
+   Keystream Hex: c3300b
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5
+   Guess Hex:     6f6e65
+   Keystream Hex: 3100d0
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c7
+   Guess Hex:     6f6e65
+   Keystream Hex: 01dba2
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 28
+   Segment Hex:   b5c791
+   Guess Hex:     6f6e65
+   Keystream Hex: daa9f4
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f
+   Guess Hex:     6f6e65
+   Keystream Hex: a8fffa
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 30
+   Segment Hex:   919f35
+   Guess Hex:     6f6e65
+   Keystream Hex: fef150
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b
+   Guess Hex:     6f6e65
+   Keystream Hex: f05bfe
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 32
+   Segment Hex:   359b71
+   Guess Hex:     6f6e65
+   Keystream Hex: 5af514
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 33
+   Segment Hex:   9b7137
+   Guess Hex:     6f6e65
+   Keystream Hex: f41f52
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 34
+   Segment Hex:   71374a
+   Guess Hex:     6f6e65
+   Keystream Hex: 1e592f
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 35
+   Segment Hex:   374aaf
+   Guess Hex:     6f6e65
+   Keystream Hex: 5824ca
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf42
+   Guess Hex:     6f6e65
+   Keystream Hex: 25c127
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 37
+   Segment Hex:   af42ec
+   Guess Hex:     6f6e65
+   Keystream Hex: c02c89
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 1, Offset 38
+   Segment Hex:   42ec70
+   Guess Hex:     6f6e65
+   Keystream Hex: 2d8215
+   Decrypted Fragments:
+      C1: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e3
+   Guess Hex:     6f6e65
+   Keystream Hex: 25cd86
+   Decrypted Fragments:
+      C1: biy | 626979
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a
+   Guess Hex:     6f6e65
+   Keystream Hex: cc8dff
+   Decrypted Fragments:
+      C1: hr6 | 687236
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 2
+   Segment Hex:   e39a56
+   Guess Hex:     6f6e65
+   Keystream Hex: 8cf433
+   Decrypted Fragments:
+      C1: s=6 | 733d36
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614
+   Guess Hex:     6f6e65
+   Keystream Hex: f53871
+   Decrypted Fragments:
+      C1: <=d | 3c3d64
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 4
+   Segment Hex:   5614ea
+   Guess Hex:     6f6e65
+   Keystream Hex: 397a8f
+   Decrypted Fragments:
+      C1: <oy | 3c6f79
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4
+   Guess Hex:     6f6e65
+   Keystream Hex: 7b84a1
+   Decrypted Fragments:
+      C1: nr0 | 6e7230
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db
+   Guess Hex:     6f6e65
+   Keystream Hex: 85aabe
+   Decrypted Fragments:
+      C1: s;h | 733b68
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44
+   Guess Hex:     6f6e65
+   Keystream Hex: abb521
+   Decrypted Fragments:
+      C1: :c! | 3a6321
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 8
+   Segment Hex:   db44b3
+   Guess Hex:     6f6e65
+   Keystream Hex: b42ad6
+   Decrypted Fragments:
+      C1: b*( | 622a28
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 9
+   Segment Hex:   44b354
+   Guess Hex:     6f6e65
+   Keystream Hex: 2bdd31
+   Decrypted Fragments:
+      C1: +#n | 2b236e
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 10
+   Segment Hex:   b35477
+   Guess Hex:     6f6e65
+   Keystream Hex: dc3a12
+   Decrypted Fragments:
+      C1: "ey | 226579
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 11
+   Segment Hex:   54774d
+   Guess Hex:     6f6e65
+   Keystream Hex: 3b1928
+   Decrypted Fragments:
+      C1: dr6 | 647236
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e
+   Guess Hex:     6f6e65
+   Keystream Hex: 18234b
+   Decrypted Fragments:
+      C1: s=o | 733d6f
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a
+   Guess Hex:     6f6e65
+   Keystream Hex: 2240ff
+   Decrypted Fragments:
+      C1: <dl | 3c646c
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a65
+   Guess Hex:     6f6e65
+   Keystream Hex: 41f400
+   Decrypted Fragments:
+      C1: ego | 65676f
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a
+   Guess Hex:     6f6e65
+   Keystream Hex: f50bef
+   Decrypted Fragments:
+      C1: fd2 | 666432
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 16
+   Segment Hex:   658a42
+   Guess Hex:     6f6e65
+   Keystream Hex: 0ae427
+   Decrypted Fragments:
+      C1: e9< | 65393c
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253
+   Guess Hex:     6f6e65
+   Keystream Hex: e52c36
+   Decrypted Fragments:
+      C1: 87~ | 38377e
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5
+   Guess Hex:     6f6e65
+   Keystream Hex: 2d3dd0
+   Decrypted Fragments:
+      C1: 6ux | 367578
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f8
+   Guess Hex:     6f6e65
+   Keystream Hex: 3cdb9d
+   Decrypted Fragments:
+      C1: ts, | 74732c
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 20
+   Segment Hex:   b5f899
+   Guess Hex:     6f6e65
+   Keystream Hex: da96fc
+   Decrypted Fragments:
+      C1: r'u | 722775
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 21
+   Segment Hex:   f89982
+   Guess Hex:     6f6e65
+   Keystream Hex: 97f7e7
+   Decrypted Fragments:
+      C1: &~$ | 267e24
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 22
+   Segment Hex:   9982fb
+   Guess Hex:     6f6e65
+   Keystream Hex: f6ec9e
+   Decrypted Fragments:
+      C1: /d | 7f2f64
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 23
+   Segment Hex:   82fbe2
+   Guess Hex:     6f6e65
+   Keystream Hex: ed9587
+   Decrypted Fragments:
+      C1: .o+ | 2e6f2b
+      C2: one | 6f6e65
+
+Guess: one, Ciphertext 2, Offset 24
+   Segment Hex:   fbe248
+   Guess Hex:     6f6e65
+   Keystream Hex: 948c2d
+   Decrypted Fragments:
+      C1: n s | 6e2073
+      C2: one | 6f6e65
+
+Guess: should, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ffc90515
+   Guess Hex:     73686f756c64
+   Keystream Hex: 34cc90bc6971
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: ~os&?e | 7e6f73263f65
+
+Guess: should, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc90515f6
+   Guess Hex:     73686f756c64
+   Keystream Hex: d797a6707992
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: tt<&mx | 74743c266d78
+
+Guess: should, Ciphertext 1, Offset 2
+   Segment Hex:   ffc90515f691
+   Guess Hex:     73686f756c64
+   Keystream Hex: 8ca16a609af5
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: o;<tp1 | 6f3b3c747031
+
+Guess: should, Ciphertext 1, Offset 3
+   Segment Hex:   c90515f691d6
+   Guess Hex:     73686f756c64
+   Keystream Hex: ba6d7a83fdb2
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2:  ;ni9i | 203b6e693969
+
+Guess: should, Ciphertext 1, Offset 4
+   Segment Hex:   0515f691d600
+   Guess Hex:     73686f756c64
+   Keystream Hex: 767d99e4ba64
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2:  is a  | 206973206120
+
+Guess: should, Ciphertext 1, Offset 5
+   Segment Hex:   15f691d600fe
+   Guess Hex:     73686f756c64
+   Keystream Hex: 669efea36c9a
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: rt:x() | 72743a782829
+
+Guess: should, Ciphertext 1, Offset 6
+   Segment Hex:   f691d600fe5f
+   Guess Hex:     73686f756c64
+   Keystream Hex: 85f9b975923b
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: o=b1!o | 6f3d6231216f
+
+Guess: should, Ciphertext 1, Offset 7
+   Segment Hex:   91d600fe5f6b
+   Guess Hex:     73686f756c64
+   Keystream Hex: e2be6f8b330f
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: &e+8gx | 26652b386778
+
+Guess: should, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe5f6b1e
+   Guess Hex:     73686f756c64
+   Keystream Hex: a568912a077a
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: ~,"~p7 | 7e2c227e7037
+
+Guess: should, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f6b1e24
+   Guess Hex:     73686f756c64
+   Keystream Hex: 7396301e7240
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: 7%di?n | 372564693f6e
+
+Guess: should, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b1e2493
+   Guess Hex:     73686f756c64
+   Keystream Hex: 8d37046b48f7
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: >cs&fm | 3e637326666d
+
+Guess: should, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e24936f
+   Guess Hex:     73686f756c64
+   Keystream Hex: 2c037151ff0b
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: xt<en | 78743c7f656e
+
+Guess: should, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24936fdd
+   Guess Hex:     73686f756c64
+   Keystream Hex: 18764be603b9
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: o;e|f3 | 6f3b657c6633
+
+Guess: should, Ciphertext 1, Offset 13
+   Segment Hex:   1e24936fdd1b
+   Guess Hex:     73686f756c64
+   Keystream Hex: 6d4cfc1ab17f
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2:  bf;= | 2062667f3b3d
+
+Guess: should, Ciphertext 1, Offset 14
+   Segment Hex:   24936fdd1b48
+   Guess Hex:     73686f756c64
+   Keystream Hex: 57fb00a8772c
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: yae"5 | 79616522357f
+
+Guess: should, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd1b48a8
+   Guess Hex:     73686f756c64
+   Keystream Hex: e007b26e24cc
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: zb8,wy | 7a62382c7779
+
+Guess: should, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b48a8b1
+   Guess Hex:     73686f756c64
+   Keystream Hex: 1cb5743dc4d5
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: y?6nq- | 793f366e712d
+
+Guess: should, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48a8b189
+   Guess Hex:     73686f756c64
+   Keystream Hex: ae7327dddded
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: $1th%t | 243174682574
+
+Guess: should, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8b189c3
+   Guess Hex:     73686f756c64
+   Keystream Hex: 6820c7c4e5a7
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: *sr<|% | 2a73723c7c25
+
+Guess: should, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b189c3fa
+   Guess Hex:     73686f756c64
+   Keystream Hex: 3bc0defcaf9e
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: hu&e-e | 687526652d65
+
+Guess: should, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189c3faac
+   Guess Hex:     73686f756c64
+   Keystream Hex: dbd9e6b696c8
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: n!4m* | 6e217f346d2a
+
+Guess: should, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3faac5e
+   Guess Hex:     73686f756c64
+   Keystream Hex: c2e1ac8fc03a
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+      C2: :x.t"r | 3a782e742272
+
+Guess: should, Ciphertext 1, Offset 22
+   Segment Hex:   89c3faac5e6e
+   Guess Hex:     73686f756c64
+   Keystream Hex: faab95d9320a
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac5e6eb5
+   Guess Hex:     73686f756c64
+   Keystream Hex: b092c32b02d1
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e6eb5c7
+   Guess Hex:     73686f756c64
+   Keystream Hex: 89c4311bd9a3
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6eb5c791
+   Guess Hex:     73686f756c64
+   Keystream Hex: df3601c0abf5
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5c7919f
+   Guess Hex:     73686f756c64
+   Keystream Hex: 2d06dab2fdfb
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c7919f35
+   Guess Hex:     73686f756c64
+   Keystream Hex: 1ddda8e4f351
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 28
+   Segment Hex:   b5c7919f359b
+   Guess Hex:     73686f756c64
+   Keystream Hex: c6affeea59ff
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f359b71
+   Guess Hex:     73686f756c64
+   Keystream Hex: b4f9f040f715
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 30
+   Segment Hex:   919f359b7137
+   Guess Hex:     73686f756c64
+   Keystream Hex: e2f75aee1d53
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b71374a
+   Guess Hex:     73686f756c64
+   Keystream Hex: ec5df4045b2e
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 32
+   Segment Hex:   359b71374aaf
+   Guess Hex:     73686f756c64
+   Keystream Hex: 46f31e4226cb
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 33
+   Segment Hex:   9b71374aaf42
+   Guess Hex:     73686f756c64
+   Keystream Hex: e819583fc326
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 34
+   Segment Hex:   71374aaf42ec
+   Guess Hex:     73686f756c64
+   Keystream Hex: 025f25da2e88
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 1, Offset 35
+   Segment Hex:   374aaf42ec70
+   Guess Hex:     73686f756c64
+   Keystream Hex: 4422c0378014
+   Decrypted Fragments:
+      C1: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e39a5614
+   Guess Hex:     73686f756c64
+   Keystream Hex: 39cb8cef3a70
+   Decrypted Fragments:
+      C1: ~os&?e | 7e6f73263f65
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a5614ea
+   Guess Hex:     73686f756c64
+   Keystream Hex: d08bf523788e
+   Decrypted Fragments:
+      C1: tt<&mx | 74743c266d78
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 2
+   Segment Hex:   e39a5614eac4
+   Guess Hex:     73686f756c64
+   Keystream Hex: 90f2396186a0
+   Decrypted Fragments:
+      C1: o;<tp1 | 6f3b3c747031
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614eac4db
+   Guess Hex:     73686f756c64
+   Keystream Hex: e93e7b9fa8bf
+   Decrypted Fragments:
+      C1:  ;ni9i | 203b6e693969
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 4
+   Segment Hex:   5614eac4db44
+   Guess Hex:     73686f756c64
+   Keystream Hex: 257c85b1b720
+   Decrypted Fragments:
+      C1:  is a  | 206973206120
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4db44b3
+   Guess Hex:     73686f756c64
+   Keystream Hex: 6782abae28d7
+   Decrypted Fragments:
+      C1: rt:x() | 72743a782829
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db44b354
+   Guess Hex:     73686f756c64
+   Keystream Hex: 99acb431df30
+   Decrypted Fragments:
+      C1: o=b1!o | 6f3d6231216f
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44b35477
+   Guess Hex:     73686f756c64
+   Keystream Hex: b7b32bc63813
+   Decrypted Fragments:
+      C1: &e+8gx | 26652b386778
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 8
+   Segment Hex:   db44b354774d
+   Guess Hex:     73686f756c64
+   Keystream Hex: a82cdc211b29
+   Decrypted Fragments:
+      C1: ~,"~p7 | 7e2c227e7037
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 9
+   Segment Hex:   44b354774d2e
+   Guess Hex:     73686f756c64
+   Keystream Hex: 37db3b02214a
+   Decrypted Fragments:
+      C1: 7%di?n | 372564693f6e
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 10
+   Segment Hex:   b354774d2e9a
+   Guess Hex:     73686f756c64
+   Keystream Hex: c03c183842fe
+   Decrypted Fragments:
+      C1: >cs&fm | 3e637326666d
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 11
+   Segment Hex:   54774d2e9a65
+   Guess Hex:     73686f756c64
+   Keystream Hex: 271f225bf601
+   Decrypted Fragments:
+      C1: xt<en | 78743c7f656e
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e9a658a
+   Guess Hex:     73686f756c64
+   Keystream Hex: 042541ef09ee
+   Decrypted Fragments:
+      C1: o;e|f3 | 6f3b657c6633
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a658a42
+   Guess Hex:     73686f756c64
+   Keystream Hex: 3e46f510e626
+   Decrypted Fragments:
+      C1:  bf;= | 2062667f3b3d
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a658a4253
+   Guess Hex:     73686f756c64
+   Keystream Hex: 5df20aff2e37
+   Decrypted Fragments:
+      C1: yae"5 | 79616522357f
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a4253b5
+   Guess Hex:     73686f756c64
+   Keystream Hex: e90de5373fd1
+   Decrypted Fragments:
+      C1: zb8,wy | 7a62382c7779
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 16
+   Segment Hex:   658a4253b5f8
+   Guess Hex:     73686f756c64
+   Keystream Hex: 16e22d26d99c
+   Decrypted Fragments:
+      C1: y?6nq- | 793f366e712d
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253b5f899
+   Guess Hex:     73686f756c64
+   Keystream Hex: f92a3cc094fd
+   Decrypted Fragments:
+      C1: $1th%t | 243174682574
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5f89982
+   Guess Hex:     73686f756c64
+   Keystream Hex: 313bda8df5e6
+   Decrypted Fragments:
+      C1: *sr<|% | 2a73723c7c25
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f89982fb
+   Guess Hex:     73686f756c64
+   Keystream Hex: 20dd97ecee9f
+   Decrypted Fragments:
+      C1: hu&e-e | 687526652d65
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 20
+   Segment Hex:   b5f89982fbe2
+   Guess Hex:     73686f756c64
+   Keystream Hex: c690f6f79786
+   Decrypted Fragments:
+      C1: n!4m* | 6e217f346d2a
+      C2: should | 73686f756c64
+
+Guess: should, Ciphertext 2, Offset 21
+   Segment Hex:   f89982fbe248
+   Guess Hex:     73686f756c64
+   Keystream Hex: 8bf1ed8e8e2c
+   Decrypted Fragments:
+      C1: :x.t"r | 3a782e742272
+      C2: should | 73686f756c64
+
+Guess: You should no know this one, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ffc90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 1ecb8ae9767d99e4ba64de31043e4ffd00aa3b3cc0d8fae395c23b
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+      C2: This is a message you can s | 546869732069732061206d65737361676520796f752063616e2073
+
+Guess: You should no know this one, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6e
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: fd90bc25669efea36c9a7f057104f801b26c68dcd9e0b0dac3300b
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 2
+   Segment Hex:   ffc90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: a6a6703585f9b975923b4b704bb304b3743f88c5e1aa898c3100d0
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 3
+   Segment Hex:   c90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 906a60d6e2be6f8b330f3e4afc4fb67527df91fdab93df7e01dba2
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 4
+   Segment Hex:   0515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c791
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 5c7a83b1a568912a077a04fd00fd7026c7c6a9b792c52d4edaa9f4
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 5
+   Segment Hex:   15f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 4c99e4f67396301e7240b301b23b23c6defee38ec4371d95a8fffa
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 6
+   Segment Hex:   f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f35
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: affea3208d37046b48f74fb37468c3dfe6b4dad83607c6e7fef150
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 7
+   Segment Hex:   91d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: c8b975de2c037151ff0bfd752788dae7ac8d8c2a06dcb4b1f05bfe
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 8f6f8b7f18764be603b93b26c791e2ad95db7e1addaee2bf5af514
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b7137
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 59912a4b6d4cfc1ab17f68c6dea9a894c3294ec1aff8ec15f41f52
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374a
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: a7301e3e57fb00a8772c88dfe6e391c2311995b3f9f646bb1e592f
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 06046b04e007b26e24cc91e7acdac73001c2e7e5f75ce8515824ca
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf42
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 327151b31cb5743dc4d5a9ad958c3500dab0b1eb5df2021725c127
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 13
+   Segment Hex:   1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf42ec
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 474be64fae7327ddddede394c37e05dba8e6bf41f318446ac02c89
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 1, Offset 14
+   Segment Hex:   24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf42ec70
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 7dfc1afd6820c7c4e5a7dac2314edea9fee815ef195e398f2d8215
+   Decrypted Fragments:
+      C1: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: You should no know this one, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e39a5614eac4db44b354774d2e9a658a4253b5f89982fbe248
+   Guess Hex:     596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+   Keystream Hex: 13cc96ba257c85b1b720933a186d45f40afd6227dd91eaa2948c2d
+   Decrypted Fragments:
+      C1: This is a message you can s | 546869732069732061206d65737361676520796f752063616e2073
+      C2: You should no know this one | 596f752073686f756c64206e6f206b6e6f772074686973206f6e65
+
+Guess: This is a message you can see, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ffc90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 13cc96ba257c85b1b720933a186d45f40afd6227dd91eaa2948c2d0bd0
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: f097a076359fe2f661de320e6d57f208b83b31c7c4a9a09bc27e1dd0a2
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 2
+   Segment Hex:   ffc90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c791
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: aba16c66d6f8a5209f7f067b57e00eba7e68d1defce399cd304ec6a2f4
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 3
+   Segment Hex:   c90515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 9d6d7c85b1bf73de3e4b7341e01cbc7c2d88c8e6b6dacf3f0095b4f4fa
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 4
+   Segment Hex:   0515f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f35
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 517d9fe2f6698d7f0a3e49f61cae7a2fcd91f0ac8f8c3d0fdbe7e2fa50
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 5
+   Segment Hex:   15f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 419ef8a520972c4b7f04fe0aae6829cfd4a9ba95d97e0dd4a9b1ec50fe
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 6
+   Segment Hex:   f691d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: a2f9bf73de36183e45b302b8683bc9d6ece383c32b4ed6a6ffbf46fe14
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 7
+   Segment Hex:   91d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b7137
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: c5be698d7f026d04f24fb07e3bdbd0eea6dad5311b95a4f0f115e81452
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374a
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 8268972c4b7757b30efd762ddbc2e8a49f8c2701c0e7f2fe5bbb02522f
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 549636183e4de04fbc3b25cdc2faa29dc97e17dab2b1fc54f551442fca
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf42
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: aa37026d04fa1cfd7a68c5d4fab09bcb3b4ecca8e4bf56fa1f1739ca27
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf42ec
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 0b037757b306ae3b2988dcecb089cd390b95befeea15f810596adc2789
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This is a message you can see, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24936fdd1b48a8b189c3faac5e6eb5c7919f359b71374aaf42ec70
+   Guess Hex:     546869732069732061206d65737361676520796f752063616e20736565
+   Keystream Hex: 3f764de04fb46868c991e4a689df3f09d0e7e8f040bb1256248f318915
+   Decrypted Fragments:
+      C1: This is a message you can see | 546869732069732061206d65737361676520796f752063616e20736565
+
+Guess: This, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ffc9
+   Guess Hex:     54686973
+   Keystream Hex: 13cc96ba
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: You  | 596f7520
+
+Guess: This, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc905
+   Guess Hex:     54686973
+   Keystream Hex: f097a076
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: St:  | 53743a20
+
+Guess: This, Ciphertext 1, Offset 2
+   Segment Hex:   ffc90515
+   Guess Hex:     54686973
+   Keystream Hex: aba16c66
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: H;:r | 483b3a72
+
+Guess: This, Ciphertext 1, Offset 3
+   Segment Hex:   c90515f6
+   Guess Hex:     54686973
+   Keystream Hex: 9d6d7c85
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: ;ho | 073b686f
+
+Guess: This, Ciphertext 1, Offset 4
+   Segment Hex:   0515f691
+   Guess Hex:     54686973
+   Keystream Hex: 517d9fe2
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: iu& | 07697526
+
+Guess: This, Ciphertext 1, Offset 5
+   Segment Hex:   15f691d6
+   Guess Hex:     54686973
+   Keystream Hex: 419ef8a5
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: Ut<~ | 55743c7e
+
+Guess: This, Ciphertext 1, Offset 6
+   Segment Hex:   f691d600
+   Guess Hex:     54686973
+   Keystream Hex: a2f9bf73
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: H=d7 | 483d6437
+
+Guess: This, Ciphertext 1, Offset 7
+   Segment Hex:   91d600fe
+   Guess Hex:     54686973
+   Keystream Hex: c5be698d
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: e-> | 01652d3e
+
+Guess: This, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe5f
+   Guess Hex:     54686973
+   Keystream Hex: 8268972c
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: Y,$x | 592c2478
+
+Guess: This, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f6b
+   Guess Hex:     54686973
+   Keystream Hex: 54963618
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: %bo | 1025626f
+
+Guess: This, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b1e
+   Guess Hex:     54686973
+   Keystream Hex: aa37026d
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: cu  | 19637520
+
+Guess: This, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e24
+   Guess Hex:     54686973
+   Keystream Hex: 0b037757
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: _t:y | 5f743a79
+
+Guess: This, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e2493
+   Guess Hex:     54686973
+   Keystream Hex: 3f764de0
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: H;cz | 483b637a
+
+Guess: This, Ciphertext 1, Offset 13
+   Segment Hex:   1e24936f
+   Guess Hex:     54686973
+   Keystream Hex: 4a4cfa1c
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: b`y | 07626079
+
+Guess: This, Ciphertext 1, Offset 14
+   Segment Hex:   24936fdd
+   Guess Hex:     54686973
+   Keystream Hex: 70fb06ae
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: ^ac$ | 5e616324
+
+Guess: This, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd1b
+   Guess Hex:     54686973
+   Keystream Hex: c707b468
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: ]b>* | 5d623e2a
+
+Guess: This, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b48
+   Guess Hex:     54686973
+   Keystream Hex: 3bb5723b
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: ^?0h | 5e3f3068
+
+Guess: This, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48a8
+   Guess Hex:     54686973
+   Keystream Hex: 897321db
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: 1rn | 0331726e
+
+Guess: This, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8b1
+   Guess Hex:     54686973
+   Keystream Hex: 4f20c1c2
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: st: | 0d73743a
+
+Guess: This, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b189
+   Guess Hex:     54686973
+   Keystream Hex: 1cc0d8fa
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: Ou c | 4f752063
+
+Guess: This, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189c3
+   Guess Hex:     54686973
+   Keystream Hex: fcd9e0b0
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: I!y2 | 49217932
+
+Guess: This, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3fa
+   Guess Hex:     54686973
+   Keystream Hex: e5e1aa89
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: x(r | 1d782872
+
+Guess: This, Ciphertext 1, Offset 22
+   Segment Hex:   89c3faac
+   Guess Hex:     54686973
+   Keystream Hex: ddab93df
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: D)h= | 4429683d
+
+Guess: This, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac5e
+   Guess Hex:     54686973
+   Keystream Hex: 9792c52d
+   Decrypted Fragments:
+      C1: This | 54686973
+      C2: i'e | 15692765
+
+Guess: This, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e6e
+   Guess Hex:     54686973
+   Keystream Hex: aec4371d
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6eb5
+   Guess Hex:     54686973
+   Keystream Hex: f83607c6
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5c7
+   Guess Hex:     54686973
+   Keystream Hex: 0a06dcb4
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c791
+   Guess Hex:     54686973
+   Keystream Hex: 3addaee2
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 28
+   Segment Hex:   b5c7919f
+   Guess Hex:     54686973
+   Keystream Hex: e1aff8ec
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f35
+   Guess Hex:     54686973
+   Keystream Hex: 93f9f646
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 30
+   Segment Hex:   919f359b
+   Guess Hex:     54686973
+   Keystream Hex: c5f75ce8
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b71
+   Guess Hex:     54686973
+   Keystream Hex: cb5df202
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 32
+   Segment Hex:   359b7137
+   Guess Hex:     54686973
+   Keystream Hex: 61f31844
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 33
+   Segment Hex:   9b71374a
+   Guess Hex:     54686973
+   Keystream Hex: cf195e39
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 34
+   Segment Hex:   71374aaf
+   Guess Hex:     54686973
+   Keystream Hex: 255f23dc
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 35
+   Segment Hex:   374aaf42
+   Guess Hex:     54686973
+   Keystream Hex: 6322c631
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf42ec
+   Guess Hex:     54686973
+   Keystream Hex: 1ec72b9f
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 1, Offset 37
+   Segment Hex:   af42ec70
+   Guess Hex:     54686973
+   Keystream Hex: fb2a8503
+   Decrypted Fragments:
+      C1: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e39a
+   Guess Hex:     54686973
+   Keystream Hex: 1ecb8ae9
+   Decrypted Fragments:
+      C1: You  | 596f7520
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a56
+   Guess Hex:     54686973
+   Keystream Hex: f78bf325
+   Decrypted Fragments:
+      C1: St:  | 53743a20
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 2
+   Segment Hex:   e39a5614
+   Guess Hex:     54686973
+   Keystream Hex: b7f23f67
+   Decrypted Fragments:
+      C1: H;:r | 483b3a72
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614ea
+   Guess Hex:     54686973
+   Keystream Hex: ce3e7d99
+   Decrypted Fragments:
+      C1: ;ho | 073b686f
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 4
+   Segment Hex:   5614eac4
+   Guess Hex:     54686973
+   Keystream Hex: 027c83b7
+   Decrypted Fragments:
+      C1: iu& | 07697526
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4db
+   Guess Hex:     54686973
+   Keystream Hex: 4082ada8
+   Decrypted Fragments:
+      C1: Ut<~ | 55743c7e
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db44
+   Guess Hex:     54686973
+   Keystream Hex: beacb237
+   Decrypted Fragments:
+      C1: H=d7 | 483d6437
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44b3
+   Guess Hex:     54686973
+   Keystream Hex: 90b32dc0
+   Decrypted Fragments:
+      C1: e-> | 01652d3e
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 8
+   Segment Hex:   db44b354
+   Guess Hex:     54686973
+   Keystream Hex: 8f2cda27
+   Decrypted Fragments:
+      C1: Y,$x | 592c2478
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 9
+   Segment Hex:   44b35477
+   Guess Hex:     54686973
+   Keystream Hex: 10db3d04
+   Decrypted Fragments:
+      C1: %bo | 1025626f
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 10
+   Segment Hex:   b354774d
+   Guess Hex:     54686973
+   Keystream Hex: e73c1e3e
+   Decrypted Fragments:
+      C1: cu  | 19637520
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 11
+   Segment Hex:   54774d2e
+   Guess Hex:     54686973
+   Keystream Hex: 001f245d
+   Decrypted Fragments:
+      C1: _t:y | 5f743a79
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e9a
+   Guess Hex:     54686973
+   Keystream Hex: 232547e9
+   Decrypted Fragments:
+      C1: H;cz | 483b637a
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a65
+   Guess Hex:     54686973
+   Keystream Hex: 1946f316
+   Decrypted Fragments:
+      C1: b`y | 07626079
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a658a
+   Guess Hex:     54686973
+   Keystream Hex: 7af20cf9
+   Decrypted Fragments:
+      C1: ^ac$ | 5e616324
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a42
+   Guess Hex:     54686973
+   Keystream Hex: ce0de331
+   Decrypted Fragments:
+      C1: ]b>* | 5d623e2a
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 16
+   Segment Hex:   658a4253
+   Guess Hex:     54686973
+   Keystream Hex: 31e22b20
+   Decrypted Fragments:
+      C1: ^?0h | 5e3f3068
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253b5
+   Guess Hex:     54686973
+   Keystream Hex: de2a3ac6
+   Decrypted Fragments:
+      C1: 1rn | 0331726e
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5f8
+   Guess Hex:     54686973
+   Keystream Hex: 163bdc8b
+   Decrypted Fragments:
+      C1: st: | 0d73743a
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f899
+   Guess Hex:     54686973
+   Keystream Hex: 07dd91ea
+   Decrypted Fragments:
+      C1: Ou c | 4f752063
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 20
+   Segment Hex:   b5f89982
+   Guess Hex:     54686973
+   Keystream Hex: e190f0f1
+   Decrypted Fragments:
+      C1: I!y2 | 49217932
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 21
+   Segment Hex:   f89982fb
+   Guess Hex:     54686973
+   Keystream Hex: acf1eb88
+   Decrypted Fragments:
+      C1: x(r | 1d782872
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 22
+   Segment Hex:   9982fbe2
+   Guess Hex:     54686973
+   Keystream Hex: cdea9291
+   Decrypted Fragments:
+      C1: D)h= | 4429683d
+      C2: This | 54686973
+
+Guess: This, Ciphertext 2, Offset 23
+   Segment Hex:   82fbe248
+   Guess Hex:     54686973
+   Keystream Hex: d6938b3b
+   Decrypted Fragments:
+      C1: i'e | 15692765
+      C2: This | 54686973
+
+Guess: is, Ciphertext 1, Offset 0
+   Segment Hex:   47a4
+   Guess Hex:     6973
+   Keystream Hex: 2ed7
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: dt | 6474
+
+Guess: is, Ciphertext 1, Offset 1
+   Segment Hex:   a4ff
+   Guess Hex:     6973
+   Keystream Hex: cd8c
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: no | 6e6f
+
+Guess: is, Ciphertext 1, Offset 2
+   Segment Hex:   ffc9
+   Guess Hex:     6973
+   Keystream Hex: 96ba
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: u  | 7520
+
+Guess: is, Ciphertext 1, Offset 3
+   Segment Hex:   c905
+   Guess Hex:     6973
+   Keystream Hex: a076
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: :  | 3a20
+
+Guess: is, Ciphertext 1, Offset 4
+   Segment Hex:   0515
+   Guess Hex:     6973
+   Keystream Hex: 6c66
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: :r | 3a72
+
+Guess: is, Ciphertext 1, Offset 5
+   Segment Hex:   15f6
+   Guess Hex:     6973
+   Keystream Hex: 7c85
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: ho | 686f
+
+Guess: is, Ciphertext 1, Offset 6
+   Segment Hex:   f691
+   Guess Hex:     6973
+   Keystream Hex: 9fe2
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: u& | 7526
+
+Guess: is, Ciphertext 1, Offset 7
+   Segment Hex:   91d6
+   Guess Hex:     6973
+   Keystream Hex: f8a5
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: <~ | 3c7e
+
+Guess: is, Ciphertext 1, Offset 8
+   Segment Hex:   d600
+   Guess Hex:     6973
+   Keystream Hex: bf73
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: d7 | 6437
+
+Guess: is, Ciphertext 1, Offset 9
+   Segment Hex:   00fe
+   Guess Hex:     6973
+   Keystream Hex: 698d
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: -> | 2d3e
+
+Guess: is, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f
+   Guess Hex:     6973
+   Keystream Hex: 972c
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: $x | 2478
+
+Guess: is, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b
+   Guess Hex:     6973
+   Keystream Hex: 3618
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: bo | 626f
+
+Guess: is, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e
+   Guess Hex:     6973
+   Keystream Hex: 026d
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: u  | 7520
+
+Guess: is, Ciphertext 1, Offset 13
+   Segment Hex:   1e24
+   Guess Hex:     6973
+   Keystream Hex: 7757
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: :y | 3a79
+
+Guess: is, Ciphertext 1, Offset 14
+   Segment Hex:   2493
+   Guess Hex:     6973
+   Keystream Hex: 4de0
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: cz | 637a
+
+Guess: is, Ciphertext 1, Offset 15
+   Segment Hex:   936f
+   Guess Hex:     6973
+   Keystream Hex: fa1c
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: `y | 6079
+
+Guess: is, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd
+   Guess Hex:     6973
+   Keystream Hex: 06ae
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: c$ | 6324
+
+Guess: is, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b
+   Guess Hex:     6973
+   Keystream Hex: b468
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: >* | 3e2a
+
+Guess: is, Ciphertext 1, Offset 18
+   Segment Hex:   1b48
+   Guess Hex:     6973
+   Keystream Hex: 723b
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: 0h | 3068
+
+Guess: is, Ciphertext 1, Offset 19
+   Segment Hex:   48a8
+   Guess Hex:     6973
+   Keystream Hex: 21db
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: rn | 726e
+
+Guess: is, Ciphertext 1, Offset 20
+   Segment Hex:   a8b1
+   Guess Hex:     6973
+   Keystream Hex: c1c2
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: t: | 743a
+
+Guess: is, Ciphertext 1, Offset 21
+   Segment Hex:   b189
+   Guess Hex:     6973
+   Keystream Hex: d8fa
+   Decrypted Fragments:
+      C1: is | 6973
+      C2:  c | 2063
+
+Guess: is, Ciphertext 1, Offset 22
+   Segment Hex:   89c3
+   Guess Hex:     6973
+   Keystream Hex: e0b0
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: y2 | 7932
+
+Guess: is, Ciphertext 1, Offset 23
+   Segment Hex:   c3fa
+   Guess Hex:     6973
+   Keystream Hex: aa89
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: (r | 2872
+
+Guess: is, Ciphertext 1, Offset 24
+   Segment Hex:   faac
+   Guess Hex:     6973
+   Keystream Hex: 93df
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: h= | 683d
+
+Guess: is, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e
+   Guess Hex:     6973
+   Keystream Hex: c52d
+   Decrypted Fragments:
+      C1: is | 6973
+      C2: 'e | 2765
+
+Guess: is, Ciphertext 1, Offset 26
+   Segment Hex:   5e6e
+   Guess Hex:     6973
+   Keystream Hex: 371d
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5
+   Guess Hex:     6973
+   Keystream Hex: 07c6
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 28
+   Segment Hex:   b5c7
+   Guess Hex:     6973
+   Keystream Hex: dcb4
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 29
+   Segment Hex:   c791
+   Guess Hex:     6973
+   Keystream Hex: aee2
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 30
+   Segment Hex:   919f
+   Guess Hex:     6973
+   Keystream Hex: f8ec
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 31
+   Segment Hex:   9f35
+   Guess Hex:     6973
+   Keystream Hex: f646
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 32
+   Segment Hex:   359b
+   Guess Hex:     6973
+   Keystream Hex: 5ce8
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 33
+   Segment Hex:   9b71
+   Guess Hex:     6973
+   Keystream Hex: f202
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 34
+   Segment Hex:   7137
+   Guess Hex:     6973
+   Keystream Hex: 1844
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 35
+   Segment Hex:   374a
+   Guess Hex:     6973
+   Keystream Hex: 5e39
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf
+   Guess Hex:     6973
+   Keystream Hex: 23dc
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 37
+   Segment Hex:   af42
+   Guess Hex:     6973
+   Keystream Hex: c631
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 38
+   Segment Hex:   42ec
+   Guess Hex:     6973
+   Keystream Hex: 2b9f
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 1, Offset 39
+   Segment Hex:   ec70
+   Guess Hex:     6973
+   Keystream Hex: 8503
+   Decrypted Fragments:
+      C1: is | 6973
+
+Guess: is, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3
+   Guess Hex:     6973
+   Keystream Hex: 23d0
+   Decrypted Fragments:
+      C1: dt | 6474
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 1
+   Segment Hex:   a3e3
+   Guess Hex:     6973
+   Keystream Hex: ca90
+   Decrypted Fragments:
+      C1: no | 6e6f
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 2
+   Segment Hex:   e39a
+   Guess Hex:     6973
+   Keystream Hex: 8ae9
+   Decrypted Fragments:
+      C1: u  | 7520
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 3
+   Segment Hex:   9a56
+   Guess Hex:     6973
+   Keystream Hex: f325
+   Decrypted Fragments:
+      C1: :  | 3a20
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 4
+   Segment Hex:   5614
+   Guess Hex:     6973
+   Keystream Hex: 3f67
+   Decrypted Fragments:
+      C1: :r | 3a72
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 5
+   Segment Hex:   14ea
+   Guess Hex:     6973
+   Keystream Hex: 7d99
+   Decrypted Fragments:
+      C1: ho | 686f
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 6
+   Segment Hex:   eac4
+   Guess Hex:     6973
+   Keystream Hex: 83b7
+   Decrypted Fragments:
+      C1: u& | 7526
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 7
+   Segment Hex:   c4db
+   Guess Hex:     6973
+   Keystream Hex: ada8
+   Decrypted Fragments:
+      C1: <~ | 3c7e
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 8
+   Segment Hex:   db44
+   Guess Hex:     6973
+   Keystream Hex: b237
+   Decrypted Fragments:
+      C1: d7 | 6437
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 9
+   Segment Hex:   44b3
+   Guess Hex:     6973
+   Keystream Hex: 2dc0
+   Decrypted Fragments:
+      C1: -> | 2d3e
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 10
+   Segment Hex:   b354
+   Guess Hex:     6973
+   Keystream Hex: da27
+   Decrypted Fragments:
+      C1: $x | 2478
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 11
+   Segment Hex:   5477
+   Guess Hex:     6973
+   Keystream Hex: 3d04
+   Decrypted Fragments:
+      C1: bo | 626f
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 12
+   Segment Hex:   774d
+   Guess Hex:     6973
+   Keystream Hex: 1e3e
+   Decrypted Fragments:
+      C1: u  | 7520
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e
+   Guess Hex:     6973
+   Keystream Hex: 245d
+   Decrypted Fragments:
+      C1: :y | 3a79
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a
+   Guess Hex:     6973
+   Keystream Hex: 47e9
+   Decrypted Fragments:
+      C1: cz | 637a
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 15
+   Segment Hex:   9a65
+   Guess Hex:     6973
+   Keystream Hex: f316
+   Decrypted Fragments:
+      C1: `y | 6079
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 16
+   Segment Hex:   658a
+   Guess Hex:     6973
+   Keystream Hex: 0cf9
+   Decrypted Fragments:
+      C1: c$ | 6324
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 17
+   Segment Hex:   8a42
+   Guess Hex:     6973
+   Keystream Hex: e331
+   Decrypted Fragments:
+      C1: >* | 3e2a
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 18
+   Segment Hex:   4253
+   Guess Hex:     6973
+   Keystream Hex: 2b20
+   Decrypted Fragments:
+      C1: 0h | 3068
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 19
+   Segment Hex:   53b5
+   Guess Hex:     6973
+   Keystream Hex: 3ac6
+   Decrypted Fragments:
+      C1: rn | 726e
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 20
+   Segment Hex:   b5f8
+   Guess Hex:     6973
+   Keystream Hex: dc8b
+   Decrypted Fragments:
+      C1: t: | 743a
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 21
+   Segment Hex:   f899
+   Guess Hex:     6973
+   Keystream Hex: 91ea
+   Decrypted Fragments:
+      C1:  c | 2063
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 22
+   Segment Hex:   9982
+   Guess Hex:     6973
+   Keystream Hex: f0f1
+   Decrypted Fragments:
+      C1: y2 | 7932
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 23
+   Segment Hex:   82fb
+   Guess Hex:     6973
+   Keystream Hex: eb88
+   Decrypted Fragments:
+      C1: (r | 2872
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 24
+   Segment Hex:   fbe2
+   Guess Hex:     6973
+   Keystream Hex: 9291
+   Decrypted Fragments:
+      C1: h= | 683d
+      C2: is | 6973
+
+Guess: is, Ciphertext 2, Offset 25
+   Segment Hex:   e248
+   Guess Hex:     6973
+   Keystream Hex: 8b3b
+   Decrypted Fragments:
+      C1: 'e | 2765
+      C2: is | 6973
+
+Guess: you, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ff
+   Guess Hex:     796f75
+   Keystream Hex: 3ecb8a
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: thi | 746869
+
+Guess: you, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc9
+   Guess Hex:     796f75
+   Keystream Hex: dd90bc
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: ~s& | 7e7326
+
+Guess: you, Ciphertext 1, Offset 2
+   Segment Hex:   ffc905
+   Guess Hex:     796f75
+   Keystream Hex: 86a670
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: e<& | 653c26
+
+Guess: you, Ciphertext 1, Offset 3
+   Segment Hex:   c90515
+   Guess Hex:     796f75
+   Keystream Hex: b06a60
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: *<t | 2a3c74
+
+Guess: you, Ciphertext 1, Offset 4
+   Segment Hex:   0515f6
+   Guess Hex:     796f75
+   Keystream Hex: 7c7a83
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: *ni | 2a6e69
+
+Guess: you, Ciphertext 1, Offset 5
+   Segment Hex:   15f691
+   Guess Hex:     796f75
+   Keystream Hex: 6c99e4
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: xs  | 787320
+
+Guess: you, Ciphertext 1, Offset 6
+   Segment Hex:   f691d6
+   Guess Hex:     796f75
+   Keystream Hex: 8ffea3
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: e:x | 653a78
+
+Guess: you, Ciphertext 1, Offset 7
+   Segment Hex:   91d600
+   Guess Hex:     796f75
+   Keystream Hex: e8b975
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: ,b1 | 2c6231
+
+Guess: you, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe
+   Guess Hex:     796f75
+   Keystream Hex: af6f8b
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: t+8 | 742b38
+
+Guess: you, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f
+   Guess Hex:     796f75
+   Keystream Hex: 79912a
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: ="~ | 3d227e
+
+Guess: you, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b
+   Guess Hex:     796f75
+   Keystream Hex: 87301e
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: 4di | 346469
+
+Guess: you, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e
+   Guess Hex:     796f75
+   Keystream Hex: 26046b
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: rs& | 727326
+
+Guess: you, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24
+   Guess Hex:     796f75
+   Keystream Hex: 127151
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: e< | 653c7f
+
+Guess: you, Ciphertext 1, Offset 13
+   Segment Hex:   1e2493
+   Guess Hex:     796f75
+   Keystream Hex: 674be6
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: *e| | 2a657c
+
+Guess: you, Ciphertext 1, Offset 14
+   Segment Hex:   24936f
+   Guess Hex:     796f75
+   Keystream Hex: 5dfc1a
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: sf | 73667f
+
+Guess: you, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd
+   Guess Hex:     796f75
+   Keystream Hex: ea00a8
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: pe" | 706522
+
+Guess: you, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b
+   Guess Hex:     796f75
+   Keystream Hex: 16b26e
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: s8, | 73382c
+
+Guess: you, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48
+   Guess Hex:     796f75
+   Keystream Hex: a4743d
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: .6n | 2e366e
+
+Guess: you, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8
+   Guess Hex:     796f75
+   Keystream Hex: 6227dd
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2:  th | 207468
+
+Guess: you, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b1
+   Guess Hex:     796f75
+   Keystream Hex: 31c7c4
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: br< | 62723c
+
+Guess: you, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189
+   Guess Hex:     796f75
+   Keystream Hex: d1defc
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: d&e | 642665
+
+Guess: you, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3
+   Guess Hex:     796f75
+   Keystream Hex: c8e6b6
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: 04 | 307f34
+
+Guess: you, Ciphertext 1, Offset 22
+   Segment Hex:   89c3fa
+   Guess Hex:     796f75
+   Keystream Hex: f0ac8f
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: i.t | 692e74
+
+Guess: you, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac
+   Guess Hex:     796f75
+   Keystream Hex: ba95d9
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: 8n; | 386e3b
+
+Guess: you, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e
+   Guess Hex:     796f75
+   Keystream Hex: 83c32b
+   Decrypted Fragments:
+      C1: you | 796f75
+      C2: x!c | 782163
+
+Guess: you, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6e
+   Guess Hex:     796f75
+   Keystream Hex: d5311b
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5
+   Guess Hex:     796f75
+   Keystream Hex: 2701c0
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c7
+   Guess Hex:     796f75
+   Keystream Hex: 17dab2
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 28
+   Segment Hex:   b5c791
+   Guess Hex:     796f75
+   Keystream Hex: cca8e4
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f
+   Guess Hex:     796f75
+   Keystream Hex: befeea
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 30
+   Segment Hex:   919f35
+   Guess Hex:     796f75
+   Keystream Hex: e8f040
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b
+   Guess Hex:     796f75
+   Keystream Hex: e65aee
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 32
+   Segment Hex:   359b71
+   Guess Hex:     796f75
+   Keystream Hex: 4cf404
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 33
+   Segment Hex:   9b7137
+   Guess Hex:     796f75
+   Keystream Hex: e21e42
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 34
+   Segment Hex:   71374a
+   Guess Hex:     796f75
+   Keystream Hex: 08583f
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 35
+   Segment Hex:   374aaf
+   Guess Hex:     796f75
+   Keystream Hex: 4e25da
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf42
+   Guess Hex:     796f75
+   Keystream Hex: 33c037
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 37
+   Segment Hex:   af42ec
+   Guess Hex:     796f75
+   Keystream Hex: d62d99
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 1, Offset 38
+   Segment Hex:   42ec70
+   Guess Hex:     796f75
+   Keystream Hex: 3b8305
+   Decrypted Fragments:
+      C1: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e3
+   Guess Hex:     796f75
+   Keystream Hex: 33cc96
+   Decrypted Fragments:
+      C1: thi | 746869
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a
+   Guess Hex:     796f75
+   Keystream Hex: da8cef
+   Decrypted Fragments:
+      C1: ~s& | 7e7326
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 2
+   Segment Hex:   e39a56
+   Guess Hex:     796f75
+   Keystream Hex: 9af523
+   Decrypted Fragments:
+      C1: e<& | 653c26
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614
+   Guess Hex:     796f75
+   Keystream Hex: e33961
+   Decrypted Fragments:
+      C1: *<t | 2a3c74
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 4
+   Segment Hex:   5614ea
+   Guess Hex:     796f75
+   Keystream Hex: 2f7b9f
+   Decrypted Fragments:
+      C1: *ni | 2a6e69
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4
+   Guess Hex:     796f75
+   Keystream Hex: 6d85b1
+   Decrypted Fragments:
+      C1: xs  | 787320
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db
+   Guess Hex:     796f75
+   Keystream Hex: 93abae
+   Decrypted Fragments:
+      C1: e:x | 653a78
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44
+   Guess Hex:     796f75
+   Keystream Hex: bdb431
+   Decrypted Fragments:
+      C1: ,b1 | 2c6231
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 8
+   Segment Hex:   db44b3
+   Guess Hex:     796f75
+   Keystream Hex: a22bc6
+   Decrypted Fragments:
+      C1: t+8 | 742b38
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 9
+   Segment Hex:   44b354
+   Guess Hex:     796f75
+   Keystream Hex: 3ddc21
+   Decrypted Fragments:
+      C1: ="~ | 3d227e
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 10
+   Segment Hex:   b35477
+   Guess Hex:     796f75
+   Keystream Hex: ca3b02
+   Decrypted Fragments:
+      C1: 4di | 346469
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 11
+   Segment Hex:   54774d
+   Guess Hex:     796f75
+   Keystream Hex: 2d1838
+   Decrypted Fragments:
+      C1: rs& | 727326
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e
+   Guess Hex:     796f75
+   Keystream Hex: 0e225b
+   Decrypted Fragments:
+      C1: e< | 653c7f
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a
+   Guess Hex:     796f75
+   Keystream Hex: 3441ef
+   Decrypted Fragments:
+      C1: *e| | 2a657c
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a65
+   Guess Hex:     796f75
+   Keystream Hex: 57f510
+   Decrypted Fragments:
+      C1: sf | 73667f
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a
+   Guess Hex:     796f75
+   Keystream Hex: e30aff
+   Decrypted Fragments:
+      C1: pe" | 706522
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 16
+   Segment Hex:   658a42
+   Guess Hex:     796f75
+   Keystream Hex: 1ce537
+   Decrypted Fragments:
+      C1: s8, | 73382c
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253
+   Guess Hex:     796f75
+   Keystream Hex: f32d26
+   Decrypted Fragments:
+      C1: .6n | 2e366e
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5
+   Guess Hex:     796f75
+   Keystream Hex: 3b3cc0
+   Decrypted Fragments:
+      C1:  th | 207468
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f8
+   Guess Hex:     796f75
+   Keystream Hex: 2ada8d
+   Decrypted Fragments:
+      C1: br< | 62723c
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 20
+   Segment Hex:   b5f899
+   Guess Hex:     796f75
+   Keystream Hex: cc97ec
+   Decrypted Fragments:
+      C1: d&e | 642665
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 21
+   Segment Hex:   f89982
+   Guess Hex:     796f75
+   Keystream Hex: 81f6f7
+   Decrypted Fragments:
+      C1: 04 | 307f34
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 22
+   Segment Hex:   9982fb
+   Guess Hex:     796f75
+   Keystream Hex: e0ed8e
+   Decrypted Fragments:
+      C1: i.t | 692e74
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 23
+   Segment Hex:   82fbe2
+   Guess Hex:     796f75
+   Keystream Hex: fb9497
+   Decrypted Fragments:
+      C1: 8n; | 386e3b
+      C2: you | 796f75
+
+Guess: you, Ciphertext 2, Offset 24
+   Segment Hex:   fbe248
+   Guess Hex:     796f75
+   Keystream Hex: 828d3d
+   Decrypted Fragments:
+      C1: x!c | 782163
+      C2: you | 796f75
+
+Guess: can, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ff
+   Guess Hex:     63616e
+   Keystream Hex: 24c591
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: nfr | 6e6672
+
+Guess: can, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc9
+   Guess Hex:     63616e
+   Keystream Hex: c79ea7
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: d}= | 647d3d
+
+Guess: can, Ciphertext 1, Offset 2
+   Segment Hex:   ffc905
+   Guess Hex:     63616e
+   Keystream Hex: 9ca86b
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 2= | 7f323d
+
+Guess: can, Ciphertext 1, Offset 3
+   Segment Hex:   c90515
+   Guess Hex:     63616e
+   Keystream Hex: aa647b
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 02o | 30326f
+
+Guess: can, Ciphertext 1, Offset 4
+   Segment Hex:   0515f6
+   Guess Hex:     63616e
+   Keystream Hex: 667498
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 0`r | 306072
+
+Guess: can, Ciphertext 1, Offset 5
+   Segment Hex:   15f691
+   Guess Hex:     63616e
+   Keystream Hex: 7697ff
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: b}; | 627d3b
+
+Guess: can, Ciphertext 1, Offset 6
+   Segment Hex:   f691d6
+   Guess Hex:     63616e
+   Keystream Hex: 95f0b8
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 4c | 7f3463
+
+Guess: can, Ciphertext 1, Offset 7
+   Segment Hex:   91d600
+   Guess Hex:     63616e
+   Keystream Hex: f2b76e
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 6l* | 366c2a
+
+Guess: can, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe
+   Guess Hex:     63616e
+   Keystream Hex: b56190
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: n%# | 6e2523
+
+Guess: can, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f
+   Guess Hex:     63616e
+   Keystream Hex: 639f31
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: ',e | 272c65
+
+Guess: can, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b
+   Guess Hex:     63616e
+   Keystream Hex: 9d3e05
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: .jr | 2e6a72
+
+Guess: can, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e
+   Guess Hex:     63616e
+   Keystream Hex: 3c0a70
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: h}= | 687d3d
+
+Guess: can, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24
+   Guess Hex:     63616e
+   Keystream Hex: 087f4a
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 2d | 7f3264
+
+Guess: can, Ciphertext 1, Offset 13
+   Segment Hex:   1e2493
+   Guess Hex:     63616e
+   Keystream Hex: 7d45fd
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 0kg | 306b67
+
+Guess: can, Ciphertext 1, Offset 14
+   Segment Hex:   24936f
+   Guess Hex:     63616e
+   Keystream Hex: 47f201
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: ihd | 696864
+
+Guess: can, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd
+   Guess Hex:     63616e
+   Keystream Hex: f00eb3
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: jk9 | 6a6b39
+
+Guess: can, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b
+   Guess Hex:     63616e
+   Keystream Hex: 0cbc75
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: i67 | 693637
+
+Guess: can, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48
+   Guess Hex:     63616e
+   Keystream Hex: be7a26
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: 48u | 343875
+
+Guess: can, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8
+   Guess Hex:     63616e
+   Keystream Hex: 7829c6
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: :zs | 3a7a73
+
+Guess: can, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b1
+   Guess Hex:     63616e
+   Keystream Hex: 2bc9df
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: x|' | 787c27
+
+Guess: can, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189
+   Guess Hex:     63616e
+   Keystream Hex: cbd0e7
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: ~(~ | 7e287e
+
+Guess: can, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3
+   Guess Hex:     63616e
+   Keystream Hex: d2e8ad
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: *q/ | 2a712f
+
+Guess: can, Ciphertext 1, Offset 22
+   Segment Hex:   89c3fa
+   Guess Hex:     63616e
+   Keystream Hex: eaa294
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: s o | 73206f
+
+Guess: can, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac
+   Guess Hex:     63616e
+   Keystream Hex: a09bc2
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: "`  | 226020
+
+Guess: can, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e
+   Guess Hex:     63616e
+   Keystream Hex: 99cd30
+   Decrypted Fragments:
+      C1: can | 63616e
+      C2: b/x | 622f78
+
+Guess: can, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6e
+   Guess Hex:     63616e
+   Keystream Hex: cf3f00
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5
+   Guess Hex:     63616e
+   Keystream Hex: 3d0fdb
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c7
+   Guess Hex:     63616e
+   Keystream Hex: 0dd4a9
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 28
+   Segment Hex:   b5c791
+   Guess Hex:     63616e
+   Keystream Hex: d6a6ff
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f
+   Guess Hex:     63616e
+   Keystream Hex: a4f0f1
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 30
+   Segment Hex:   919f35
+   Guess Hex:     63616e
+   Keystream Hex: f2fe5b
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b
+   Guess Hex:     63616e
+   Keystream Hex: fc54f5
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 32
+   Segment Hex:   359b71
+   Guess Hex:     63616e
+   Keystream Hex: 56fa1f
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 33
+   Segment Hex:   9b7137
+   Guess Hex:     63616e
+   Keystream Hex: f81059
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 34
+   Segment Hex:   71374a
+   Guess Hex:     63616e
+   Keystream Hex: 125624
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 35
+   Segment Hex:   374aaf
+   Guess Hex:     63616e
+   Keystream Hex: 542bc1
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf42
+   Guess Hex:     63616e
+   Keystream Hex: 29ce2c
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 37
+   Segment Hex:   af42ec
+   Guess Hex:     63616e
+   Keystream Hex: cc2382
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 1, Offset 38
+   Segment Hex:   42ec70
+   Guess Hex:     63616e
+   Keystream Hex: 218d1e
+   Decrypted Fragments:
+      C1: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e3
+   Guess Hex:     63616e
+   Keystream Hex: 29c28d
+   Decrypted Fragments:
+      C1: nfr | 6e6672
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a
+   Guess Hex:     63616e
+   Keystream Hex: c082f4
+   Decrypted Fragments:
+      C1: d}= | 647d3d
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 2
+   Segment Hex:   e39a56
+   Guess Hex:     63616e
+   Keystream Hex: 80fb38
+   Decrypted Fragments:
+      C1: 2= | 7f323d
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614
+   Guess Hex:     63616e
+   Keystream Hex: f9377a
+   Decrypted Fragments:
+      C1: 02o | 30326f
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 4
+   Segment Hex:   5614ea
+   Guess Hex:     63616e
+   Keystream Hex: 357584
+   Decrypted Fragments:
+      C1: 0`r | 306072
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4
+   Guess Hex:     63616e
+   Keystream Hex: 778baa
+   Decrypted Fragments:
+      C1: b}; | 627d3b
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db
+   Guess Hex:     63616e
+   Keystream Hex: 89a5b5
+   Decrypted Fragments:
+      C1: 4c | 7f3463
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44
+   Guess Hex:     63616e
+   Keystream Hex: a7ba2a
+   Decrypted Fragments:
+      C1: 6l* | 366c2a
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 8
+   Segment Hex:   db44b3
+   Guess Hex:     63616e
+   Keystream Hex: b825dd
+   Decrypted Fragments:
+      C1: n%# | 6e2523
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 9
+   Segment Hex:   44b354
+   Guess Hex:     63616e
+   Keystream Hex: 27d23a
+   Decrypted Fragments:
+      C1: ',e | 272c65
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 10
+   Segment Hex:   b35477
+   Guess Hex:     63616e
+   Keystream Hex: d03519
+   Decrypted Fragments:
+      C1: .jr | 2e6a72
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 11
+   Segment Hex:   54774d
+   Guess Hex:     63616e
+   Keystream Hex: 371623
+   Decrypted Fragments:
+      C1: h}= | 687d3d
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e
+   Guess Hex:     63616e
+   Keystream Hex: 142c40
+   Decrypted Fragments:
+      C1: 2d | 7f3264
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a
+   Guess Hex:     63616e
+   Keystream Hex: 2e4ff4
+   Decrypted Fragments:
+      C1: 0kg | 306b67
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a65
+   Guess Hex:     63616e
+   Keystream Hex: 4dfb0b
+   Decrypted Fragments:
+      C1: ihd | 696864
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a
+   Guess Hex:     63616e
+   Keystream Hex: f904e4
+   Decrypted Fragments:
+      C1: jk9 | 6a6b39
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 16
+   Segment Hex:   658a42
+   Guess Hex:     63616e
+   Keystream Hex: 06eb2c
+   Decrypted Fragments:
+      C1: i67 | 693637
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253
+   Guess Hex:     63616e
+   Keystream Hex: e9233d
+   Decrypted Fragments:
+      C1: 48u | 343875
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5
+   Guess Hex:     63616e
+   Keystream Hex: 2132db
+   Decrypted Fragments:
+      C1: :zs | 3a7a73
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f8
+   Guess Hex:     63616e
+   Keystream Hex: 30d496
+   Decrypted Fragments:
+      C1: x|' | 787c27
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 20
+   Segment Hex:   b5f899
+   Guess Hex:     63616e
+   Keystream Hex: d699f7
+   Decrypted Fragments:
+      C1: ~(~ | 7e287e
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 21
+   Segment Hex:   f89982
+   Guess Hex:     63616e
+   Keystream Hex: 9bf8ec
+   Decrypted Fragments:
+      C1: *q/ | 2a712f
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 22
+   Segment Hex:   9982fb
+   Guess Hex:     63616e
+   Keystream Hex: fae395
+   Decrypted Fragments:
+      C1: s o | 73206f
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 23
+   Segment Hex:   82fbe2
+   Guess Hex:     63616e
+   Keystream Hex: e19a8c
+   Decrypted Fragments:
+      C1: "`  | 226020
+      C2: can | 63616e
+
+Guess: can, Ciphertext 2, Offset 24
+   Segment Hex:   fbe248
+   Guess Hex:     63616e
+   Keystream Hex: 988326
+   Decrypted Fragments:
+      C1: b/x | 622f78
+      C2: can | 63616e
+
+Guess: see, Ciphertext 1, Offset 0
+   Segment Hex:   47a4ff
+   Guess Hex:     736565
+   Keystream Hex: 34c19a
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: ~by | 7e6279
+
+Guess: see, Ciphertext 1, Offset 1
+   Segment Hex:   a4ffc9
+   Guess Hex:     736565
+   Keystream Hex: d79aac
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: ty6 | 747936
+
+Guess: see, Ciphertext 1, Offset 2
+   Segment Hex:   ffc905
+   Guess Hex:     736565
+   Keystream Hex: 8cac60
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: o66 | 6f3636
+
+Guess: see, Ciphertext 1, Offset 3
+   Segment Hex:   c90515
+   Guess Hex:     736565
+   Keystream Hex: ba6070
+   Decrypted Fragments:
+      C1: see | 736565
+      C2:  6d | 203664
+
+Guess: see, Ciphertext 1, Offset 4
+   Segment Hex:   0515f6
+   Guess Hex:     736565
+   Keystream Hex: 767093
+   Decrypted Fragments:
+      C1: see | 736565
+      C2:  dy | 206479
+
+Guess: see, Ciphertext 1, Offset 5
+   Segment Hex:   15f691
+   Guess Hex:     736565
+   Keystream Hex: 6693f4
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: ry0 | 727930
+
+Guess: see, Ciphertext 1, Offset 6
+   Segment Hex:   f691d6
+   Guess Hex:     736565
+   Keystream Hex: 85f4b3
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: o0h | 6f3068
+
+Guess: see, Ciphertext 1, Offset 7
+   Segment Hex:   91d600
+   Guess Hex:     736565
+   Keystream Hex: e2b365
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: &h! | 266821
+
+Guess: see, Ciphertext 1, Offset 8
+   Segment Hex:   d600fe
+   Guess Hex:     736565
+   Keystream Hex: a5659b
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: ~!( | 7e2128
+
+Guess: see, Ciphertext 1, Offset 9
+   Segment Hex:   00fe5f
+   Guess Hex:     736565
+   Keystream Hex: 739b3a
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: 7(n | 37286e
+
+Guess: see, Ciphertext 1, Offset 10
+   Segment Hex:   fe5f6b
+   Guess Hex:     736565
+   Keystream Hex: 8d3a0e
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: >ny | 3e6e79
+
+Guess: see, Ciphertext 1, Offset 11
+   Segment Hex:   5f6b1e
+   Guess Hex:     736565
+   Keystream Hex: 2c0e7b
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: xy6 | 787936
+
+Guess: see, Ciphertext 1, Offset 12
+   Segment Hex:   6b1e24
+   Guess Hex:     736565
+   Keystream Hex: 187b41
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: o6o | 6f366f
+
+Guess: see, Ciphertext 1, Offset 13
+   Segment Hex:   1e2493
+   Guess Hex:     736565
+   Keystream Hex: 6d41f6
+   Decrypted Fragments:
+      C1: see | 736565
+      C2:  ol | 206f6c
+
+Guess: see, Ciphertext 1, Offset 14
+   Segment Hex:   24936f
+   Guess Hex:     736565
+   Keystream Hex: 57f60a
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: ylo | 796c6f
+
+Guess: see, Ciphertext 1, Offset 15
+   Segment Hex:   936fdd
+   Guess Hex:     736565
+   Keystream Hex: e00ab8
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: zo2 | 7a6f32
+
+Guess: see, Ciphertext 1, Offset 16
+   Segment Hex:   6fdd1b
+   Guess Hex:     736565
+   Keystream Hex: 1cb87e
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: y2< | 79323c
+
+Guess: see, Ciphertext 1, Offset 17
+   Segment Hex:   dd1b48
+   Guess Hex:     736565
+   Keystream Hex: ae7e2d
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: $<~ | 243c7e
+
+Guess: see, Ciphertext 1, Offset 18
+   Segment Hex:   1b48a8
+   Guess Hex:     736565
+   Keystream Hex: 682dcd
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: *~x | 2a7e78
+
+Guess: see, Ciphertext 1, Offset 19
+   Segment Hex:   48a8b1
+   Guess Hex:     736565
+   Keystream Hex: 3bcdd4
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: hx, | 68782c
+
+Guess: see, Ciphertext 1, Offset 20
+   Segment Hex:   a8b189
+   Guess Hex:     736565
+   Keystream Hex: dbd4ec
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: n,u | 6e2c75
+
+Guess: see, Ciphertext 1, Offset 21
+   Segment Hex:   b189c3
+   Guess Hex:     736565
+   Keystream Hex: c2eca6
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: :u$ | 3a7524
+
+Guess: see, Ciphertext 1, Offset 22
+   Segment Hex:   89c3fa
+   Guess Hex:     736565
+   Keystream Hex: faa69f
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: c$d | 632464
+
+Guess: see, Ciphertext 1, Offset 23
+   Segment Hex:   c3faac
+   Guess Hex:     736565
+   Keystream Hex: b09fc9
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: 2d+ | 32642b
+
+Guess: see, Ciphertext 1, Offset 24
+   Segment Hex:   faac5e
+   Guess Hex:     736565
+   Keystream Hex: 89c93b
+   Decrypted Fragments:
+      C1: see | 736565
+      C2: r+s | 722b73
+
+Guess: see, Ciphertext 1, Offset 25
+   Segment Hex:   ac5e6e
+   Guess Hex:     736565
+   Keystream Hex: df3b0b
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 26
+   Segment Hex:   5e6eb5
+   Guess Hex:     736565
+   Keystream Hex: 2d0bd0
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 27
+   Segment Hex:   6eb5c7
+   Guess Hex:     736565
+   Keystream Hex: 1dd0a2
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 28
+   Segment Hex:   b5c791
+   Guess Hex:     736565
+   Keystream Hex: c6a2f4
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 29
+   Segment Hex:   c7919f
+   Guess Hex:     736565
+   Keystream Hex: b4f4fa
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 30
+   Segment Hex:   919f35
+   Guess Hex:     736565
+   Keystream Hex: e2fa50
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 31
+   Segment Hex:   9f359b
+   Guess Hex:     736565
+   Keystream Hex: ec50fe
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 32
+   Segment Hex:   359b71
+   Guess Hex:     736565
+   Keystream Hex: 46fe14
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 33
+   Segment Hex:   9b7137
+   Guess Hex:     736565
+   Keystream Hex: e81452
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 34
+   Segment Hex:   71374a
+   Guess Hex:     736565
+   Keystream Hex: 02522f
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 35
+   Segment Hex:   374aaf
+   Guess Hex:     736565
+   Keystream Hex: 442fca
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 36
+   Segment Hex:   4aaf42
+   Guess Hex:     736565
+   Keystream Hex: 39ca27
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 37
+   Segment Hex:   af42ec
+   Guess Hex:     736565
+   Keystream Hex: dc2789
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 1, Offset 38
+   Segment Hex:   42ec70
+   Guess Hex:     736565
+   Keystream Hex: 318915
+   Decrypted Fragments:
+      C1: see | 736565
+
+Guess: see, Ciphertext 2, Offset 0
+   Segment Hex:   4aa3e3
+   Guess Hex:     736565
+   Keystream Hex: 39c686
+   Decrypted Fragments:
+      C1: ~by | 7e6279
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 1
+   Segment Hex:   a3e39a
+   Guess Hex:     736565
+   Keystream Hex: d086ff
+   Decrypted Fragments:
+      C1: ty6 | 747936
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 2
+   Segment Hex:   e39a56
+   Guess Hex:     736565
+   Keystream Hex: 90ff33
+   Decrypted Fragments:
+      C1: o66 | 6f3636
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 3
+   Segment Hex:   9a5614
+   Guess Hex:     736565
+   Keystream Hex: e93371
+   Decrypted Fragments:
+      C1:  6d | 203664
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 4
+   Segment Hex:   5614ea
+   Guess Hex:     736565
+   Keystream Hex: 25718f
+   Decrypted Fragments:
+      C1:  dy | 206479
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 5
+   Segment Hex:   14eac4
+   Guess Hex:     736565
+   Keystream Hex: 678fa1
+   Decrypted Fragments:
+      C1: ry0 | 727930
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 6
+   Segment Hex:   eac4db
+   Guess Hex:     736565
+   Keystream Hex: 99a1be
+   Decrypted Fragments:
+      C1: o0h | 6f3068
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 7
+   Segment Hex:   c4db44
+   Guess Hex:     736565
+   Keystream Hex: b7be21
+   Decrypted Fragments:
+      C1: &h! | 266821
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 8
+   Segment Hex:   db44b3
+   Guess Hex:     736565
+   Keystream Hex: a821d6
+   Decrypted Fragments:
+      C1: ~!( | 7e2128
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 9
+   Segment Hex:   44b354
+   Guess Hex:     736565
+   Keystream Hex: 37d631
+   Decrypted Fragments:
+      C1: 7(n | 37286e
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 10
+   Segment Hex:   b35477
+   Guess Hex:     736565
+   Keystream Hex: c03112
+   Decrypted Fragments:
+      C1: >ny | 3e6e79
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 11
+   Segment Hex:   54774d
+   Guess Hex:     736565
+   Keystream Hex: 271228
+   Decrypted Fragments:
+      C1: xy6 | 787936
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 12
+   Segment Hex:   774d2e
+   Guess Hex:     736565
+   Keystream Hex: 04284b
+   Decrypted Fragments:
+      C1: o6o | 6f366f
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 13
+   Segment Hex:   4d2e9a
+   Guess Hex:     736565
+   Keystream Hex: 3e4bff
+   Decrypted Fragments:
+      C1:  ol | 206f6c
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 14
+   Segment Hex:   2e9a65
+   Guess Hex:     736565
+   Keystream Hex: 5dff00
+   Decrypted Fragments:
+      C1: ylo | 796c6f
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 15
+   Segment Hex:   9a658a
+   Guess Hex:     736565
+   Keystream Hex: e900ef
+   Decrypted Fragments:
+      C1: zo2 | 7a6f32
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 16
+   Segment Hex:   658a42
+   Guess Hex:     736565
+   Keystream Hex: 16ef27
+   Decrypted Fragments:
+      C1: y2< | 79323c
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 17
+   Segment Hex:   8a4253
+   Guess Hex:     736565
+   Keystream Hex: f92736
+   Decrypted Fragments:
+      C1: $<~ | 243c7e
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 18
+   Segment Hex:   4253b5
+   Guess Hex:     736565
+   Keystream Hex: 3136d0
+   Decrypted Fragments:
+      C1: *~x | 2a7e78
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 19
+   Segment Hex:   53b5f8
+   Guess Hex:     736565
+   Keystream Hex: 20d09d
+   Decrypted Fragments:
+      C1: hx, | 68782c
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 20
+   Segment Hex:   b5f899
+   Guess Hex:     736565
+   Keystream Hex: c69dfc
+   Decrypted Fragments:
+      C1: n,u | 6e2c75
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 21
+   Segment Hex:   f89982
+   Guess Hex:     736565
+   Keystream Hex: 8bfce7
+   Decrypted Fragments:
+      C1: :u$ | 3a7524
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 22
+   Segment Hex:   9982fb
+   Guess Hex:     736565
+   Keystream Hex: eae79e
+   Decrypted Fragments:
+      C1: c$d | 632464
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 23
+   Segment Hex:   82fbe2
+   Guess Hex:     736565
+   Keystream Hex: f19e87
+   Decrypted Fragments:
+      C1: 2d+ | 32642b
+      C2: see | 736565
+
+Guess: see, Ciphertext 2, Offset 24
+   Segment Hex:   fbe248
+   Guess Hex:     736565
+   Keystream Hex: 88872d
+   Decrypted Fragments:
+      C1: r+s | 722b73
+      C2: see | 736565

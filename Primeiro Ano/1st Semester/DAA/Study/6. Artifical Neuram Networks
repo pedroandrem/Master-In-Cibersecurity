@@ -1,0 +1,81 @@
+## Redes Neurais Artificiais (ANN)
+
+Tentam imitar o funcionamento do cérebro humano para encontrar padrões complexos.
+Uma rede neuronal é feita por milhares de pequenas unidades chamadas neurónios. 
+O conhecimento é adquirido a partir de eventos (dados), através de um processo de aprendizagem (treino do algoritmo) que ajusta os
+parametros da rede. Esse conhecimento é guardado nas conexões entre neurónios. 
+
+
+# Neurónio 
+1. Recebe dados de entrada (X)
+2. Multiplica por um Peso (W - importancia daquele dado)
+3. Soma um viés 
+4. Passa o resultado por uma função de ativação 
+
+Nota: O neurónio sozinho é como uma Regressão Linear, no entanto quando se ligam muitos é quando tudo acontece. 
+
+
+# Beneficios e razões para sucesso 
+- Aprendizagem/Generalização: Permite adquirir novos conhecimentos sobre o ambiente 
+- Permite que tarefas complexas sejam realizadas num curto espaço tempo
+- Não é linear, sendo útil para muitos problemas reais
+- Pode adaptar a sua topologia de acordo com as mudanças de ambiente
+- É capaz de ignorar ruídos e atributos irrelevantes; lida com informações incompletas de forma eficiente 
+- Flexivel 
+- Não é necessário conhecimento explícito da função a ser aprendida. 
+
+# Usos comuns 
+Sempre que o problema envolve dados "não estruturados" (imagem,som, texto), as ANN são a melhor escolha.
+- Classificação/Diagonosticos
+- Reconhecimento de padrões
+- Regressão 
+- Otimização 
+
+
+# Funções de Ativação 
+Sem funções de ativação a rede seria apenas uma multiplicação gigante (linear). 
+A função de ativação decide se o neurónio "dispara" ou não, introduzindo Não-Linearidade.
+
+- Sigmoid: Comprime valores entre 0 e 1. Usado em output para classificação binária (Sim/Não)
+- Linear 
+- Tangente Hiperbólica 
+- ReLu (Rectified Linear Unit): Se o valor for negativo, vira 0. Se for positivo, mantém se igual ou seja y = x .
+
+# Arquitetura 
+Maneira como os nodos se interconectam de modo a formar uma rede estrutural. 
+Existem vários tipos de arquiteturas com potencial, formando duas categorias: Supervised e UnSupervised. 
+
+- Entry Layer: Recebe os dados brutos. O numero de neuronios é igual ao numero de colunas (X) do dataset.
+- Intermediate Layer: Onde ocorre a extração de caracteristicas. Podes ter 1 ou 100 camadas. 
+- Output Layer: Dá a resposta final. O numero de neuronios depende do problema (1 para regressão, N para classificação multi-classe)
+
+
+# Training 
+Existem vários algoritmos usados, no entanto o mais usado é Backpropagation, ele olha para o erro e anda para trás na rede para ajustar 
+os pesos (W).
+
+- Epoch (epoca): Uma passagem completa de todos os dados de treino pela rede. Treinar requer muitas épocas.
+- Batch: "Lotes" de dados passados.
+
+Forward propagation: Os dados entram, passam pelos pesos e ativações, e a rede faz uma previsão. 
+
+Dar Overtrain numa ANN é benéfico, pois previne a generalização por overfitting. 
+Regularização pode ser usada da mesma maneira que em regressão linear/logistica. 
+
+A probabilidade de overfit aumenta se:
+- Poucos casos de treino 
+- Demasiadas conexões 
+
+
+# Strengths
+- Precisão da classificação é geralmente alta. 
+- O conhecimento é distribuidos através de pesos de conexão 
+- Lida bem com atributos redundantes e é robusto no tratamento de exemplos, mesmo que contenham erros. 
+- Os resultados podem ser discretos, reais ou um vetor de valores (discretos ou reais). 
+
+# Weaknesses
+- É dificil determinar a topologia para um problema
+- Dificil de usar, tem muitos parametros 
+- Requer pre-processamento especifico de dados 
+- Requer longo tempo de treino 
+- Não fornece explicações dos resultados

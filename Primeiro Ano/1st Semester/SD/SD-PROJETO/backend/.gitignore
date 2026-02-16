@@ -1,0 +1,16 @@
+.idea
+venv
+command/__pycache__
+thirdparties/__pycache__
+thirdparties/certs
+
+server/certs
+
+auction/__pycache__
+utils/__pycache__
+
+database/database.db
+
+command/adminSendMessage.py
+
+admin.py

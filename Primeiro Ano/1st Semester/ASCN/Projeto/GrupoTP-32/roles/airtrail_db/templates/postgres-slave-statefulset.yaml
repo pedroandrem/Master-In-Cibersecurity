@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgres-slave
+  namespace: default
+spec:
+  serviceName: "postgres-slave"
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres
+      role: slave
+  template:
+    metadata:
+      labels:
+        app: postgres
+        role: slave
+    spec:
+      securityContext:
+        fsGroup: 1001
+      containers:
+        - name: postgres
+          image: "docker.io/bitnami/postgresql:latest"
+          securityContext:
+            runAsUser: 1001
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "256Mi"
+            limits:
+              cpu: "1000m"
+              memory: "512Mi"
+          env:
+            - name: POSTGRESQL_MASTER_HOST
+              value: "postgres-master"
+            - name: POSTGRESQL_MASTER_PORT_NUMBER
+              value: "{{ postgres_port | string }}"
+            - name: POSTGRESQL_REPLICATION_MODE
+              value: "slave"
+            - name: POSTGRESQL_REPLICATION_USER
+              value: "repl_user"
+            - name: POSTGRESQL_REPLICATION_PASSWORD
+              value: "repl_password"
+            - name: POSTGRESQL_DATABASE
+              value: "{{ db_name }}"
+            - name: POSTGRESQL_PASSWORD
+              value: "{{ db_password }}"
+          ports:
+            - containerPort: {{ postgres_port | int }}
+          volumeMounts:
+            - mountPath: /bitnami/postgresql
+              name: postgres-storage
+  volumeClaimTemplates:
+    - metadata:
+        name: postgres-storage
+        labels:
+          app: postgres
+      spec:
+        accessModes: [ "ReadWriteOnce" ]
+        resources:
+          requests:
+            storage: 1Gi

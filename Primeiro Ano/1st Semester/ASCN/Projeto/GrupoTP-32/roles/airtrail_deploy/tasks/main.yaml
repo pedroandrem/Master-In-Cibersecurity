@@ -1,0 +1,73 @@
+- name: Create a Deployment for AirTrail
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'airtrail-deployment.yaml') | from_yaml }}"
+    wait: true
+
+- name: Create a service for exposing airtrail
+  kubernetes.core.k8s:
+    definition:
+      apiVersion: v1
+      kind: Service
+      metadata:
+        name: airtrail-service
+        namespace: default
+        labels:
+          app: airtrail
+      spec:
+        type: LoadBalancer 
+        selector:
+          app: airtrail
+        ports:
+          - protocol: TCP
+            port: 80
+            targetPort: 3000
+    wait: true
+
+- name: Wait till AirTrail pod is created
+  kubernetes.core.k8s_info:
+    kind: Pod
+    namespace: default
+    label_selectors:
+      - app=airtrail
+    wait: true
+    wait_sleep: 5
+    wait_timeout: 180
+  register: airtrail_pod_info
+
+- name: Wait for AirTrail LoadBalancer external IP
+  shell: |
+    kubectl get svc airtrail-service -o jsonpath='{.status.loadBalancer.ingress[0].ip}'
+  register: airtrail_ip
+  retries: 40
+  delay: 10
+  until: airtrail_ip.stdout != ""
+  changed_when: false
+
+- name: Get AirTrail service port (nodePort or loadBalancer port)
+  shell: |
+    kubectl get svc airtrail-service -o jsonpath='{.spec.ports[0].port}'
+  register: airtrail_port
+  until: airtrail_port.stdout != ""
+  retries: 10
+  delay: 2
+  changed_when: false
+
+
+- name: Update app_ip in inventory
+  lineinfile:
+    path: inventory/gcp.yml
+    regexp: '^(\s*)app_ip:.*$'
+    line: '\1app_ip: "{{ airtrail_ip.stdout }}"'
+    backrefs: true
+
+- name: Update app_port in inventory
+  lineinfile:
+    path: inventory/gcp.yml
+    regexp: '^(\s*)app_port:.*$'
+    line: '\1app_port: "{{ airtrail_port.stdout }}"'
+    backrefs: true
+
+- name: Show final updated values
+  ansible.builtin.debug:
+    msg: "Updated inventory → IP={{ airtrail_ip.stdout }}, PORT={{ airtrail_port.stdout }}"

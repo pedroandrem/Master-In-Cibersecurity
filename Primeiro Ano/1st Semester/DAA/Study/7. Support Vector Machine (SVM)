@@ -1,0 +1,38 @@
+## Supervised Learning - Support Vector Machine (SVM)
+
+Pode ser usado para ambos problemas de Clasisficação e Regressão. 
+Ao contrario da Regressão Logistica, que tenta apenas desenhar uma linha que separe as classes, o SVM é perfecionista. Ele quer desenhar
+a linha (Hiperplano) que passa o mais longe possivel dos pontos de ambas classes. 
+
+Imagina que queres construir uma autoestrada entre duas cidades inimigas. O SVM quer que essa autoestrada seja o mais larga possivel para 
+evitar acidentes. 
+
+Hiperplano: É a fronteira de decisão. Em 2D é uma reta; em 3D é um plano. 
+Margem: É a distância entre a linha central e os pontos mais próximos. O objetivo do SVM é Maximizar a Margem. 
+Vetores de Suporte: São os pontos de dados que estão "a tocar" na margem. São os únicos pontos que interessam!! Se removeres os outros 
+pontos todos do dataset e deixares so os Support Vectors, a linha não muda de sitio. 
+
+O "Kernel trick": 
+Se os dados nao derem para separar com uma reta o SVM usa uma técnica matemática chamada Kernel Trick: 
+- Como funciona: Ele projeta os dados de 2D para 3D. 
+- Resultado: No espaço 3D, aquilo que eram circulos concentricos transformam-se em montanhas e vales, e já consegues passar uma "folha de 
+papel" (Hiperplano) reta a separar os grupos.
+- Tipos de Kernel: Linear, Poly (polinomial), RBF (radial basis funcion) - default do sklearn, sigmoid. 
+
+Parametros: 
+C (Regularização/ Custo): Controla o quão rigido o modelo é com erros de classificação no treino.
+    - C Alto: O modelo é um "General Rigido". Tenta classificar tudo corretamente, nem que para isso desenhe uma frontreira super curva 
+    e apertada. Risco de Overfitting.
+    
+    - C Baixo: O modelo é "Relaxado". Aceita alguns erros para ter uma margem mais larga e simples. 
+    Melhor Generalização (Mais risco de Underfitting se for demasiado baixo).
+
+# Strengths: 
+- Eficaz em datasets com multiple features, como dados médicos ou financeiros. 
+- Utiliza um subconjunto de pontos de treino na funçao vetores de suporte o que o torna mais eficiente em termos de memória.
+
+# Weaknesses:
+- Se o número de features for muito maior que o numero de pontos de dados, é crucial evitar o overfitting ao escolher funções de kernel e
+termos de regularização. 
+- Funciona melhor em conjuntos de amostras pequenas devido ao seu elevado tempo de treino. 
+

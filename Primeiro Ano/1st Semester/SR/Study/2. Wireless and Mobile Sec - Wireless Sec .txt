@@ -1,0 +1,48 @@
+## WLAN Security 
+
+# Tipos de ataque:
+1. Rouge Access Point: 
+    AP não autorizado e não confiável conectado à infraestrutura de rede contornando as políticas da empresa. 
+    Pode funcionar como um ponto de entrada na rede para atacantes, pois contorna os procedimentos e configurações de segurança de rede
+    establecidos. 
+
+2. Evil Twin:
+    AP configurado por um atacante para imitar um AP autorizado com o objetivo de enganar a associação dos utilizadores e capturar transações.
+
+3. Interceptação de tráfego WLAN:
+    Interceptação do sinal RF 
+
+4. WLAN DoS: 
+    Interferencia do sinal RF, radio spectrum flooding (jamming)
+
+# Protocolos
+
+- Wired Equivalent Privacy (WEP):
+    Depreciado e inseguro
+    Usa RC4 
+
+- Wi-fi Protected Access (WPA) 
+    Melhoria do WEP 
+    Introduziu o Temporal Key Integrity Protocol (TKIP) para mudar as chaves dinamicamente entre pacotes.
+    Ainda dependia do RC4 
+
+    Ataques:
+    - Ataques de Brute force on PSK
+    - KRACK Attack 
+    - Packet Injection 
+    - Replay Attacks 
+    
+
+- Wi-fi Protected Access 2 (WPA2) - O Standard 
+    O mais usado atualmente
+    Abandonou o RC4 e usa AES-CCMP 
+    - É vulneravel a ataques de dicionário offline e aos ataques KRACK.
+
+- Wi-fi Protected Access 3 (WPA3) - O futuro
+    O mais recente e seguro
+    Substitui a PSK pelo SAE. Isto impede ataques de dicionário offline
+    Implementação do Forward Secrecy
+    OWE: Cifra de redes abertas sem precisar de password, protegendo contra sniffing passivo 
+    PFM: Protege gestão de frames contra falsificação
+    Usa AES-CCMP e AES-GCCP
+

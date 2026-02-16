@@ -1,0 +1,23 @@
+Hacker gain access to Target's system by stealing credentials 
+provided by a contractor that ran Target' climate systems.
+This happened because Target failed to segment its network to ensure
+that Fazio didn't have access to its payment systems. 
+
+Hackers exploited this connection, uploading malware onto Target's 
+systmes, including its POS (point-of-sale).
+
+POS system includes software and hardware:
+ - Hardware inlcudes cash register, credit cards reader or terminal,
+ pad, and monitor.
+ - Software communicates the customer's information using a central 
+ payment-processing server connected to a number of POS application
+ terminals.
+
+ The malware used by the hackers, was stealing customer's data at the 
+ POS. Basically, its callled "RAM scrappers" cause it copies customer's
+ card info while it was still in the memory storage of 
+ POS system (aka Payment terminals).
+
+When a card is used in a POS his credentials are stored in RAM and
+because this malware was in the POS systems it would copy this data
+before it was encrypted.

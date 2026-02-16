@@ -1,0 +1,62 @@
+## DNS Security 
+
+O DNS é uma base de dados distribuída e hierárquica que traduz nomes de domínio legíveis por humanos (ex:google.com) em endereços IP
+(ex: 142.250.180.14) necessários para a comunicação de rede. Funciona maioritariamente sobre UDP na porta 53.
+
+# Ataques e vulnerabilidades
+1. DNS Spoofing/Cache Poisining:
+    O protocolo DNS original não tem autenticação. Um atacante pode responder a um pedido DNS da vítima mais rápido que o servidor 
+    legitimo, fornecendo um IP falso. Isto "envenena" a chache da vítima, redirecionando-a para um site malicioso. 
+
+    Mitigation:
+    Implementar DNSSEC. O DNSSEC assina digitalmente os registos DNS, garantindo a autenticidade e integridade da resposta. 
+    Usar TTLS curtos nos RR (Registos de Recursos aka Cache) para reduzir o risco de cache poisining.
+
+2. DNS Reflection and Amplification Attack (DDoS Attack):
+    O atacante envia pequenas consultas DNS com IPs de origem falsificados (IP da vítima), fazendo com que existam muitas respostas DNS
+    inundando a vítima. 
+    Pode resultar em interrupções de serviços e degradação de sistemas.
+
+    Mitigation:
+    - Configurar servidores DNS para impedir resolvedores abertos.
+    - Implementar limites de taxa e tamanho de resposta 
+    - Usar filtragem de entrada/saída para impedir falsificação de IP, ou seja, apenas endereços IP pertencentes à rede podem consultar 
+    e enviar respostas, bloqueando a falsificação de IP bloqueia o ataque.
+
+3. DNS Tunneling Attack:
+    Requer um host comprometido. O atacante codifica os dados em consultas/respostas DNS, contornando efetivamente os controlos de
+    segurança da rede para extrair dados ou criar um canal secreto.
+    Resulta em violações de dados, comunicação furtiva de comando e controlo (c2)
+
+    Mitigation: 
+    - Monitorizar volumes invulgarmente elevados de consultas DNS ou domínios suspeitos. 
+    - Utilizar ferramentas de análise de tráfego DNS para detetar atividade de tunneling. 
+
+# DNSSEC (DNS Security Extension)
+Adiciona assinaturas criptográficas aos registos DNS. Cria uma "cadeia de confiança" desde a raiz até ao dominio final. 
+Nota: Não cifra os dados. Os pedidos continuam a ser visiveis a quem escuta a rede, garante apenas que a resposta é verdadeira e não
+foi alterada.
+
+
+# DNS over TLS (DoT) & DNS over HTTPS (DoH)
+DoT:
+Encripta o tráfego DNS usando TLS, assegurando privacidade e integridade.
+É facil para um admin de rede bloquear
+Porta dedicada: 853
+Preferido por Empresas (fácil de monitorizar/controlar) e ISPs.
+
+DoH:
+Encapsula DNS em pedidos HTTPS 
+É dificil de bloquear ou distinguir do tráfego web normal.
+Porta dedicada: 443
+Preferido por browsers para contornar censura e garantir privacidade (Firefox, Chrome)
+
+# Best practices 
+DNSSEC integrado com DoT/DoH 
+
+- O DNSSEC garante a autenticidade dos dados do DNS verificando se as respostas são de fonte correta e nao foram adulteradas. 
+- O Dot ou DoH encriptam o tráfego DNS, protegendo-o em termos de confidencialidade e integridade.
+
+A combinação destes mecanismos garante que:
+    - As respostas sejam verificadas
+    - As consultas/respostas sejam protegidas contra modificações durante a transmissão

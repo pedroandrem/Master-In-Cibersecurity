@@ -1,0 +1,18 @@
+Assuptions: 
+- Migration is going to be applied on systems like patient management
+  that host sensitive personal and medical information.
+- Only patient and medical information from Data Backup system is going
+  to be migrated to the cloud.
+  
+
+
+Critical assets: 
+- Databases for patient management and billing
+- Imaging Repository
+- Patient Records Databases
+- Web portal for patients
+- Data backup System
+- Mobile Application
+
+Valuation: 
+- Estimated value of patient records is 800 milion

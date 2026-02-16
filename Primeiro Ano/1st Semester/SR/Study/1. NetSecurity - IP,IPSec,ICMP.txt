@@ -1,0 +1,59 @@
+## Network Layer: IP/ICMP Attacks 
+
+1. IP Spoofing: 
+    Os atacantes falsificam cabeçalhos IP para se fazerem passar por outro host. 
+    - Usado, por exemplo, em ataques de amplificação DDoS.
+    - O sistema alvo ou dispositivos de rede intermediários acreditam que o pacote é proveniente de uma fonte legítima.
+    - O atacante pode inundar a vítima ou induzi-la a interagir com um host falsificado
+
+    Mitigation: 
+    - Filtragem de pacotes de entrada/saída
+    - IPSec 
+
+2. ICMP Flood Attack (Ping flood):
+    Inundam o alvo com um grande volume de pacotes "ICMP Echo Request", esgotando os recursos do alvo e levando a um DoS.
+
+    Mitigation: 
+    - ICMP rate limiting 
+    - Regras de firewall para bloquear/validar ICMP requests 
+
+3. Smurf Attack: 
+    É como um aplification attack, mas baseado em ICMP. O atacante manda "ICMP Echo Request(s)" para um endereço em broadcast, com
+    um endereço falsificado (o da vítima), resultando num grande volume de tráfego direcionado para a vitima. 
+
+    Mitigation: 
+    - Desativar ICMP broadcast 
+    - ICMP rate Limiting 
+    - Regras de firewall para bloquear/validar ICMP requests
+
+## IPSec
+Conjunto de protocolos que corre na Network Layer.
+Objetivo: Garantir segurança nas comunicações IP fornecendo confidencialidade, integridade e autenticação.
+
+Ao contrário do IP normal, que é "connectionless", o IPsec é orientado à conexão através de Security Associations (SAs).
+
+# Modos de Operação: 
+    - Transport Mode: Encripta/Autentica apenas o payload (Os dados/TCP/UDP). 
+                      Mantém o cabeçalho IP original.
+                      É usado numa comunicação End-to-End, como por exemplo, entre dois PCS numa mesma rede.
+
+    - Tunnel Mode: Encripta/Autentica o pacote IP inteiro. 
+                   Cria um novo cabeçalho IP exterior para encaminhar o pacote.
+                   É usado numa comunicação Hop-to-Hop, como por exemplo, VPNs Site-to-Site ou entre Routers/Gateways.
+
+Protocolos: 
+    - Authentication Header (AH): providencia autenticidade e integridade 
+
+    - Encapsulating Secyruty Payload (ESP): Fornece Confidencialidade, Integridade e Autenticação. 
+                                            É o mais usado porque realmente esconde os dados.
+
+O IPsec precisa de establecer regras antes de enviar dados:
+1. IKE (Internet Key Exchange): É o protocolo que faz o handshake inicial. (Semelhante ao TLS mas na camada de rede)
+
+2. SA (Security Association): É o contrato de segurança establecido.
+
+Pergunta: Descreve o IPsec. 
+O IPSec protege a camade de rede garantindo CIA. Opera em dois modos de transporte: Transporte (encripta e autentica apenas o payload)
+e Tunel (encripta e autentica todo o pacote IP). Usa protocolos AH (para autenticação e integridade) e ESP (para CIA). A conexão é 
+gerida por SAs negociadas via IKEv2 e usa números de sequência para prevenir ataques de Replay. 
+

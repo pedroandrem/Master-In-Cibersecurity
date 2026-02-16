@@ -1,0 +1,11 @@
+- name: Airtrail Undeploy
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - role: undeploy_airtrail_db
+      tags: ["undeploy_airtrail_db"]
+
+    - role: airtrail_undeploy
+      tags: ["airtrail_undeploy"]
+    
+

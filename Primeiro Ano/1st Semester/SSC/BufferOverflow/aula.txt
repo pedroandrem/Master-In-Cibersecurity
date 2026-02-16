@@ -1,0 +1,94 @@
+ Endereços:
+
+        ---------
+MAX     | Stack | 
+        ---------
+            | De cima para baixo (stack)
+           ...
+            | De baixo para cima (heap)
+        --------
+malloc/ | Heap | 
+free    --------
+        | BSS  |
+        --------
+        | Data |
+        --------
+        | Text |
+        --------
+
+
+-- init (vai executar a main)
+
+int main(int argc, char* argv){
+    int x,y; (var locais)
+    //
+    return 0;
+}
+
+Stack frame:
+        --------
+        | args | 
+        --------    
+        |  ... | -> 4B
+        --------    
+        |  ... | -> 4B
+        ----------  ---> SFP
+        | var (x)|
+        | locais | 
+        ----------
+        | var (y)|
+        | locais |
+        ----------
+
+- Stack frame pointer SFP (Se subtrair 8 bytes vamos ter as var locais se somar 8 vamos ter aos args)
+
+
+void f (int a, int b){
+    int x,y;
+    x = a+b;
+    y = a-b;
+    //...
+}
+
+int main (int argc, chat** argv){
+    f(7,4);
+  * puts("ola");
+    //...
+    return 0;
+}
+
+Stack frame da main ate ao sfp : 
+
+        --------
+        | argv | -> 8B
+        --------    
+        | argc | -> 4B
+        --------    
+        |  ... | -> 4B
+        --------    
+        |  ... | -> 4B
+        --------   ----> SFP da main
+        |   b  | -> 4B
+        -------- 
+        |   a  | -> 4B
+        --------
+        | IP de | 
+        |retorno| -> 4B no código *
+        --------- 
+        |  SFP  |
+        |da main| -> 4B
+        ---------  ------> SFP da função F
+        |   y  | -> 4B
+        --------
+        |   x  | -> 4B
+        --------    
+
+    
+a e b são args | x,y sao vars locais
+
+
+strncpy em vez de strcpy 
+snprintf em vez de sprintf 
+
+
+

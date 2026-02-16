@@ -1,0 +1,23 @@
+## Virtual Private Network (VPN)
+
+Uma VPN cria uma conexão encriptada e segura entre um dispositivo e um servidor ou rede remota, através da Internet. 
+
+Objetivos: Confidencialidade, Integridade, Autenticação, anonimato e controlo de acesso. 
+
+Como Funciona (Tunneling):
+As VPNs funcionam através de Tunneling(encapsulamento). Elas encapsulam os dados dentro do outro protocolo (como IPsec ESP ou TLS) e 
+adicionam um novo cabeçalho IP exterior, permitindo que os dados atravesem redes públicas de forma segura. 
+
+Existem dois modos de operar o tráfego:
+- Full Tunneling: Todos o tráfego do utilizador é enviado através do túnel VPN. 
+- Split Tunneling: Apenas tráfego selecionado passa pela VPN, enquanto o restante usa a rede pública diretamente. 
+
+# Tipos de VPN
+- Remote Access VPN: Liga um cliente individual à rede da empresa. Protege os dados entre o dispositivo e a empresa.
+- Site-to-Site VPN: Liga redes inteiras. Geralmente implementada usando IPsec em modo túnel (Escritorio de empresa de lisboa ao do Porto).
+- TLS VPN: Comum em aplicações web, não requer software cliente adicional. Usa protocolos TLS. 
+    Nota: VPNs baseadas em IPsec oferecem maior privacidade do que as TLS. 
+- Cloud VPN: Segura a comunicação entre a infraestrutura local (on-premise) e serviços na cloud. 
+- Personal VPN: Usada por individuos para privacidade, anonimato e contornar restrições geográficas.
+- Double VPN: Encaminha o tráfego por dois servidores VPN para uma camada extra de anonimato e para mitigar ataques de correlação de trafego.
+

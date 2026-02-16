@@ -1,0 +1,31 @@
+## IPv6 Security 
+O IPv6 foi desenhado com a segurança em mente, mas a sua complexidade trouxe novos desafios. 
+
+- Grande espaço de endereçamento 2^128
+    Torna ataques de port scanning e spoofing, práticamente impossiveis de praticar, pois é impossivel de adivinhar os endereços ativos
+    numa sub-rede tão grande.
+- IPsec Nativo
+- Fim do broadcast
+    O IPv6 não usa broadcast, mas sim multicast. Isto elimina ataques antigos baseados em amplificação de broadcast, como Smurft Attack
+- Remoção do NAT 
+- Neighbor Dicscovery Protocol (NDP)
+    O IPv6 substitui o antigo ARP pelo NDP. O problema é que tal como o ARP o NDP, é vulnerável a spoofing. 
+    Como solução exite uma extensão de segurança chamada SEND (SEcure Neighbor Dicscovery), que usa CGA.
+
+# Vulnerabilidades
+1. Manipulação de cabeçalhos de extensão e ataques de fragmentação:
+    Os EH (Extension Headers) IPv6 permitem adicionar informações opcionais, para um tratamento fléxivel de pacotes. 
+    Headers como Opções de destino ou headers de roteamento podem criar sobrecarga de processamento levando a potenciais ataques DoS
+    
+    Mitigation:
+    - Ter firewalls e IDS/IPS para inspecionar e lidar com EH IPv6 corretamente, bloqueando headers conhecidor por táticas de evasão
+    - Os dispositivos de rede devem ser configurados para descartar pacotes fragmentados com tipos de headers perigosos.
+
+2. Neighbor Dicscovery Protocol (NDP):
+    O NDP subsittui o ARP no IPv6, no entanto é vulneravél a ataques como ND spoofing e router advertisement (RA) flooding, levando a DoS 
+    ou MitM attacks. 
+
+    Mitigation:
+    - Proteções de guarda RA e configuração dinâmica de host em dispositivos de rede também pode ajudar a limitar RA flooding. 
+    - Implementar SEND. 
+    

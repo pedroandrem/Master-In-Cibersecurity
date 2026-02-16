@@ -1,0 +1,27 @@
+- name: Delete Airtrail Deployment
+  kubernetes.core.k8s:
+    state: absent
+    api_version: apps/v1
+    kind: Deployment
+    name: airtrail
+    namespace: default
+
+- name: Delete Airtrail Service
+  kubernetes.core.k8s:
+    state: absent
+    api_version: v1
+    kind: Service
+    name: airtrail-service
+    namespace: default
+
+#- name: Delete Deployment for AirTrail
+#  kubernetes.core.k8s:
+#    state: absent
+#    definition: "{{ lookup('template', 'airtrail-deployment.yaml') | from_yaml }}"
+#    wait: true
+
+#- name: Delete Service for AirTrail
+#  kubernetes.core.k8s:
+#    state: absent
+#    definition: "{{ lookup('template', 'airtrail-service.yaml') | from_yaml }}"
+#    wait: true

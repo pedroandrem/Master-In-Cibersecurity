@@ -1,0 +1,56 @@
+## Decision Trees
+
+# Classification Tree 
+Objetivo: Prever uma categoria (classe)
+A Pergunta: "A qual grupo isto pertence?" 
+            Exemplo: O Passageiro do Titanic sobreviveu? Sim ou Não
+Output: Uma classe discreta (ex: Sim, Não, Azul, Vermelho)
+Como decide o valor final (Folha): Usa a Moda(Votação por maioria).
+                                   Se na folha final existem 10 passageiros
+                                   e 8 sobreviveram, a arvore diz "Sobreviveu".
+Como faz os cortes (Splits): Tenta maximizar a "pureza" dos nós. Usa 
+                             métricas como Gini Impurity ou Entropia.
+
+# Regression Tree
+Objetivo: Prever um Número (Valor contínuio)
+A Pergunta: "Quanto vale isto?" 
+            Exemplo: Qual a eficáia do medicamento? 
+                     Qual o preço da casa?
+Output: Um número real (ex:2.5%, 98%, 150000€)
+Como decide o valor final: Usa a Média. Se na folha final existir 3 casas 
+                           com preços de 100k, 110k, 120k a árvore
+                           preve 110k.
+Como faz cortes: Tenta minimizar o Erro(variância). Usa métricas como 
+                 MSE para agrupar valores numéricos parecidos.
+
+
+# Decision Tree - Prunning
+Uma DT vai sempre dar overfit aos dados de treino de lhe permitirmos
+crescer até ao max depth. 
+
+Como prevenir: 
+Pre-Prunning (early stopping):
+    - min_sample_split é o num min de amostras necessárias para ser split.
+    - min_sample_leaf é o numero de amostras necessárias para ser folha.
+
+Post-Prunning (after perfect trainning):
+    - atribuir o max depth a uma arvore.
+
+# Strengths: 
+- Faceis de configurar.
+- Comparadas a outro algoritmos, requerem menos esforço na preparação de
+dados. 
+- DT nao requer normalização, nem scaling de dados.
+- Missing values tambem não afetam o processo de uma DT 
+- Faceis de explicar 
+
+# Weaknesses: 
+- Inadequadas para problemas caracterizados por muitas iterações entre
+atributos.
+- Não evita réplicas de subtrees. 
+- Uma pequena mudança nos dados pode causar uma grande mudança na estrutura
+da arvore, causando instabilidade. 
+- O calculo de uma DT em alguns casos pode ser mais complexo que outros
+algoritmos.
+- DT normalmente levam mais tempo a treinar o modelo. 
+

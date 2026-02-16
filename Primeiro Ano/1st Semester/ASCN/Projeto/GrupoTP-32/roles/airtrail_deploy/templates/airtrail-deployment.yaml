@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airtrail
+  namespace: default
+  labels:
+    app: airtrail
+spec:
+  replicas: 1 # more = horizontal 
+  selector:
+    matchLabels:
+      app: airtrail
+  template:
+    metadata:
+      labels:
+        app: airtrail
+    spec:
+      containers:
+      - name: airtrail
+        image: "{{ airtrail_image }}"
+        env:
+        - name: DB_URL
+          value: "postgresql://{{ db_username }}:{{ db_password }}@pgpool-service:5432/{{ db_name }}"
+        - name: DB_HOST
+          value: "pgpool-service"
+        - name: DB_DATABASE
+          value: "{{ db_name }}"
+        - name: DB_USERNAME
+          value: "{{ db_username }}"
+        - name: DB_PASSWORD
+          value: "{{ db_password }}"
+        ports:
+        - containerPort: 3000

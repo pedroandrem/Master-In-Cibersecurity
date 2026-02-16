@@ -1,0 +1,2 @@
+# # Variable that defines the Docker image for AirTrail
+airtrail_image: johly/airtrail:latest

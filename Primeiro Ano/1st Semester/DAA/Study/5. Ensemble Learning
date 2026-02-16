@@ -1,0 +1,80 @@
+## Ensemble Learning
+Combinar vários modelos "fracos" para criar um modelo "forte"
+Objetivo: Melhorar a Generalização e a estabilidade.
+
+Tipos de Ensemble:
+- Voting 
+- Baggin 
+- Boosting
+- Stacking
+- Blending 
+
+
+
+Main Ensemble Learning: 
+- Bagging (Bootstrap Aggregating)
+    Criação de datasets diferentes através de Bootstrap, depois treina os N modelos ao mesmo tempo.
+    Por fim se o problema for de Clasisficação faz uma votação, por exemplo usando arvores. Se 70 arvores dizem que Sim e 30 dizem que Não,
+    o resultado final é Sim. 
+    Se o problema for de Regressão faz a média, ou seja se uma arvore diz 10, outra 12 e outra 11. O resultado é 11.
+
+    Exemplo: Random Forests
+    Treina vários modelos em Paralelo e de Forma independente. 
+    Cada modelo recebe um subconjunto aleatório de dados (com repetição - Bootstrap).
+    Objetivo: Reduzir a Variância (combate o Overfitting)
+    Decisão Final: 
+    - Classificação: Votação (Maioria ganha)
+    - Regressão: Media dos valores
+
+- Boosting
+    Def: É uma tecnica sequencial. Treinas os modelos um a seguir ao outro (não ao mesmo tempo).
+    Logica: 1. Treinar o Modelo 1. Ele acerta em 80% dos dados, mas erra 20%.
+            2. O algoritmo atribui Pesos maiores a esses dados que foram errados. É como se dissesse ao próximo modelo: "Foca-te nestes
+            casos dificeis que o anterior errou".
+            3. Treinar o Modelo 2 focado nos erros. 
+            4. Repetir o processo. 
+
+    Exemplo: AdaBoost, Gradient Boosting, XGBoost
+    Como treina: Treina modelos de forma Sequencial (um a seguir ao outro).
+    Lógica: Modelo 2 tenta corrigir os erros do Modelo 1. O Modelo 3 corrige os erros do Modelo 2, etc...
+    Dados: Dá mais peso (importancia) aos dados que foram classificados erradamente antes. 
+    Objetivo: Reduzir o Viés (Bias) (combate o Underfitting).
+
+- Stacking
+    Em vez de fazer uma simples votação (RF), treinas um modelo final que aprende qual é o melhor sub-modelo para cada situação.
+    Como funciona: 
+    1. Treinar modelos diferentes nos dados de treino.
+    2. Pedir a esses modelos previsões.
+    3. Meta-Learner: Treinar um novo modelo (Geralmente simples com uma Regressão Logistica) que usa as previsões anteriores como estrada 
+    (X) para prever o resultado final (Y).
+    Para evitar o Overfitting, o Stacking usa Cross-Validation para gerar as previsões que vão treinar o Meta-Learner
+
+- Blending
+    É igual ao Stacking, mas simplificado para ser mais rápido. 
+    Diferença: Em vez de usar Cross-validation (que é lento), o Blending usa uma abordagem de Hold-out(divide os dados uma vez).
+    Como funciona: 
+    1. Divide o treino em dois: Treino A e Treino B. 
+    2. treina os modelos base no Treino A. 
+    3. Faz previsões no Treino B.
+    4. Usa essas previsões do treino B para treinar o Meta-Learner.
+
+
+# Random Forests 
+- Usado como Bagging
+Cria centenas de DT indepentendes e em paralelo. 
+Cada DT treina com um pedaço diferente dos dados. 
+Em cada decisão (nó), a àrvore só pode escolher entre um subconjunto aleatório de colunas.
+Decisão final: 
+- Classificação: Max Voting (Maioria ganha)
+- Regressão: Media dos valores 
+
+
+# XGBoost (Extreme Gradient Boosting)
+- Usado como Boosting
+Cria árvores de forma sequencial (uma a seguir à outra)
+O Modelo 2 não quer saber do que o modelo 1 acertou. Foca-se exclusivamente nos erros do modelo 1.
+Gradient Descent: Usa matemática avançada para minimzar o erro a cada passo. 
+Regularização: Ao contrario do Gradient boost normal o XGBoost tem "travões" internos (L1 e L2 regularization) para evitar decorar dados.
+- Serve para reduzir o Viés e tambem a variância. É o algoritmo mais rápido e vitorioso, mas mais dificil de afinar. 
+
+

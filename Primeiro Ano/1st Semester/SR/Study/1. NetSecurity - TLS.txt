@@ -1,0 +1,114 @@
+## Proteção de ligações de ponta a ponta
+
+Os ataques têm como alvo entidades de aplicações ou tráfego entre entidades:
+    - Passivo: Espionagem do tráfego de redes
+    - Ativo: Falsificação de identidade do user, alteração de daods em trânsito
+
+## Transport Layer Security - TLS 
+Objetivo: Oferecer um canal seguro de comunicações entre duas entidades comunicantes (como um cliente e um servidor). 
+
+É um protocolo de segurança que opera acima da camada de transporte (tipicamente sobre o TCP).
+Oferece: 
+- Confidencialidade: via encriptação simetrica
+- Integridade: via hash criptográfica
+- Autenticação: via criptografia de chave pública
+
+Como funciona: O TLS é um conjunto de protocolos em camadas
+1. Handshake Protocol: É a fase inicial onde o client e o servidor (Bob e Alice) negoceiam e establessem uma sessão segura. 
+   Durante o handshake, eles:
+        - Autenticam-se mutuamente usando certificados e chaves privadas
+        - Negociam os algoritmos de cifra a usar
+        - Criam ou trocam um segredo partilhado (Master Secret)
+
+2. Protocolo de Registo: É responsável por empacotar e proteger os dados da aplicação. Ele fragmenta os dados em "registos", aplica a
+                         encriptação e adiciona o MAC para integridade antes de os passar ao TCP. 
+
+3. Outros Protocolos: Incluem o Change Cipher Spec (Para mudar para a nova encriptação negociada) e o Protocolo de Alerta (para
+                      reportar erros).
+
+
+# Conceitos de TLS 
+Sessão - Associação entre cliente e servidor. 
+         Criada pelo protocolo TLS Handshake
+         Define um conjunto de parametros de segurança criptografia a serem usados pelas conexões
+
+Conexão - Canal de transporte temporário entre entidades 
+          Cada conexão está associada a uma sessão 
+    
+
+# Handshake 
+RTT - Round Trip Time (Tempo de Ida e Volta)
+1 RTT é o tempo que demora um pacote a ir do cliente ao servidor e a resposta a voltar ao cliente. 
+
+# TLS 1.2 (2 RTT)
+1.Handshake:
+    O processo é mais demorado porque o cliente e o servidor "perdem" tempo a apresentarem-se e a trocarem chaves.
+    Primeiro RTT: 
+    - Cliente: "Hello, quero falar de forma segura"
+    - Servidor: "Hello, vamos usar estas definições"
+    Segundo RTT:
+    - Cliente: "Ok, aqui está a minha parte da chave (key Exchange)
+    - Servidor: "Recebido, aqui está a minha. Agora estamos seguros"
+
+    Só agora o Cliwnte pode pedir a página web.
+
+2. Cifras Suportadas:
+    No TLS 1.2 a filosofia era suportar o máximo de algoritmos possivel para garantir compatibilidade, o que trazia vulnerabilidades:
+    - Suporta uma vasta gama de algortimos que hoje em dia são fracos ou inseguros, como RC4, MD5 e DES.
+    - Permte Negociar o método de troca de chaves separadamente do algoritmo de encriptação.
+    - Usa cifras de bloco em modos como CBC, que são vulneraveis e antigas.
+
+3. Algoritmos de Troca de Chaves e Forward Secrecy  
+    A troca de chaves era flexível:
+    - Permitia usar a chave pública RSA do certificado do servidor para cifrar o segresso da sessão (Pre-Master Secret) e enviá-lo
+    - Forward Secrecy era OPCIONAL, o uso de chaves efémeras (que protegem o passado) era possivel, mas não era obrigatório. 
+    - A troca de chaves era negociada separadamente da cifra permitindo combinações inseguras.
+
+4. Vulnerabilidades/ Melhorias de segurança
+    O principal problema do TLS 1.2 era a sua flexibildade excessiva que permitia ataques: 
+    - Ataques de Downgrade: Como o TLS suportava cifras antigas, um Man-in-the-Middle pode intercetar o handshake e enganar o cliente
+                            e o servidor, fazendo-os acreditar que o outro lado apenas suposta protocolos fracos.
+    - Falta de Privacidade no Handshake: Informações sensíveis como SNI (Server Name Indication), são enviadas em plaintext.
+               
+
+# TLS 1.3 (1 RTT)
+1.Handshake:
+    O protocolo assume que vai conseguir negociar e envia logo a chave na primeira mensagem.
+    Primeiro RTT: 
+    - Cliente: " Hello! Eu suporto estes algoritmos e, adivinhando que vais escolher este aqui vai já a minha parte da chave (Key Share)
+    - Servidor: "Ótimo, adivinhaste bem! Aqui está a minha parte da chave e o 'Finished'".
+
+    Imediatamente o Cliente envia o pedido da página web (encriptado).
+
+    # TLS 1.3 - Retoma de Sessão (0-RTT)
+    1.Handshake:
+    No TLS 1.3 tem ainda mais um modo especial chamado Zero Round Trip Time (0-RTT). Isto acontece quando já visitaste o site antes e
+    guardaste um "bilhete" (PSK: Pre-Shared Key).
+    - Cliente: "Hello, lembra-se de mim? Aqui está o bilhete (PSK) e aqui está o pedido de dados já encriptado. 
+    - Servidor: "Lembro-me. Aqui está a resposta (página web)
+
+    Nota: O modo 0-RTT é muito mais rápido, mas é vulnerável a Replay Attacks, porque a primeira mensagem pode ser intercetada e re-enviada
+    por um atacante para fazer o servidor processar o pedido duas vezes (ex: enviar dinheiro duas vezes).
+
+2. Cifras Suportadas:
+    O TLS 1.3 removeu drasticamente o suporte a algoritmos antigos, principalmente aqueles que eram inseguros:
+    - Suporta cifras modernas do tipo AEAD. Estas cifras garantem Confidencialidade e integridade num único passo. 
+      Exemplos: AES-GCM, ChaCha20-Poly1305.
+    - Combina a troca de chaves e a crifra num único passo lógico, evitando más configurações.
+    - Existem apenas 5 cipher suits permitidas no total, tornando a implementação mais simples e segura.
+
+3. Algoritmos de Troca de Chaves e Forward Secrecy
+    O TLS 1.3 removeu as opções inseguras para forçar a segurança:
+    - O RSA para a troca de chaves foi completamente removido. (Serve apenas para assinatura/autenticação, nunca para cifrar chaves)
+    - Só suporta Dffie-Hellman e Curvas Elipticas
+    - O Forward Secrecy é obrigatório. Todas as sessões TLS 1.3 usam obrigatoriamente chaves efémeras. Mesmo que a chave privada do
+    servidor seja roubada, as conversas passadas permanecem seguras porque as chaves de sessão foram apagadas.
+
+4. Vulnerabilidades/ Melhorias de segurança
+    O TLS 1.3 resolve estes problemas.
+    - Resistência a ataques de Downgrade, porque nao permite negociações de opções fracas, ambos servidor e cliente não podem ser
+    forçados a descer de nivel porque o nivel de cifras inseguras não existe.
+    - Redução de superficie de Ataque, ao remover algoritmos como RSA,MD5 e DES.
+    - Assinatura digital no handshake. Se algum MitM tentar alterar algo na negociação a assinatura torna-se inválida e a conexão é 
+    abortada.
+    - Introdução do ESNI (Encrypted Server Name Indication)

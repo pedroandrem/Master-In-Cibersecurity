@@ -1,0 +1,130 @@
+.item-container {
+    border-radius: 16px;  
+    height: 300px;  
+    width: 300px; 
+    padding: 16px;           
+    background-color: #dedcd9; 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.item-title {
+    position: relative;
+    margin-left: 10px;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 8px;
+    margin-bottom: -10px;
+}
+
+.item-briefDescription {
+    position: relative;
+    margin-left: 12px;
+    color: black;
+    font-size: 16px;
+}
+
+.image-wrapper {
+    width: 100%;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+
+.item-image {
+    background: rebeccapurple;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.item-price-container {
+    position: relative;
+    top: 6px;
+    height: 60px;
+    margin-left: 190px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 1.625rem;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #222;
+    border-radius: 1.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 2rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon {
+    transform: translate(-10px, 0);
+}
+
+
+button:hover .button-text {
+    color: #fff;
+}
+
+button:focus,
+button:focus-visible {
+        outline: none;
+}

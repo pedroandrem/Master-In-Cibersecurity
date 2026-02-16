@@ -1,0 +1,18 @@
+*.aux
+
+Primeiro Ano/2snd Semester/
+
+# Large files
+*.pcap
+*.zip
+*.jar
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs / temp
+*.log

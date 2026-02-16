@@ -1,0 +1,44 @@
+## Cellular Networks 4G/5G
+
+# Arquitetura e componentes
+Mobile (UE- User Equipment): O telemovel + Cartão SIM. O sim contém a chave secreta (K) e a identidade global (IMSI)
+Base Station (BS): A antena/torre onde o dispositivo se liga
+Mobility Management Entity (MME): O cerebro na Rede Visitada (onde o dispositivo está fisicamente). Gere a autenticação, mas não tem 
+                                  a chave mestra.
+Home Subscriver Service (HSS): A base de dados na rua Rede de Casa (o teu operador). É o unico que conhece a tua chava secreta.
+
+# Processo de autenticação do 4G LTE 
+1. Attach: 
+    O telemovel envia o seu IMSI para a rede.
+    Nota: No 4G este envio é muitas vezes em plaintext = Vulnerabilidade 
+
+2. Auth Request: 
+    O MME pede ao HS dados para autenticar este utilizador 
+
+3. Challenge: 
+    O HSS gera um "Vetor de Autenticação" com um número aleatório e um Token de Autenticação. Envia isto para o MME, que repassa para 
+    o telemovel.
+
+4. Verificação do Telemovel: 
+    O telemovel usa a sua chave secreta do SIM para validar o Token. Se bater certo, ele sabe que a rede é legítima. 
+    (evitando torres falsas)
+
+5. Resposta: 
+    O telemovel calcula uma resposta e envia à rede. Se o MME confirmar que é igual ao esperado, o telemovel é autenticado.
+
+6. Chaves de sessão: 
+    Ambos derivam uma chave temporária para encriptar os dados (AES) na interface aérea.
+
+
+# 4G LTE vs 5G 
+Identidade do Utilizador:
+    4G - IMSI é enviado em plaintext. Permite IMSI catchers para ratrear as pessoas.
+    5G - SUPI (Subscriptiojn Permanent Identifier) É cifrado com a chave pública da rede antes de ser enviado. 
+
+Controlo de Autenticação:
+    4G - O MME (Rede visitada) toma a decisão final
+    5G - A Rede de Casa (Operadora) tem mais controlo e centralização na decisão 
+
+Hierarquia de chaves: 
+    4G - Usa uma chave raiz simples 
+    5G - Hierarquia de chaves mais granular e complexa para melhor isolamento. 

@@ -1,0 +1,98 @@
+## Routint Security 
+
+# Interdomain Routing - BGP
+
+Border Gateway Protocol (BGP)
+É o protocolo de encaminhamento inter-dominio padrão da internet.
+Permite que diferentes Sistemas Autonomos (ASes) troquem informações sobre quais redes IP conseguem alcançar, decidindo o melhor caminho
+para o tráfego global.
+
+Funcionomanto: É um protocolo Path-Vector que toma decisões baseadas em políticas e no caminho do AS (AS Path).
+Problema: Foi desenhado com confiança absoluta. Assume que todos os routers dizem a verdade, o que torna inerentemente inseguro.
+
+# BGP Security Concerns
+- É um modelo baseado na confiança, poressupõe que todos se comportam corretamente e não propagam informações de roteamento incorretas.
+- As atualizações não são autenticadas, permitindo que invasores falsifiquem mensagens BGP legítimas.
+- Erros ou alterações maliciosas em um AS (Sistema autonomo) podem se propagar globalmente, afetando a conectividade.
+- Não verifica a propriedade dos prefixos IP anunciados, permitindo aos atacantes Hijacking prefixes e leak routes. 
+- As sessões BGP entre routers são vulneráveis a interceptação e manipulação. (Por exemplo, TCP session Hijacking e reset attacks).
+
+# Ataques
+
+1. Prefix Hijacking: 
+    Os atacantes anunciam prefixos IP que não lhes pertencem, redirecionando o trafego destinado a redes legitimas para o seu prórprio AS.
+    Pode levar a interceção ou modificação de tráfego legitimo.
+
+    Mitigation: 
+    - Infraestrutura de Chave Publica de Recursos (RPKI): Valida o AS de origem de uma rota associando prefixos IP a ASes. 
+    - Route Filtering: Os ISPS podem configurar filtros de prefixo para garantir que apenas rotas válidas sejam propagadas.
+    - BGP monitoring tools: Usar tools para detetar anomalias em prefixos.
+
+2. BGP Session Hijacking:
+    O atacante da Hijacking a uma sessão BGP comprometendo a sessão TCP subjacente.
+    O atacante pode inserir, modificar ou excluir routing updates 
+    Injetando pacotes TCP falsificados ou dando exploit numa fraca autenticação de sessao. 
+
+    Mitigation:
+    - TCP-AO: Para integridade/autenticidade das ligações TCP 
+    - Restringir o acesso à porta 179 usando ACLs 
+    - Usar portas TCP aleatórias e números de sequência para tornar o hijacking mais dificil 
+    - Usar IPSec para encriptar e autenticar sessões BGP 
+
+# BGP Security Support Tech 
+
+1. RPKI (Resource Public Key Infrastructure):
+    Valida a origem. Garante que o AS tem autorização para anunciar o IP. 
+    Limitações: Não valida o caminho. Um atacante pode dizer "O IP é do dono legítimo, mas o caminho passa por mim" e o RPKI não deteta.
+
+2. BGPsec (BGP Security Extension) 
+    Valida o caminho (AS Path). Cada router no caminho assina digitalmente a atualização BGP. 
+    Vantagem: Cria uma cadeia de confiança completa. Garante que ninguém alterou caminho ou se inseriu indevidamente.
+    Desvantagem: É pesado computacionalmente e requer que todos os ASes no caminho o suportem. 
+
+
+# Intradomain Routing - IGPs
+
+Enquanto que o BGP liga internet toda, o Intradomain Routing trata do encaminhamento de pacoted dentro de um único Sistema Autonomo (AS)
+ex: Dentro da rede da universidade ou empresa
+
+Interior Gateway Protocols (IGPs): São protocolos usados para isto. O objetivo é manter a tabela de rotas estável e atualizada.
+
+Protocolos principais:
+    - Open Shortest Path First (OSPS): O mais comum em empresas. É link-state (cada router conhece o mapa todo da rede).
+    - Intermediate System to Intermediate System (IS-IS): Muito usado em backbones de ISPs.
+    - Enhanced Interior Gateway Routing Protocol (EIGRP): Cisco-proprietary hybrid routing protocol 
+    - Routing Information Protocol (RIP): Antigo e simples, para pequenas redes.
+
+Assim como o BGP os IGPs foram desenhados para serem confiáveis, não seguros. O sistema assume que todos os routers dentro do AS são
+"amigos" e controlados pela mesma equipa. Se um atacante comprometer um router ou ligar um portátil malicioso à rede, pode destruir o 
+encaminhamento interno.
+
+# Vulnerabilidades e ataques
+1. Falta de confidencialidade - Sniffing 
+    Por omissão OSPF e IS-IS não encriptam os updates. Um atacante na rede pore "escutar" os pacotes e desenhar o mapa completo da
+    topologia da rede. 
+
+    Mitigation:
+    - Encriptar o tráfego de roteamento entre routers usando IPsec. 
+
+2. Replay Attacks: 
+    O atacante grava um pacote de rota válido (mas antigo) e reenvia-o mais tarde para confundir a rede, causar loops ou instabilidade.
+
+    Mitigation:
+    - Usar Sequence Numbers e TTL. Assim os routers ignoram pacotes que tenham números antigos ou prazos expirados. 
+    - Usar autenticação criptográfica
+
+3. Spoofing e LSA injection (O Ataque Principal):
+    O atacante injeta LSAs (Link State Advertisements) falsos.
+    Imaginando que um atacante compromete o router 2 (R2).
+    Ele cria um LSA falso a dizer "Eu sou o melhor caminho para a rede X".
+    Os outros routers (R1, R3) acreditam e enviam o tráfego todo para R2. 
+
+    Consequências: 
+        - Blackholing: O atacante descarta o tráfego. 
+        - Eavesdropping: O atacante lê o tráfego e reencaminha-O
+    
+    Mitigation:
+    - Autenticação: Configuar HMAC-SHA256 nos routers para autenticar LSAs. Assim só aceitam updates de rota que tenham assinatura digital 
+    correta.

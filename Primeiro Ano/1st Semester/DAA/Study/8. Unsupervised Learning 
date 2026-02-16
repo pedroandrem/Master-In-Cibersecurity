@@ -1,0 +1,39 @@
+## UnSupervised Learning
+Até agora, tinha sempre um dataset com "perguntas"(X) e "respostas"(Y). O modelo aprendia a prever o Y. Isso era Supervisionado.
+Na aprendizagem não supervisionada:
+- Não tem colunas Y (Target/Label)
+- Objetivo: O computador tem de olhar para os dados e encontrar padrões, estruturas ou grupos sozinho, sem ajuda humana.
+
+Processos:
+- Dimensianality Reduction: Procesos de reduzir o numero de input features num dataset.
+- Anomaly Detection: Processo de detetar objetos muito diferentes dos normais.
+- Clustering: Processo de agrupar dados de forma que os objetos no mesmo cluster(grupo) sejam muito parecidos etre si e diferentes dos 
+outro grupos.
+
+# Clustering Algorithms
+K-means;
+DBSCAN;
+Hieararchical Clustering.
+
+# Clustering 
+Processo de agrupar dados de forma que os objetos no mesmo cluster sejam muito parecidos entre si e diferentes dos outros grupos.
+
+K-means: Algoritmo baseado conceito centroid. Centroid é o centro geométrico de um cluster.
+
+Como funciona:
+1. Escolhes um numeero de grupos(K). Exemplo K=3
+2. O computador coloca 3 pontos aleatórios no grafico. (Chamados Centroides)
+3. Cada ponto de dados junta-se ao Centroide mais próximo.
+4. Os Centroides movem-se para o centro(média) do seu novo grupo.
+5. Repete-se o processo até os Centroides pararem de se mexer.
+
+Nota: O K-means precisa que se defina o número de grupos(K) antes de começar. 
+      É sensivel à inicialização aleatória. (Se os Centroides começarem em sitios maus ele pode te rum mau resultado).
+
+DBSCAN: 
+O problema do K-Means é que só funciona com grupos redondos(esféricos), se tiver um grupo em forma de lua por exemplo, ele falha.
+Solução: DBSCAN, porque agrupa por densidade. 
+- Junta os pontos que estão muito apertados uns com os outros.
+- Pontos isolados (longe de todos) são marcados como Ruido. Ou seja os Outliers são identificados como Ruido.
+
+Nota: É o unico algoritmo que consegue dizer "isto não pertence a grupo nenhum". 

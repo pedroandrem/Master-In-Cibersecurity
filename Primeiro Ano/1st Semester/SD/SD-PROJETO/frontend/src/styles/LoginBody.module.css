@@ -1,0 +1,138 @@
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 98%;
+  height: 95%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  padding: 0;
+  border-radius: 8px;
+  border-radius: 4.5em;
+  background: url('../assets/img/img.png') no-repeat center;
+  background-size: cover;
+}
+
+.middle-container {
+  position: absolute;
+  top: 0;           
+  left: 50%;         
+  height: 100%;       
+  width: 35%;      
+  transform: translate(-50%, 0);
+  
+
+  backdrop-filter: blur(0px) saturate(180%);
+  -webkit-backdrop-filter: blur(0px) saturate(180%);
+  background-color: rgba(255, 255, 255, 1);
+
+  transition: all 0.5s linear;
+  border-radius: 50px;
+}
+
+.middle-container h2 {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 50%);
+  margin-bottom: -10px;
+  text-align: center;
+  color: black;
+  font-size: 2.5em;
+}
+
+.middle-container p {
+  position: absolute;
+  top: 480px;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 50%);
+  margin-bottom: -10px;
+  text-align: center;
+  color: black;
+  font-size: 1em;
+}
+
+.form-group:nth-child(1) {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group:nth-child(2) {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.middle-container input {
+    position: absolute;
+    top: 0;
+    display: block;
+    background: white;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 1rem;
+    height: 40px;
+    letter-spacing: 0.7px;
+    font-style: italic;
+    width: 100%;
+    height: 60px;
+    color: black;
+    text-indent: 1.0em;
+}
+
+.middle-container input::placeholder {
+    color: black;
+    font-style: italic;
+}
+
+.middle-container button.login-bttn {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    align-items: center;
+    justify-content: center;
+    text-indent: 1.0em;
+    display: flex;
+    width: 52%;
+    height: 60px;
+    background-color: #030bf9;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: 0.7px;
+    font-style: italic;
+    cursor: pointer;
+    padding: 0 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.middle-container button:hover {
+    background-color: #4dab06;
+}
+
+.middle-container p.signup-container {
+  top: 85%;
+}

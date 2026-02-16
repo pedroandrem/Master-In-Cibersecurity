@@ -1,0 +1,74 @@
+Aprendizagem Supervisionada - Supervised Learning:
+Definição: Dados de treino têm labels. Tens o input (x) e sabes exatamente
+o resultado esperado (y).
+O algoritmo tenta aprender uma função f tal que y = f(x), 
+minimizando o erro entre a sua previsão e o valor real.
+
+Normalmente são divididos em duas categorias:
+ Classificação - Quando os resultados são discretos (preto,branco,cinza)
+ Regressão - Quando os resultados são continuos (preço, temperatura, idade)
+
+
+Aprendizagem Não Supervisionada - UnSupervised Learning:
+Definição: Não têm labels. Tens o input (x), mas não sabes o resultado
+ (y). É "aprender às cegas".
+ Descobrir a estrutura oculta ou a distribuição dos dados.
+ O sistema tem de descobrir padrões por si próprio.
+
+Clustering (Segmentação) - Quando se quer organizar os dados em grupos
+ coerentes.
+Reduction (Redução) - Simplificar dados complexos mantendo a 
+informação essencial.
+Associação - Quando se pretende conhecer regras que associem o
+comportamento demonstrado pelos dados.
+
+
+Aprendizagem por Reforço - Reinforcement Learning 
+Definição: Não há dados estáticos iniciais (nem x, nem y fixos).
+Há Estados, Ações e Recompensas.
+Ciclo de Input - Feedback - Change - Learning - Input ... 
+Um agente aprende a tomar sequências de decisões num ambiente para 
+maximizar a recompensa acumulada ao longo do tempo.
+
+Capacidade Crítica sobre os resultados obtidos pelo algoritmo:
+Q-Learning - Qualidade Máxima (Procura sempre o max ignorando o risco).
+ Tipo: Of-Policy
+ Como funciona: O agente aprende o valor da politica ótima, independentemente
+                da ação que ele vai tomar a seguir na prática. Ele ignora o facto de
+                estar a explorar.
+ Lógica: Eu vou analisar o meu conhecimento assumindo que, no próximo 
+         passo, eu faria a melhor jogada possivel, mesmo que na realidade eu vá
+         fazer uma jogada aleatória.
+         Assume que está a seguir uma política ótima e usa-a para 
+         atualização dos valores das ações.
+ Comportamento: Ótimo/Arriscado. 
+               Anda na ponta do precipicio porque é o caminho mais 
+               rápido. (Assume o caminho perfeito).
+
+ Convergência: Aprende uma política ótima diretamente.
+
+SARSA - Seguro (Considera o risco da exploração).
+ Tipo: On-Policy
+ Como Funciona: O agente aprende o valor da politica que está efetivamente
+                a seguir , incluindo as suas ações exploratórias.
+ Lógica: Eu vou atualizar o meu conhecimento baseando-me no que eu realmente
+         fiz e no que vou fazer a seguir.
+ Comportamento: Seguro.
+                Afasta-se do precipicio porque sabe que, se explorar, 
+                pode cair.
+ Convergência: Aprende uma política sub-ótima enquanto explora.
+
+
+Classificação de casos:
+1 - Classificação de Imagens -> Ap. Supervisionada, Classificação
+2 - Diagonóstico -> Ap. Supervisionada, Classificação
+3 - Aquisição de aptidões-> Aprendizagem por Reforço
+4 - Decisões em tempo real->  Aprendizagem por Reforço
+5 - Jogos com IA->  Aprendizagem por Reforço
+6 - Previsão de mercados-> Ap. Supervisionada, Regressão
+7 - Esperança média de vida -> Ap. Supervisionada, Regressão
+8 - Compreensão de Significados -> Ap. Não Supervisionada, Redução
+9 - Seleção de atributos -> Ap. Não Supervisionada, Redução
+10 - Marketing -> Ap. Não Supervisionada, Segmentação
+
+

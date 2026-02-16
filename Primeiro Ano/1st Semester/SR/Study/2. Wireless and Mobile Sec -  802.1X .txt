@@ -1,0 +1,78 @@
+## Link Layer Security 
+
+# Ataques e mitigações
+1. MAC Spoofing: 
+    O atacante altera o endereço MAC do seu dispositivo para se passar por um dispositivo legítimo na rede.
+
+    Mitigação:
+    - Inspeção ARP dinâmica: valida pacotes ARP na rede e ajuda a prevenir falsificações de MAC. 
+    - MACsec: criptografa e autentica quadros Ethernet, fornecendo uma camada robusta de proteção contra a MAC Spoofing
+
+2. ARP Spoofing/ARP poisining:
+    Usado para interceptar tráfego na LAN. O atacante envia mensagens ARP maliciosas para associar o seu endereço MAC ao endereço 
+    IP de outro dispositivo para interceptar o tráfego destinado ao dispositivo visado.
+
+    Mitigation:
+    - Entradas ARP estáticas. Resolvem, mas são dificeis de gerir em grandes networks.
+    - Dynamic ARP Inspection (DAI): valida pacotes ARP na rede.
+    - Segmentação de LAN 
+    - Ferramentas de monitoramento/detecção 
+
+# Port Security Mechanisms:
+Essenciais para garantir que apenas dispositivos autorizados possam se conectar a LANs/WLANs.
+    - MAC adress filtering: 
+        O administrador da rede define uma lista de endereços MAC permitidos
+        Útil em redes pequenas, dificil de escalar.
+    - Limitação do numero de endereços MAC por porta:
+        Encerramento da porta ou bloqueio de novos endereços se o limite for excedido
+    - MACsec (IEEE 802.1AE)
+        Fornece criptografia e autenticação frame-by-frame
+        Fornece uma camada robusta de confidencialidade e integridade de dados em LANs Ethernet 
+        Frequentemente implantado entre componentes críticos de rede e dispositivos finais em abientes sensiveis e de alta segurança.
+    - Autenticação IEEE 802.1X (com RADIUS)
+
+
+# Autenticação IEE 802.1X 
+O IEEE 802.1X é um protocolo standard para controlo de acesso à Rede (Network Access Control)
+
+Objetivo: Garantir que apenas utilizadores e dispositivos autenticados conseguem aceder à LAN ou WLAN. 
+
+Funciona como um "porteiro" ao nível da porta fisica (switch) ou virtual (Access Point). Antes da autenticação, a porta está bloqueada
+para tudo exceto tráfego de controlo. 
+
+Componentos Principais: 
+    - Supplicant (Cliente): É o dispositivo que quer entrar na rede. (ex: portátil, telemovel)
+    - Authenticator (O porteiro): É o dispositivo de rede intermediário (Switch ou Access Point)
+    - Authentication Server (O cérebro): É o servidor que valida as credenciais (Geralmente um servidor RADIUS).
+
+Como funciona o processo: 
+    1. O Supplicant pede acesso ao Authenticator (via EAP - Exetnsible Authentication Protocol)
+    2. O Authenticator encaminha o pedido para o Authentication Server (Usando RADIUS)
+    3. O servidor valida as credenciais e diz ao Authenticator: Aceita ou Rejeita
+    4. Se for aceite, o Authenticator abre a porta e deixa passar o tráfego normal 
+
+Métodos do 802.1X EAP:
+    - Lightweight EAP (LEAP): Antigo e altamente inseguro. O cliente envia credenciais de forma vulneravel 
+    - Protected EAP (PEAP): 
+        Muito Usado (ex: eduram)
+        Cria um túnel TLS encriptado para proteger a troca de password lá dentro.
+    - EAP-TLS (O Standard):
+        Usa autenticação mútua baseada em certificados digitais.
+        Requer certificado no Servidor e no CLiente 
+        Não usa passwords. É o mais seguro, mas mais complexo de gerir. 
+
+
+Resumo:
+O 802.1X previne user não autorizados de aceder à rede e fornece uma camada adicional no controlo, particularmente valiosa para gerir
+acesso em grandes redes.
+EAP suporta varios métodos, os administradores podem selecionar o método que melhor balanceia a segurança e as capacidades que têm.
+O 802.1X normalmente depende de servidores RADIUS, que também oferecem recursos de contabilidade e auditoria para rastrear e analisar 
+padrões de acesso e ameaças à segurança. 
+
+Apesar de robusto, o 802.1X tem falhas se for mal implementado:
+    Ataque "Evil Twin":
+        O atacante cria um Access Point falso. Se o cliente não validar o certificado do servidor (ou usar métodos fracos sem autenticação
+        mutua), pode entregar as credenciais ao atacante.
+
+        Mitigation:
+        - Usar EAP-TLS, garante que o cliente também verifica se o servidor é legitimo. 

@@ -1,0 +1,10 @@
+.notification-container {
+  position: absolute;
+  top: 2.5%;
+  left: 1%;
+  right: 1%;      /* cleaner than width */
+  height: 120%;
+  background: white;
+  border-radius: 90px;
+  overflow: hidden;
+}

@@ -1,0 +1,72 @@
+## Linear & Logistic Regression 
+
+## Modelos Lineares 
+São caracterizados pela simplicidade de calculo e análise.
+Usados para classificação (separação entre classes) e regressão.
+
+## Regressão Linear 
+Tem como alvo prever o valor de um outcome, Y, baseando-se no valor de 
+uma variavel preditora, X.
+
+Objetivo: Prever um número exato (Valor Continuo)
+Pergunta: Quanto? (Ex: Quanto vai custar esta casa? 
+                       Qual será a temperatura amanhã?)
+Como Funciona: O algoritmo tenta desenhar uma linha reta (a "linha de 
+               melhor ajuste") que passa o mais perto possível de todos
+               os pontos de dados.
+Matemática: Tenta encontrar a equação da reta y= b0 + b1 * x , 
+            onde b0 é o valor base e b1 é o peso ou importância 
+            da variavel x.
+            Exemplo: Prevrer o preço de uma casa 
+            b0 é 50000€ valor base para 0 metros quadrados
+            x = 0.
+            b1 é 2000€, ou seja, por cada metro quadrado extra, o preço
+            aumenta 2000€. 
+Métrica a avaliar: MSE (Mean squared Error), MAE ou RMSE. 
+                   Nunca usar Accuracy ou Matriz de Confusão.
+
+MAE(Abs Error) é a mais facil de percbeer porque é o erro comum.
+MSE é mais popular porque "castiga" grandes erros.
+RMSE(Root Mean Squared Error)é ainda mais popular porque é 
+interpretavel em unidades da variavel alvo.
+
+## Regressão Logistica
+
+Objetivo: Prever uma Classe ou Categoria (Valor Discreto)
+Pergunta: Sim ou Não? (Ex: O cliente vai comprar? 
+                           O tumor é maligno?)
+Rasteira: Chama-se "Regressão" porque calcula uma probabilidade, (entre
+          0 e 1). Mas o uso final é para classificação.
+Como Funciona: Em vez de uma linha reta, desenha uma curva em forma de "S"
+               (chamada de função Sigmoide). Esta curva esmaga qualquer
+               valor para ficar preso entre 0 e 1.
+Matemática: Tenta encontrar a equação da reta y= b0 + b1 * x , 
+            onde b0 é o valor base e b1 é o peso ou importância 
+            da variavel x.
+            Exemplo: Prevrer o preço de uma casa 
+            b0 é 50000€ valor base para 0 metros quadrados
+            x = 0.
+            b1 é 2000€, ou seja, por cada metro quadrado extra, o preço
+            aumenta 2000€. 
+A Decisção: Se a probabilidade for <0.5 -> Classifica com 0 (Não).
+            Se a probabilidade for >0.5 -> Classifica com 1 (Sim).
+Métrica a avaliar: Accuracy, Precision, Recall, F1-Score ou Matriz de Confusão
+
+# Como descobrir qual preciso de usar? 
+- Se o y (target) for "Preço", usas Linear. 
+- Se o y (target) for "Comprou/Não Comprou?", usas Logistic.
+
+
+# Soluções para overfitting
+Reduzir o número de atributos (coeficientes) usados.
+Selecionar atributos manualmente com conhecimento do problema.
+
+Regularização - Manter todos os atributos, mas reduzir a magnitude
+                 dos valores dos parametros. É aplicada uma penalização
+                 matemática para impedir que qualquer uma delas tenha um
+                 peso excessivo e domine a decisão erradamente.
+Linear Regression - O objetivo é diminuir a mean squared error.
+                    Não aplica qualquer regularização e pode sofrer de
+                    overfitting.
+Lasso Regression - É uma variação da linear regression que adiciona, 
+                   L1 regularization ao problema de otimização.

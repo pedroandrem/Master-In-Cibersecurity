@@ -1,0 +1,59 @@
+## Metadologias - Data Science Pipeline
+
+### Motivos para usar uma metadologia: 
+- Permite que os projetos sejam replicados
+- Apoia no planeamento e gestão do projetos
+- Incentiva as melhores práticas e ajuda a obter melhores resultados
+
+### Exemplos de metadologias: 
+-> SEMMA: Ciclo
+Sample - Explore - Modify - Model - Assess - Sample ...
+
+Sample: Juntar uma amostra representativa de dados.
+Explore: Exploração e análise de dados.
+Modify: Feature Engineering e Transformação
+Model: Conceção do Modelo
+Assess: Avaliação do Modelo 
+
+
+-> CRISP-DM
+Cross Industry Standard Process for Data Mining ( CRISP-DM )
+Ciclo:
+
+Business Understanding <-> Data Understanding
+    ^                             |
+    |                       Data Preparation <-> Modeling
+    |                                               |
+    ------------------------------------------- Evaluation
+                                                    |
+                                                Deployment
+
+
+
+
+### Fluxo de um processos de Aprendizagem Automática
+
+Conceitos: 
+Trainning Set - 70-80% dos dados. É onde o modelo "estuda" e ajusta os
+seus pesos (onde se faz fit)
+Validation Set - Usado durante o treino para afinar os Hiperparametros
+e evitar overfitting.
+Test Set - É usado apenas uma vez no final. Serve para simular dados 
+nunca vistos e dar a métrica final de performance.
+
+
+Definição de Problema -> Recolha de Dados -> Preparação de Dados 
+                                ^                   |
+                                |           Divisão de Dados
+    |----------------------------                   |
+    |    Test Set, Validation Set, Trainning Set ----
+    |                   |
+    |               Trainning Model <-> Avaliação do Modelo Candidato 
+    |               (Trainning Set)     (Test Set, Validation Set)
+    |                                              |
+    |                                       Implantação do Modelo
+    |                                               |
+    |                                       Monitorização da performance
+    |                                               |
+    -------------------------------------------------
+                    (Interação)

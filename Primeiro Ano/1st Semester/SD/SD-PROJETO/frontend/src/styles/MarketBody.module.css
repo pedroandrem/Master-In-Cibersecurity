@@ -1,0 +1,80 @@
+.market-container {
+    position: absolute;
+    top: 2.5%;
+    left: 1%;
+    width: 98%;
+    height: 4100px;
+    background: linear-gradient(0deg, #cccbcb 81.5%, white 81.5%, white 93%, #38c498 93%);
+    border-radius: 90px;
+}
+
+.search-title {
+    position: relative;
+    margin-top: 150px;
+    left: 210px;
+    color: black;
+}
+
+.big-deals-title {
+    position: relative;
+    margin-top: 100px;
+    left: 210px;
+    color: black;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-button {
+    font-size: 24px;
+    margin: 0 10px;
+    padding: 0 12px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+    background: #85ffe5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-button:hover {
+    border-color: black;
+}
+
+.arrow-button:focus,
+.arrow-button:focus-visible {
+    outline: none;
+}
+
+.arrow-button:first-child {
+    margin-left: 150px;
+}
+
+.arrow-button:last-child {
+    margin-right: 150px;
+}
+
+.arrow-button:disabled {
+  visibility: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex: 1;
+}
+
+.other-offers-title {
+    position: relative;
+    margin-top: 50px;
+    left: 210px;
+    color: black;
+}

@@ -1,0 +1,49 @@
+- name: Deploy Postgres Master Service
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'postgres-master-service.yaml') }}"
+
+- name: Deploy Postgres Master StatefulSet
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'postgres-master-statefulset.yaml') }}"
+
+- name: Wait for Master Pod to exist
+  kubernetes.core.k8s_info:
+    kind: Pod
+    name: postgres-master-0
+    namespace: default
+  register: master_pod
+  until: master_pod.resources | length > 0
+  retries: 10
+  delay: 5
+
+- name: Wait for Master readiness
+  command: kubectl wait --for=condition=ready pod/postgres-master-0 -n default --timeout=120s
+  changed_when: false
+
+- name: Deploy Postgres Slave Service
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'postgres-slave-service.yaml') }}"
+
+- name: Deploy Postgres Slave StatefulSet
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'postgres-slave-statefulset.yaml') }}"
+
+- name: Deploy Slave HPA
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'postgres-slave-hpa.yaml') }}"
+
+- name: Deploy Pgpool Service
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'pgpool-service.yaml') }}"
+
+- name: Deploy Pgpool Deployment
+  kubernetes.core.k8s:
+    state: present
+    definition: "{{ lookup('template', 'pgpool-deployment.yaml') }}"
+    wait: true

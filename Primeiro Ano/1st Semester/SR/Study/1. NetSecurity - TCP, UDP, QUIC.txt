@@ -1,0 +1,105 @@
+## Security at Transport Layer
+
+# TCP Handshake ou Three-way Handshake 
+Processo para establecer uma conexão fiavel antes de quaisquer dados serem trocados. SYN (Synchronize), ACK (Acknowledge)
+1. Cliente A: "Estás a ouvir-me?" (SYN)
+2. Cliente B: "Sim ouço-te. E tu ouves-me?" (SYN-ACK)
+3. Cliente A: "Sim ouço. Vou começar a falar" (ACK)
+
+
+# Transport Layer Attacks and Mitigation 
+
+**TCP**
+1. TCP Syn Flood (DDoS Attack): 
+    Os atacantes exploram o three-way handshake do TCP enviando um grande número de pedidos SYN para um servidor alvo sem concluir
+    o handshake, consumindo recursos do servidor e causando DDoS.
+
+    Mitigation: 
+    - Syn Cookies: O servidor codifica as informações de conexão no campo de cabeçalho do SYN-ACK TCP. Se o cliente concluir o
+    handshaking (com ACK) e o cookie recebido for verificado, os recursos são alocados para a conexão.
+
+2. TCP Reset Attack: 
+    Os atacantes injetam pacotes TCP RST (reset) falsificados para encerrar à força uma sessão TCP entre duas partes, se conseguirem 
+    adivinhar ou interceptar os números de sequências atuais.
+
+    Mitigation: 
+    - Usar randomização de números de sequência para tornar os números de sequência mais imprevisíveis.
+    - TCP RST Limiting
+
+3. TCP Session Hijacking:
+    Um atacante intercepta e assume o controlo de uma sessão TCP ativa adivinhando números de sequência e injeta dados maliciosos na
+    sessão. Se o TLS estiver em uso a injeção de dados maliciosos será detetada e não chegará a app.
+    
+    Mitigation: 
+    - Usar TLS para encriptar e autenticar o tráfego da sessão, o que impede que um invasor modifique ou injete dados numa sessão ativa
+    - Randomização do Numero de Sequencia Inicial (ISN)
+    - Garantir uma gestao de sessão atraves de:
+        - TCP-AO: Autentica criptograficamente segmentos TCP usando MAC
+        - IPSec (Transport Mode): Fornece criptografia e proteção de integridade 
+        - Firewalls, IDS/IPS podem monitorizar e proteger o estado da sessão TCP 
+
+**UDP**
+1. UDP Flood(DoS/DDoS Ataque):
+    Os atacantes inundam o alvo com grandes volumes de pacotes UDP, sobrecarregando a rede ou o servidor levando ao esgotamento de
+    recursos. 
+
+    Mitigação:
+    - Rate Limiting: implementar limites no tráfego de UDP de entrada
+    - Serviços de proteção contra DDoS como: soluções baseadas em nuvem (Cloudflare, AWS Shield) 
+
+2. UDP Amplification: 
+    Os atacantes exploram serviços baseados em UDP (como DNS ou NTP) que respondem a pequenas consultas com respostas grandes.
+    Ao enviar pedidos falsificados com o endereço de IP do alvo, o atacante amplifica o tráfego do ataque sobrecarregando o alvo com
+    respostas a consultas que ele não fez.
+
+    Mitigation:
+    - Configurar os serviços UDP para evitar amplificação, usando o DNS Response Rate Limiting (DNS RRL). O RRL deteta padrões nas consultas
+    recebidas e quando encontra um padrão que sugere abuso, pode reduzir a taxa na qual as respostas são enviadas. 
+
+3. UDP and TCP Port Scanning:
+    Slow Port Scanning - Fazer o Port Scanning ao longo de várias horas e dias, sendo mais dificil de detetar.
+
+    Mitigation: 
+    - Usar uma firewall para bloquear portas desnecessárias ou não utilizadas. 
+    - Ativar o IDS/IPS para detetar e bloquear atividades suspeitas de port scanning.
+
+**QUIC** 
+1. Amplification Attacks: 
+    Um atacante pode enviar pequenos pacotes iniciais com endereços de origem falsificados (alegando ser a vítima) para um servidor QUIC que então 
+    responde com pacotes de handshake maiores. 
+
+    Mitigation: 
+    - Implementar mecanismos robustos de validação de endereços, reinicializações sem estado, limitação de taxa.
+
+2. Reflection Attacks: 
+    Tal como os ataques de amplificação, os ataques de reflexão envolvem o envio de pedidos para um servidor com um endereço IP de origem falsificado (o da vítima).
+    O servidor reflete então a sua resposta de volta para a vítima, sobrecarregando-a com tráfego.
+
+    Mitigation: 
+    - Os servidores QUIC devem garantir a validação adquada do endereço do cliente, limitar a taxa de respostas grandes e implementar packetretry tokens durante o 
+    handshake para evitar reflexão. 
+
+Nota: Se o QUIC for bem configurado e regularmente atualizado, os ricos de ataque são muito baicos comparando a outros protocolos como TCP ou TLS 1.2
+
+
+## QUIC 
+É um protocolo de transporte multiplexado e seguro, baseado em UDP.
+Objetivo: É superar as limitações do TCP (single stream, unsecure and slow handshaking)
+Funciona sobre UDP para flexibilidade e controlo do user space.
+Caracteristicas principais:
+    - Handshaking seguro
+    - Controlo de fluxo
+    - Controlo de congestionamento 
+    - Controlo de erros
+    - Entrega fiável
+    - 0-RTT 
+    - Stream-based 
+    - Multiple stream per connection 
+
+Security Features
+- Resistência a replay attacks
+- Ofuscação das Caracteristicas do tráfego
+- Privacidade melhorada 
+- DoS protection 
+- Resistencia à vigilância e censura dea rede 
+

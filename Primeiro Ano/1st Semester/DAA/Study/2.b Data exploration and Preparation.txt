@@ -1,0 +1,152 @@
+## Data Exploration and Preparation
+
+## Qualidade de Dados
+
+Definição de Problema -> Recolha de Dados -> Preparação de Dados 
+                                ^                   |
+                                |           Divisão de Dados
+    |----------------------------                   |
+    |    Test Set, Validation Set, Trainning Set ----
+    |                   |
+    |               Trainning Model <-> Avaliação do Modelo Candidato 
+    |               (Trainning Set)     (Test Set, Validation Set)
+    |                                              |
+    |                                       Implantação do Modelo
+    |                                               |
+    |                                       Monitorização da performance
+    |                                               |
+    -------------------------------------------------
+                    (Interação)
+
+
+
+### Recolha e Preparação de Dados: 
+Qualidade de Dados e Exploração 
+Preparação Básica de Dados
+Preparação Avançada de Dados:
+    - Feature Scaling (Escalonamento de Atributos)
+    - Deteção de Outlier
+    - Tratamento de Missing Values 
+    - Nominal Value Discretization
+    - Binning/ Discretization
+    - Feature Engineering
+
+### Data Quality
+1. Missing Values: 
+    Informação que nao está disponivel porque nao foi recolhida ou é 
+    informação sensível.
+
+Estratégia de Resolução: 
+    - Remover (Drop): Se a percentagem de falhas for muito 
+    pequena (<5% das linhas), apaga as linhas. Se uma coluna tiver 90%
+    de falhas, apaga a coluna.
+    - Imputação (Preencher): Se não podes perder dados, preencher o
+    valor: Com a Média/Mediana(Para valores numéricos); Moda (Valor 
+    mais frequente, para categóricos); Com um Valor Especial( Ex:
+    "Desconhecido" ou -1); Por interpolação (Se for uma série temporal)
+
+2. Registos Duplicados:
+    Registos Iguais (ou extremamente similares) que aparecem mais do
+    que uma vez.
+    Geralmente acontece quando se junta dados de fontes diferentes.
+
+Estratégia de Resolução:
+    - Remover Sempre.
+
+3. Ruido (Noise):
+    Dados corrompidos ou distorcidos. Não é um valor extremo real, é 
+    um erro.
+
+4. Outlier (Valores Atípicos):
+    Observações que diferem significativamente das restantes.
+
+Como detetar: 
+    - Box Plots: Usar IQR (Intervalo interquartil). Tudo o que estiver
+    a cima de Q3 + 1.5 * IQR ou abaixo de Q1 - 1.5 * IQR é outlier.;
+    - Z-Core: Valores que se afastam muito da média (ex: >3 desvios padrão).
+    - Domain knowledge (Ninguem tem um salário mensal sup a 1 milhão);
+    - Usar algoritmos como One-Class SVM ou Isolation Forests para
+    isolar anomalias.
+
+Estratégia de Resolução:    
+    - Drop (Remover): Simples, mas perdes dados e reduzes o tamanho do 
+    dataset;
+    - Cap (Limitar): Em vez de remover substituir o valor extremo pelo 
+    valor máximo "aceitavel". Mantém o registo, mas altera a distribuição
+    real dos dados.
+
+Diferença Chave: 
+    - Ruido (Noise) é um erro (ex: Idade = "abc" ou Idade = -5). Deve
+    ser corrigido ou removido.
+    - Outlier é um valor real mas raro (ex: Idade = 105). Pode ser 
+    mantido ou tratado.
+
+
+Resumo: 
+
+Problema        | Definição           | Solução 
+Missing Values  | Dado em Falta       | Imputar se a perda for grave
+Duplicate Values| Repetição de Registo| Remover
+Noise           | Erro/Corrupção      | Corrigir ou Remover
+Outlier         | Valor extremo Real  | Detetar e Decidir com Drop/Cap
+
+
+
+## Preparação de Dados - Avançada
+
+- Feature Scaling 
+- Outlier Detection 
+- Missing Values treatment
+- Nominal Value discretization 
+- Binning 
+- Feature Engineering
+
+### Feature Scaling (Escalonamento):
+    Os algoritmos nao percebem unidades. Isto é se tiver "Salário" 
+    (1000 a 5000) e "Idade" (20 a 60), o algoritmo vai achar que o 
+    salário é muito mais importante porque os números são maiores.
+
+Como Aplicar: 
+    - Normalização (Min-Max Scaling): Espreme os dados entre 0 e 1.
+    Usar quando a distribuição dos dados não é normal ou quando o 
+    algoritmo existe limites fixos (Redes neuronais, K-Nearest Neighbors)
+    Fórmula: X_norm = X - X_min / X_max - X_min
+    Intervalo: Fixo [0,1]
+    Outliers: Muito Sensivel (Mau)
+    Uso tipico: Redes Neuronais
+
+    - Padronização: Transforma os dados para terem Média = 0 e Desvio 
+    Padrão = 1.
+    Usar quando a distribuição é Gaussiana ou em algoritmos que assumem
+    isso (Regressão Linear, Regressão Logística, SVM). É menos sensivel
+    a outliers que a Normalização.
+    Fórmula: Z = X - u / σ
+    Intervalo: Sem limites (centrado em 0)
+    Outlier: Robusto (Bom)
+    Uso tipico: SVM, KNN, Regressão
+
+### Nominal Value Discretization: 
+    Os modelos só entendem números. Como metes "Cores"(Vermelho, Verde,
+    Azul) na equação ?
+
+Soluções: 
+    - Label Encoding: Vermelho = 1, Verde = 2, Azul = 3 (O modelo 
+    pode achar que existe Azul > Vermelho, por isso só se deve usar
+    se houver uma ordem lógica, como Baixo, Médio, Alto)
+    - One-Hot Encoding: Cria 3 colunas novas (É_Vermelho, É_Verde, 
+    É_Azul) com 0s e 1s.
+    Vantagem: Não cria falsas relações de ordem.
+    Desvantagem: Aumenta muito o número de colunas (dimensionalidade)
+
+### Binning (Discretização Numérica):
+    Transformar números contínuos em "caixas" (bins)
+    Exemplo: Idades 18,19,21,22 -> "Jovem Adulto"
+    Ganha robustez (o modelo ignora pequenas variações ruidosas) e
+    prevines overfitting, mas perdes informação/precisão.
+
+### Feature Engineering:
+    Criar novas features a partir das existentes para ajudar o modelo.
+    É aqui que entra a creatividade do Engenheiro de ML.
+    Exemplo: Tens uma coluna "Data". O modelo não entende datas. 
+    Tu extrais: "Dia de Semana", "É fim de semana", "É feriado", "Mês".
+    

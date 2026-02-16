@@ -1,0 +1,33 @@
+
+1. Technical Dimensio
+Although Target had strong security systems in 2013 — including firewalls, intrusion detection, and a $1.6 million malware detection tool — attackers still managed to break in using stolen credentials from Fazio Mechanical Services.
+The main weakness was poor network segmentation: those vendor credentials gave access to the payment network, allowing hackers to install malware on point-of-sale terminals (POS) and steal card data before encryption.
+Even when the system issued several alerts, Target’s security team ignored them, and automatic malware removal had been disabled. Weak authentication and poor patch management worsened the problem.
+In short, Target’s failure wasn’t due to missing technology, but to poor use of the tools it already had. Effective cybersecurity relies on proper configuration, monitoring, and response — not just expensive systems.
+
+2. Formal Dimension
+The formal dimension refers to how security is managed through policies and procedures. On paper, Target seemed compliant — it met PCI DSS standards and had documented controls — but these measures failed in practice.
+There was no clear process to escalate security alerts, and the CIO had little influence in decision-making, showing that cybersecurity was seen as a technical issue, not a strategic one. Vendor oversight was also weak, allowing external contractors too much access.
+When the breach occurred, coordination was slow and disorganized, with no central team to manage the response. As a result, millions of customers were affected, and Target’s reputation suffered.
+The key lesson is that compliance alone isn’t enough. Real security requires strong leadership, clear responsibilities, and effective communication during incidents.
+
+
+3. Informal Dimension
+The informal dimension refers to culture, behavior, and attitudes toward security within an organization. At Target, the cultural environment prioritized business convenience over vigilance. The disabling of automated malware removal and the disregard for repeated alerts reflect a culture of complacency.
+Employee awareness and training were minimal. There was little emphasis on understanding the significance of alerts or on maintaining proactive vigilance. This illustrates how the “human factor” can undermine technological investment. As Manworren point out, many companies let employees bypass security measures for the sake of convenience, which created unnecessary risks.
+After the breach, Target undertook major cultural reform. The company began investing $5 million annually in cybersecurity awareness programs and collaborated with organizations such as the National Cyber-Forensics and Training Alliance and the Better Business Bureau to improve both employee and consumer education. This shift showed Target’s recognition that sustainable security cannot be achieved through technology alone — it requires an informed and engaged workforce.
+The informal dimension therefore highlights that effective cybersecurity depends on organizational culture. Employees must understand that security is everyone’s responsibility. A strong culture of awareness, communication, and accountability is as important as any firewall or policy.
+4. Regulatory Dimension
+At the time of the breach, the U.S. had no unified federal data protection law. Companies had to follow 47 different state laws, creating confusion and weak accountability.
+Although Target was PCI DSS compliant, this wasn’t enough to avoid liability. The company paid over $100 million in settlements — including $10 million to consumers and large sums to Visa, banks, and MasterCard. Still, this represented less than 1% of its annual revenue, showing that such penalties had little deterrent effect.
+The case also helped expand legal accountability. Courts began accepting potential harm as grounds for lawsuits, as in Remijas v. Neiman Marcus Group LLC (2015). It also pushed Congress to discuss a national data breach standard, though progress was slow.
+Overall, the lack of consistent regulation made prevention and enforcement difficult. Stronger, uniform laws with meaningful penalties are essential to ensure corporate responsibility and protect consumers.
+
+
+Conclusion
+The Target breach illustrates how cybersecurity failures arise not from isolated mistakes but from interdependent weaknesses across all four dimensions of information systems security.
+•	Technically, Target’s defenses were strong but poorly implemented and monitored.
+•	Formally, its governance structure lacked authority and coordination.
+•	Informally, its culture undervalued security awareness and accountability.
+•	Regulatorily, the absence of cohesive national laws allowed complacency and inconsistent standards.
+Ultimately, the incident shows that security is a socio-technical system — it requires alignment between technology, policies, people, and regulation. After the breach, Target restructured its security leadership, invested in awareness, and contributed to public discussions on cybersecurity reform. The case remains a defining example of how failures across multiple dimensions can converge into a major corporate crisis, and how comprehensive, multidimensional security is the only path to resilience.

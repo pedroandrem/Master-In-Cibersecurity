@@ -1,0 +1,11 @@
+- name: Airtrail Deploy
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - role: airtrail_db
+      tags: ["airtrail_db"]
+
+    - role: airtrail_deploy
+      tags: ["airtrail_deploy"]
+    
+
