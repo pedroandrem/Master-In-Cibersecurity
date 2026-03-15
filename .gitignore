@@ -3,6 +3,7 @@
 # Not Finished
 Primeiro Ano/2snd Semester/
 Primeiro Ano/1st Semester/SD/PROJETO-Blockchain/
+Primeiro Ano/2snd Semester/SS/
 
 # Large files
 *.pcap
@@ -18,3 +19,4 @@ __pycache__/
 
 # Logs / temp
 *.log
+
